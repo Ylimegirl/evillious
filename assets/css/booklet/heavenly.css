@@ -1,0 +1,65 @@
+:root { --red-text: #d20606; }
+
+#album { margin-top: 0; }
+
+#album figure { display: grid; grid-gap: 0; padding: 2vw; font-family: sans-serif; background-color: #111; }
+
+#album figure .red { color: var(--red-text); }
+
+#album #p01 { background-image: url("/assets/images/booklet/master-of-the-heavenly-yard/01.jpg"); }
+
+#album #p01 h2, #album #p01 h3 { display: none; }
+
+#album #p02 { display: flex; justify-content: space-between; padding: 3.75vw 1vw 3.75vw 4vw; }
+
+#album #p02 p { text-align: right; font-size: 1vw; }
+
+#album #p03 { display: flex; justify-content: space-between; padding: 3.75vw 4vw 3.75vw 1vw; }
+
+#album #p03 p { text-align: left; font-size: 1vw; }
+
+#album #p04, #album #p05 { grid-template-rows: 2vw 40vw; grid-template-columns: 1fr 1fr 1fr; grid-gap: 1vw; padding: 1vw 2vw; }
+
+#album #p04 h2, #album #p05 h2 { grid-column: 1 / span 3; text-align: right; font-size: 2vw; margin: 0 -1.5vw; }
+
+#album #p04 .col, #album #p05 .col { font-size: .72vw; }
+
+#album #p04 .col h3, #album #p05 .col h3 { margin-top: 1em; margin-bottom: .25em; text-align: left; font-size: inherit; padding: 0 .5em; }
+
+#album #p04 .col h3:first-child, #album #p05 .col h3:first-child { margin-top: 0; }
+
+#album #p04 .col p, #album #p05 .col p { text-align: left; font-size: inherit; }
+
+#album #p04 .versebreak, #album #p05 .versebreak { margin-bottom: 2em; }
+
+#album #p04 h2 { text-align: right; }
+
+#album #p05 h2 { text-align: left; }
+
+#album #p06 { align-content: space-between; grid-template-columns: 100%; }
+
+#album #p06 h2 { text-align: left; font-size: 2vw; }
+
+#album #p06 p { font-size: .95vw; text-align: left; }
+
+#album #p06 h3 { text-align: right; font-size: 1.5vw; font-weight: inherit; }
+
+#album #p07 { grid-template-rows: 2vw 33vw 4vw; grid-template-columns: 100%; grid-gap: 1vw; }
+
+#album #p07 h2 { font-size: 2vw; text-align: left; }
+
+#album #p07 .characters { display: flex; flex-direction: column; flex-wrap: wrap; }
+
+#album #p07 .characters p { margin-bottom: 0; width: 25%; font-size: .61vw; text-align: left; }
+
+#album #p07 h3 { text-align: right; font-weight: inherit; }
+
+#album #p08 { background-image: url("/assets/images/booklet/master-of-the-heavenly-yard/08.jpg"); }
+
+#jacket { margin-top: 12vw; justify-content: space-around; background-color: #111; padding: 2vw; }
+
+#jacket p { text-align: center; font-size: 1.5vw; font-family: sans-serif; }
+
+#prescript { font-family: serif; line-height: 4vw; }
+
+/*# sourceMappingURL=heavenly.css.map */

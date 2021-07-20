@@ -1,0 +1,5 @@
+figure { /**this just makes the images of the nav thumbnails bigger on select pages. nice and simple!**/ max-width: 350px; }
+
+figure img { max-height: 250px; }
+
+/*# sourceMappingURL=largeNav.css.map */

@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "warnings.css",
+	"sources": [
+		"warnings.scss",
+		"_sass/warnings.scss"
+	],
+	"sourcesContent": [
+		"@import \"warnings\";",
+		".warnings p {/**new padding. nuff said**/\r\n\tpadding:5px 15px;\r\n}"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,SAAS,CAAC,CAAC,CAAC,EAAC,4BAA4B,CACxC,OAAO,EAAC,QAAQ,GAChB"
+}

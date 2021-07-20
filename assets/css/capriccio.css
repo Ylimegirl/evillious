@@ -1,0 +1,7 @@
+hr { /**creates the styling for the dividing lines that reappear frequently throughout the lyric versions**/ border: none; border-bottom: 1px black dashed; margin: .8em 0; }
+
+#evilscourt p, #evilscourt hr { /**the lyric booklet for evils court is stupid in that the "line breaks" are instead emspaces in a paragraph that line breaks hence the uhh. have to make the lines break at roughly the right spot. yes**/ max-width: 19em; }
+
+#clockworklullaby p { /**and in contrast to the other lyric versions for capriccio the verses are more consistently stacked directly on top of each other for the clockwork lullaby version. yay!**/ margin-bottom: 0; }
+
+/*# sourceMappingURL=capriccio.css.map */

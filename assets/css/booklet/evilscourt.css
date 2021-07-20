@@ -1,0 +1,141 @@
+:root { --yellow-text: #f7f8b2; }
+
+#album figure { display: grid; grid-gap: 0; grid-template-rows: 3vw 39vw; grid-template-columns: 100%; padding: 1.5vw; background-color: black; font-family: serif; font-size: .75vw; }
+
+#album figure h2 { font-size: 1.5vw; text-align: left; font-weight: inherit; align-self: center; padding: 0 .5em; }
+
+#album figure .lyrics { display: flex; flex-direction: column; flex-wrap: wrap; }
+
+#album figure .lyrics p { text-align: left; width: 50%; font-size: inherit; }
+
+#album figure .comment { position: absolute; max-width: calc(33.3% - 1.5vw); border: .1vw white solid; padding: .5vw; text-align: left; }
+
+#album figure .comment h3 { font-size: 1.2vw; font-weight: inherit; padding: 0; margin-bottom: .5em; }
+
+#album figure .comment p { font-size: .8vw; padding: 0; }
+
+#album #p01 { background-image: url("/assets/images/booklet/evils-court/01.jpg"); }
+
+#album #p02 { grid-template-rows: auto auto; grid-template-columns: 1fr 1fr; grid-gap: 1vw 0; align-content: space-around; background-image: url("/assets/images/booklet/evils-court/02.jpg"); }
+
+#album #p02 .col p { font-size: .95vw; }
+
+#album #p02 .col:nth-of-type(1) { grid-area: 1 / 1 / span 2 / span 1; }
+
+#album #p02 .col:nth-of-type(1) p { text-align: left; }
+
+#album #p02 .col:nth-of-type(2) p { text-align: right; }
+
+#album #p02 .yellow { grid-area: 2 / 1 / span 1 / span 2; }
+
+#album #p02 .yellow p { color: var(--yellow-text); font-size: 1.25vw; text-align: right; }
+
+#album #p03 { grid-template-rows: 100%; grid-template-columns: 15.5vw 10vw 16.5vw; background-image: url("/assets/images/booklet/evils-court/03.jpg"); padding-top: 2vw; }
+
+#album #p03 h2 { display: none; }
+
+#album #p03 .col p { font-size: .8vw; }
+
+#album #p03 .col:nth-of-type(1) p { text-align: right; }
+
+#album #p03 .col:nth-of-type(2) { grid-column: 3; }
+
+#album #p03 .col:nth-of-type(2) p { text-align: left; }
+
+#album #p04 { grid-template-rows: 3vw 2.5vw 36.5vw; }
+
+#album #p04 > p { width: 50%; font-size: .8vw; text-align: left; }
+
+#album #p04 .lyrics p { font-size: .8vw; }
+
+#album #p04 .comment { max-width: calc(35% - 1.5vw); top: 1.5vw; right: 1.5vw; }
+
+#album #p04 .comment p { text-align: right; }
+
+#album #p05 .lyrics p { font-size: 1vw; }
+
+#album #p05 .comment { max-width: calc(50% - 1.5vw); bottom: 1.5vw; right: 1.5vw; }
+
+#album #p06 .lyrics p { font-size: 1vw; }
+
+#album #p06 .comment { max-width: calc(50% - 1.5vw); bottom: 1.5vw; right: 1.5vw; }
+
+#album #p07 .lyrics p { font-size: 1vw; }
+
+#album #p07 .comment { max-width: calc(50% - 1.5vw); bottom: 1.5vw; right: 1.5vw; }
+
+#album #p08 .lyrics p { width: 33.3%; font-size: .75vw; }
+
+#album #p08 .comment { bottom: 1.5vw; right: 1.5vw; }
+
+#album #p08 .comment h3 { text-align: center; }
+
+#album #p09 .lyrics p { font-size: .9vw; }
+
+#album #p09 .comment { max-width: calc(50% - 1.5vw); bottom: 1.5vw; right: 1.5vw; }
+
+#album #p09 .comment h3 { text-align: center; }
+
+#album #p10 { grid-template-columns: 2fr 1fr; }
+
+#album #p10 .lyrics { grid-column: 1; }
+
+#album #p10 .lyrics p { font-size: .9vw; }
+
+#album #p10 .comment { bottom: 1.5vw; right: 1.5vw; }
+
+#album #p10 .comment h3 { text-align: center; }
+
+#album #p11 { grid-template-columns: 2fr 1fr; }
+
+#album #p11 .lyrics { grid-column: 1; }
+
+#album #p11 .lyrics p { font-size: .95vw; }
+
+#album #p11 .comment { bottom: 1.5vw; right: 1.5vw; }
+
+#album #p11 .comment h3 { text-align: center; }
+
+#album #p12 .lyrics p { font-size: .8vw; width: 33.3%; }
+
+#album #p12 .comment { bottom: 1.5vw; right: 1.5vw; }
+
+#album #p12 .comment h3, #album #p12 .comment p { text-align: center; }
+
+#album #p13 { display: flex; flex-direction: column; flex-wrap: wrap; justify-content: flex-start; padding-top: 2vw; font-size: .81vw; }
+
+#album #p13 h2 { width: 33.3%; margin-bottom: .5em; }
+
+#album #p13 > p { text-align: left; width: 33.3%; }
+
+#album #p13 > p .right-text { display: block; text-align: right; }
+
+#album #p13 hr { border: none; border-bottom: .1vw white dashed; margin: 0 .5em 1em; }
+
+#album #p13 .comment { bottom: 1.5vw; right: 1.5vw; }
+
+#album #p14 { grid-template-columns: 2fr 1fr; }
+
+#album #p14 .lyrics { grid-column: 1; }
+
+#album #p14 .lyrics p { font-size: .86vw; }
+
+#album #p14 .comment { bottom: 1.5vw; right: 1.5vw; }
+
+#album #p14 .comment h3, #album #p14 .comment p { text-align: center; }
+
+#album #p15 { display: flex; justify-content: flex-end; background-image: url("/assets/images/booklet/evils-court/15.jpg"); background-size: 90%; background-position: center 5%; background-repeat: no-repeat; }
+
+#album #p15 > p { color: var(--yellow-text); text-align: right; }
+
+#album #p15 .endings { display: none; }
+
+#album #p15 .comment { bottom: 5vw; left: 5vw; padding: 1.5vw; }
+
+#album #p15 .comment h3 { text-align: center; margin-bottom: 1em; }
+
+#album #p15 .comment p { text-align: center; }
+
+#album #p16 { background-image: url("/assets/images/booklet/evils-court/16.jpg"); }
+
+/*# sourceMappingURL=evilscourt.css.map */

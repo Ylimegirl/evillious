@@ -1,0 +1,32 @@
+:root { --infobox-color: var(--link-color); /**wake up babe new variable just dropped**/ }
+
+#intro { max-width: 980px; margin: 0 auto; gap: 10px; }
+
+#intro h1 { text-align: center; padding: 10px; background-color: var(--foreground-color); border-radius: 10px; width: auto; min-width: 60%; max-width: 980px; }
+
+#intro h1 .jpn { /**just a bit smaller than the english title**/ font-size: .9em; }
+
+#intro img.front, #intro img.back { width: 480px; max-width: calc(50% - 5px); height: auto; border-radius: 15px; align-self: stretch; }
+
+#intro header { margin: 0 auto; min-height: unset; text-align: left; }
+
+#intro header .quote { /**styles the novel quote**/ font-size: 1.25em; font-style: italic; font-weight: bold; text-align: center; }
+
+#intro header .infobox { /**styles the novel "infobox"/databox/whatever**/ background-color: var(--infobox-color); border-radius: 10px; width: 30%; float: right; margin: .25em; z-index: 1; /**this makes it so you can actually interact with the text in the infobox lol**/ padding: 0 .5em; }
+
+#intro header .summary p { /**the summary is in its own div so that the uhh clear thingy on the links works right, i think**/ text-indent: 2em; padding: .25em .5em; }
+
+#intro header .links { /**formats the external links**/ text-align: center; clear: both; }
+
+.art { /**just fucks with the margins and paddings a little uwu**/ margin-top: 10px; padding: 0; gap: 10px; align-items: flex-end; }
+
+figure { /**commenting css is boring as fuck. this styles the illustration gallery**/ background-color: var(--foreground-color); border-radius: 15px; padding: 5px; }
+
+figure img { max-height: 325px; }
+
+figure figcaption { line-height: 1em; font-style: italic; background-color: unset; }
+
+/**Skinny screen**/
+@media screen and (max-width: 667px) { div.infobox { /**unfloats the infobox on skinny screens**/ float: none; width: auto; } div.infobox p { text-align: center; } figure img { /**unmaxes the height on skinny screens**/ max-height: unset; width: 300px; } }
+
+/*# sourceMappingURL=novel.css.map */

@@ -1,0 +1,133 @@
+@font-face { font-family: spooky; src: url(/assets/fonts/October_Crow.ttf); }
+
+:root { --red-text: #ed1c24; }
+
+#album { margin-top: 0; }
+
+#album figure { display: grid; grid-gap: 0; grid-template-rows: 4vw 35vw; grid-template-columns: 100%; background-color: #111; font-size: 1.14vw; padding: 3vw; font-family: serif; }
+
+#album figure h2 { width: auto; text-align: left; z-index: 3; font-weight: normal; font-size: 1.77vw; align-self: center; }
+
+#album figure h3 { z-index: 2; color: rgba(255, 255, 255, 0.125); font-weight: normal; position: absolute; width: auto; font-family: sans-serif; }
+
+#album figure .lyrics { display: flex; flex-direction: column; justify-content: flex-start; flex-wrap: wrap; z-index: 3; }
+
+#album figure .lyrics p { text-align: left; width: 50%; }
+
+#album figure .lyrics .versebreak { margin-bottom: 2em; }
+
+#album .scrawl { font-family: 'Shadows Into Light', cursive; }
+
+#album .whimsy { font-family: 'Gloria Hallelujah', cursive; }
+
+#album .spooky { font-family: spooky, sans-serif; }
+
+#album .cute { font-family: 'Pacifico', cursive; }
+
+#album .techno { font-family: 'Abel', sans-serif; }
+
+#album .red { color: var(--red-text); }
+
+#album #p01 { background-image: url("/assets/images/booklet/evils-theater/01.jpg"); background-position: right center; }
+
+#album #p01 h2, #album #p01 h3 { display: none; }
+
+#album #p02 { display: flex; text-align: center; justify-content: center; }
+
+#album #p02 p { font-size: 1.41vw; text-align: center; width: 100%; }
+
+#album #p03 { display: flex; justify-content: flex-start; }
+
+#album #p03 h2 { font-size: 2.48vw; margin-bottom: 2vw; text-align: center; }
+
+#album #p03 p { width: 100%; text-align: center; font-size: 1.77vw; margin-bottom: .5em; }
+
+#album #p04 { grid-template-rows: 100%; grid-template-columns: 1fr 2fr; }
+
+#album #p04 h2 { align-self: center; }
+
+#album #p04 h3 { bottom: 3vw; right: 3vw; font-size: 3vw; }
+
+#album #p04 .lyrics p { font-size: .70vw; }
+
+#album #p05 { grid-template-rows: 100%; grid-template-columns: 2fr 1fr; }
+
+#album #p05 h2 { grid-area: 1 / 2; align-self: center; }
+
+#album #p05 h3 { top: 3vw; right: 3vw; font-size: 3vw; }
+
+#album #p05 .lyrics { grid-area: 1 / 1; }
+
+#album #p05 .lyrics p { font-size: .82vw; }
+
+#album #p06 h2 { text-align: center; }
+
+#album #p06 h3 { bottom: 3vw; left: 3vw; font-size: 1.25vw; }
+
+#album #p06 .lyrics { align-items: center; }
+
+#album #p06 .lyrics p { font-size: .75vw; text-align: center; width: 100%; }
+
+#album #p07 h2 { text-align: center; }
+
+#album #p07 h3 { bottom: 3vw; right: 3vw; font-size: 1.25vw; }
+
+#album #p07 .lyrics { align-content: center; align-items: flex-start; }
+
+#album #p07 .lyrics p { font-size: .87vw; width: auto; }
+
+#album #p08 h3 { bottom: 2vw; right: 2vw; font-size: 3vw; }
+
+#album #p08 .lyrics p { font-size: .94vw; }
+
+#album #p09 h3 { bottom: 2vw; left: 2vw; font-size: 3vw; }
+
+#album #p09 .lyrics p { font-size: .95vw; }
+
+#album #p10 h3 { top: calc(50% - 3vw); left: 3vw; transform: rotate(-20deg); font-size: 6vw; }
+
+#album #p10 .lyrics p { font-size: .88vw; }
+
+#album #p11 { grid-template-columns: 1fr 1fr; }
+
+#album #p11 h2 { grid-column: 1 / span 2; }
+
+#album #p11 h3 { bottom: 3vw; right: 3vw; font-size: 3.5vw; }
+
+#album #p11 .lyrics p { width: 100%; }
+
+#album #p12 h2 { text-align: center; }
+
+#album #p12 h3 { top: calc(50% - 2.5vw); left: 9vw; font-size: 5vw; transform: rotate(45deg); }
+
+#album #p12 .lyrics p { font-size: .95vw; }
+
+#album #p12 .lyrics .moshimo { display: inline-block; margin-left: 11vw; }
+
+#album #p13 { grid-template-rows: 35vw 4vw; }
+
+#album #p13 h2 { grid-area: 2 / 1; text-align: center; }
+
+#album #p13 h3 { top: calc(50% - 2.5vw); left: 0; font-size: 5vw; transform: rotate(-45deg); }
+
+#album #p13 .lyrics { grid-area: 1 / 1; }
+
+#album #p13 .lyrics p { font-size: .93vw; }
+
+#album #p14 h3 { top: calc(50% - 2.25vw); left: 0; width: 100%; font-size: 4.5vw; text-align: center; }
+
+#album #p14 .lyrics p { font-size: .88vw; }
+
+#album #p15 { display: flex; justify-content: center; font-family: sans-serif; }
+
+#album #p15 .sins { text-align: center; width: 100%; }
+
+#album #p15 .credits { text-align: left; position: absolute; bottom: 3vw; right: 3vw; }
+
+#album #p16 { background-image: url("/assets/images/booklet/evils-theater/16.jpg"); background-position: left center; }
+
+#album #p16 h2, #album #p16 h3 { display: none; }
+
+#prescript { font-family: serif; }
+
+/*# sourceMappingURL=evilstheater.css.map */
