@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "album.css",
+	"sources": [
+		"album.scss",
+		"_sass/album.scss"
+	],
+	"sourcesContent": [
+		"@import \"album\";",
+		"#intro {\r\n\tmargin: 0 auto 10px auto;\r\n\tmin-height: unset;/**the height is whatever it wants to be. follow your dreams**/\r\n\tmax-width: 720px;/**i decided i liked the widths of the header and footer for some pages to be 720 instead of 980. why? fuck you**/\r\n\tflex-direction: column;\r\n\tpadding: 10px;\r\n}\r\n.introImage {\r\n\tborder-radius: 15px;/**uncircles the intro image**/\r\n\twidth: 250px;\r\n\theight: auto;\r\n}\r\n.subtitle {/**embiggens the subtitle to be a little less sub**/\r\n\tfont-size: larger;\r\n\tmargin: .5em 0;\r\n\tmax-width: 75%;\r\n}\r\nfooter {\r\n\tmax-width:720px;\r\n}\r\n/**Short Screen**/\r\n@media screen and (max-height:667px){\r\n\t.introImage {\r\n\t\twidth: auto;\r\n\t\tmax-height: 200px;\r\n\t}\r\n}\r\n/**Skinny screen**/\r\n@media screen and (max-width:667px){\r\n\t.introImage {\r\n\t\twidth: auto;\r\n\t\tmax-width: 100%;\r\n\t}\r\n\t.subtitle {\r\n\t\tmax-width: 100%;\r\n\t}\r\n}"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,MAAM,CAAC,EACN,MAAM,EAAE,gBAAgB,EACxB,UAAU,EAAE,KAAK,EAAC,+DAA+D,CACjF,SAAS,EAAE,KAAK,EAAC,kHAAkH,CACnI,cAAc,EAAE,MAAM,EACtB,OAAO,EAAE,IAAI,GACb;;AACD,AAAA,WAAW,CAAC,EACX,aAAa,EAAE,IAAI,EAAC,+BAA+B,CACnD,KAAK,EAAE,KAAK,EACZ,MAAM,EAAE,IAAI,GACZ;;AACD,AAAA,SAAS,CAAC,EAAC,oDAAoD,CAC9D,SAAS,EAAE,MAAM,EACjB,MAAM,EAAE,MAAM,EACd,SAAS,EAAE,GAAG,GACd;;AACD,AAAA,MAAM,CAAC,EACN,SAAS,EAAC,KAAK,GACf;;AACD,kBAAkB;AAClB,MAAM,+BACL,GAAA,AAAA,WAAW,CAAC,EACX,KAAK,EAAE,IAAI,EACX,UAAU,EAAE,KAAK,GACjB,EAAA;;AAEF,mBAAmB;AACnB,MAAM,8BACL,GAAA,AAAA,WAAW,CAAC,EACX,KAAK,EAAE,IAAI,EACX,SAAS,EAAE,IAAI,GACf,CACD,AAAA,SAAS,CAAC,EACT,SAAS,EAAE,IAAI,GACf,EAHA"
+}

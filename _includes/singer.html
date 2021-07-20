@@ -1,0 +1,66 @@
+{%- assign singer = include.singer | remove: "-secondary" -%}
+{%- capture shortname -%}
+{%- case singer -%}
+	{%- when "Hatsune Miku" -%}
+		miku
+	{%- when "Kagamine Rin" -%}
+		rin
+	{%- when "Kagamine Len" -%}
+		len
+	{%- when "Megurine Luka" -%}
+		luka
+	{%- when "Yowane Haku" -%}
+		haku
+	{%- when "MEIKO" -%}
+		meiko
+	{%- when "KAITO" -%}
+		kaito
+	{%- when "Camui Gackpo" -%}
+		gackpo
+	{%- when "GUMI" -%}
+		gumi
+	{%- when "Lily" -%}
+		lily
+	{%- when "SF-A2 miki", "SF-A2 codename miki" -%}
+		miki
+	{%- when "Kaai Yuki" -%}
+		yuki
+	{%- when "Hiyama Kiyoteru" -%}
+		kiyoteru
+	{%- when "Nekomura Iroha" -%}
+		iroha
+	{%- when "MAYU" -%}
+		mayu
+	{%- when "VY1" -%}
+		vy1
+	{%- else -%}
+		human
+{%- endcase -%}
+{%- endcapture -%}
+{%- capture initial -%}
+{%- case singer -%}
+	{%- when "Hatsune Miku", "MEIKO", "MAYU" -%}
+		M
+	{%- when "Kagamine Rin" -%}
+		R
+	{%- when "Kagamine Len", "Megurine Luka", "Lily" -%}
+		L
+	{%- when "Yowane Haku" -%}
+		H
+	{%- when "KAITO", "Hiyama Kiyoteru" -%}
+		K
+	{%- when "Camui Gackpo", "GUMI" -%}
+		G
+	{%- when "SF-A2 miki", "SF-A2 codename miki" -%}
+		m
+	{%- when "Kaai Yuki" -%}
+		Y
+	{%- when "Nekomura Iroha" -%}
+		I
+	{%- when "VY1" -%}
+		1
+	{% else %}
+		{{ singer | truncate: 1, "" }}
+{%- endcase -%}
+{%- endcapture -%}
+<span class="{{ shortname }}{% if include.singer contains "-secondary" %} secondary{% endif %}" title="{{ singer }}">{{ initial }}</span>

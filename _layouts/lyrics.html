@@ -1,0 +1,27 @@
+<!doctype html>
+{%- assign obj = site.data.translations | find: "eng", page.english-name -%}
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>{% if obj.eng[0] != nil and obj.eng[0] != page.english-name %}{{ obj.eng[0] }}{% else %}{{ page.english-name }}{% endif %}{% if obj.jpn[0] != obj.eng[0] %} | {{ obj.jpn[-1] }}{% elsif page.japanese-name != nil and page.japanese-name != page.english-name %} | {{ page.japanese-name | remove: "|" }}{% endif %}</title>
+		<link rel="stylesheet" href="/assets/css/evillious.css">
+		<link rel="stylesheet" href="/assets/css/lyrics.css">
+		{% if page.css %}{% assign sheets = page.css | split: "|" %}{% for style in sheets %}<link rel="stylesheet" href="/assets/css/{{ style }}">{% endfor %}{% endif %}
+		<link rel="shortcut icon" href="/assets/images/headerImage.png">
+		{% seo title=false -%}
+		<script src="/assets/js/minified.js"></script>
+		<script src="/assets/js/evillious.js"></script>
+	</head>
+	<body>
+	<header>
+		<h1><a href="{% link {{ page.path | remove: "lyrics/" | prepend: "song/" }} %}"><em>{% if obj.eng[0] == obj.jpn[0] and obj.furi != nil %}{%- assign incljpn = obj.jpn[0] -%}{%- assign inclfuri = obj.furi[0] -%}{%- assign inclrom = obj.rom[0] -%}{% include jpn.html jpn=incljpn furi=inclfuri rom=inclrom %}{% elsif obj.eng[0] != nil and obj.eng[0] != page.english-name %}{{ obj.eng[0] }}{% else %}{{ page.english-name }}{% endif %}</em></a></h1>
+		{% if obj.jpn[0] != obj.eng[0] %}<h2>{% include jpnauto.html eng=page.english-name %}</h2>{% elsif page.japanese-name %}<h2>{% include jpn.html jpn=page.japanese-name furi=page.furi-name rom=page.romaji-name %}</h2>{% endif %}
+		{% if page.translation %}<p class="links"><a href="{{ page.translation }}">Translation</a>{% if page.trans2 %} {{ page.trans2 }} {% endif %}</p>{% endif %}
+		{% include fuributton.html %}
+	</header>
+	<section class="lyrics flex">
+	{{ content }}
+	</section>
+	{% include copyright.html sublink="Lyrics" mothyrights=page.mothyrights copyrights=page.copyrights notes=page.notes altrights=page.altrights altowners=page.altowners %}
+	</body>
+</html>

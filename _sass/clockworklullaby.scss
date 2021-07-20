@@ -1,0 +1,288 @@
+#album {
+	margin-top:0;
+	figure {
+		display:grid;
+		gap:1vw 0;
+		grid-template-rows: 3.5vw 4.5vw 23vw 9vw;
+		grid-template-columns: 1fr 2fr;
+		background-color:white;
+		color:black;
+		padding:1vw 1vw 1vw 2vw;
+		justify-content:flex-start;
+		font-family:serif;
+		font-size:.9vw;
+		text-align:left;
+		h2 {
+			grid-column:1 / span 2;
+			color:white;
+			width:29.5vw;
+			text-align:center;
+			font-size:1.5vw;
+			align-self:center;
+			.no {
+				position:absolute;
+				font-size:4vw;
+				top:1vw;
+				width:6.5vw;
+				font-family:sans-serif;
+			}
+		}
+		> h3 {
+			position:absolute;
+			color:white;
+			font-size:1vw;
+			top:.5vw;
+			width:7.5vw;
+			text-align:center;
+			text-transform:uppercase;
+		}
+		.lyrics {
+			grid-row:3;
+			display:flex;
+			flex-direction:column;
+			flex-wrap:wrap;
+			p {
+				text-align:left;
+			}
+		}
+		.lyrics:nth-of-type(1) {
+			height:17.5vw;
+			p {
+				width:100%;
+			}
+		}
+		.lyrics:nth-of-type(2) p {
+			width:50%;
+		}
+		.commentary {
+			grid-row:4;
+			grid-column:1 / span 2;
+			display:flex;
+			flex-direction:column;
+			align-content:flex-start;
+			justify-content:flex-start;
+			flex-wrap:wrap;
+			padding:0 .5vw;
+			width:42.5vw;
+			justify-self:flex-start;
+			h3 {
+				text-align:center;
+				color:white;
+				position:absolute;
+				top:-5vw;
+				height:4.5vw;
+				width:10.5vw;
+				font-weight:inherit;
+				font-size:.9vw;
+				padding:.5vw .5vw 0;
+			}
+			p {
+				color:white;
+				width:33.3%;
+				font-size:.8vw;
+			}
+		}
+	}
+	> .left {
+		background-image:url('/assets/images/booklet/clockwork-lullaby/left.jpg');
+		h2 {
+			justify-self:flex-start;
+			margin-left:-1vw;
+			.no {
+				right:-3.5vw;
+			}
+		}
+		h3 {
+			right:0;
+		}
+		.commentary {
+			margin-left:-.5vw;
+			h3 {
+				left:2.25vw;
+			}
+		}
+	}
+	> .right {
+		background-image:url('/assets/images/booklet/clockwork-lullaby/right.jpg');
+		h2 {
+			justify-self:flex-end;
+			.no {
+				left:-3.25vw;
+			}
+		}
+		h3 {
+			left:0;
+		}
+		.commentary {
+			h3 {
+				left:2.25vw;
+			}
+		}
+	}
+	
+	#p01 {
+		background-image:url('/assets/images/booklet/clockwork-lullaby/01.jpg');
+		h2, h3 {
+			display:none;
+		}
+	}
+		
+	#p02 {
+		gap:0;
+		display:flex;
+		background-image:url('/assets/images/booklet/clockwork-lullaby/02.jpg');
+		padding-top:5vw;
+		p {
+			text-align:left;
+		}
+	}
+	
+	#p05 {
+		.lyrics p {
+			font-size:.7vw;
+		}
+		.commentary p {
+			font-size:.75vw;
+		}
+	}
+	
+	#p06 {
+		.lyrics p {
+			font-size:.74vw;
+		}
+	}
+	
+	#p07 {
+		.lyrics p {
+			font-size:.76vw;
+		}
+		.commentary p {
+			font-size:.78vw;
+		}
+	}
+	
+	#p08 {
+		grid-template-columns: 1fr 1fr 1fr;
+		h2 {
+			grid-column: 1 / span 3;
+		}
+		.lyrics {
+			p {
+				margin-bottom:0;
+				font-size:.57vw;
+			}
+			hr {
+				border:0;
+				border-bottom:.1vw dashed black;
+				margin:.125vw .5em;
+			}
+			.versebreak {
+				margin-bottom:1em;
+			}
+			.right-text {
+				display:block;
+				margin-left:2em;
+			}
+		}
+		.lyrics:nth-of-type(1) p, .lyrics:nth-of-type(2) p, .lyrics:nth-of-type(3) p {
+			width:100%;
+		}
+		.commentary {
+			grid-column: 1 / span 3;
+			p {
+				font-size: .76vw;
+			}
+		}
+	}
+	
+	#p09 {
+		.lyrics p {
+			font-size:.85vw;
+		}
+	}
+	
+	#p10 {
+		.lyrics p {
+			font-size:.82vw;
+		}
+	}
+	
+	#p11 {
+		.lyrics p {
+			font-size:.82vw;
+		}
+	}
+	
+	#p12 {
+		.lyrics p {
+			font-size:.71vw;
+		}
+		.commentary h3 {
+			font-size:.7vw;
+		}
+	}
+	
+	#p13 {
+		grid-template-columns: 1fr 1fr 1fr;
+		h2 {
+			grid-column: 1 / span 3;
+		}
+		.lyrics:nth-of-type(1) p, .lyrics:nth-of-type(2) p, .lyrics:nth-of-type(3) p {
+			width:100%;
+		}
+		.commentary {
+			grid-column: 1 / span 3;
+			h3 {
+				font-size:.8vw;
+			}
+		}
+	}
+	
+	#p14 {
+		.lyrics p {
+			font-size:.78vw;
+		}
+		.commentary {
+			h3 {
+				font-size:.7vw;
+			}
+			p {
+				font-size:.77vw;
+			}
+		}
+	}
+	
+	#p15 {
+		display:flex;
+		gap:0;
+		background-image:url('/assets/images/booklet/clockwork-lullaby/15.jpg');
+		padding-top:5vw;
+		padding-right:2vw;
+		p {
+			width:100%;
+			text-align:right;
+		}
+		.credits {
+			position:absolute;
+			bottom:2vw;
+			right:1vw;
+			font-size:1.25vw;
+			color:white;
+		}
+	}
+	
+	#p16 {
+		background-image:url('/assets/images/booklet/clockwork-lullaby/16.jpg');
+	}
+}
+	
+#jacket {
+	margin-top:12vw;
+	background-image:url('/assets/images/booklet/clockwork-lullaby/00.jpg');
+	background-size:contain;
+}
+
+#prescript {
+	font-family:serif;
+	line-height:4vw;
+}

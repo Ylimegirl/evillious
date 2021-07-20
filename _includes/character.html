@@ -1,0 +1,6 @@
+<article{% if include.char-class %} class="{{ include.char-class }}"{% endif %}>
+	<img src="/assets/images/characters/{{ include.image }}" class="circle" alt="{{ include.english-name }}" />
+	<h2>{{ include.english-name }}</h2>
+	<h3>{% include jpn.html jpn=include.japanese-name rom=include.romaji-name furi=include.furi-name %}</h3>
+	<p>{{ include.description }}</p>
+</article>

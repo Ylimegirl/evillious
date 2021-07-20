@@ -1,0 +1,159 @@
+:root { --yellow-text: #eed660; --miku-song: #52b795; --kagamine-song: #dec25f; --luka-song: #bb5f90; --gackpo-song: #836597; }
+
+#album figure { display: grid; background-color: #1f1514; padding: 2vw; }
+
+#album figure p { font-family: serif; text-align: left; font-size: .80vw; }
+
+#album figure h2, #album figure h3 { font-weight: inherit; }
+
+#album .theater { grid-template-columns: 4vw 32.5vw; grid-template-rows: auto 11vw; grid-gap: 0; align-content: flex-end; justify-content: center; background-size: 80%; background-repeat: no-repeat; background-position: 50% 25%; }
+
+#album .theater h2 { grid-column: 1 / span 2; font-size: 1vw; font-family: serif; text-align: right; padding-right: .75vw; padding-bottom: 1vw; }
+
+#album .theater .miku { color: var(--miku-song); }
+
+#album .theater .kagamine { color: var(--kagamine-song); }
+
+#album .theater .luka { color: var(--luka-song); }
+
+#album .theater .gackpo { color: var(--gackpo-song); }
+
+#album .theater .keyword { text-align: center; }
+
+#album .theater .summary { grid-area: 2 / 2; }
+
+#album .theater h3 { grid-area: 2 / 2; font-size: .80vw; font-family: serif; align-self: flex-start; justify-self: flex-end; text-align: right; top: -.25vw; right: .5vw; z-index: 1; }
+
+#album .timeline { grid-gap: .5em; grid-template-columns: 2vw auto; align-content: flex-start; justify-content: stretch; background-color: #f9d9c0; color: #40251a; font-size: .76vw; }
+
+#album .timeline h2 { grid-column: 2; color: #f9d9c0; background-color: #40251a; width: 60%; text-align: center; border-radius: 1vw; font-size: 1vw; width: 12em; }
+
+#album .timeline .date { grid-column: 1; text-align: right; justify-self: flex-end; }
+
+#album .timeline p { margin-bottom: 0; padding: 0; font-size: inherit; }
+
+#album .timeline .event { grid-column: 2; }
+
+#album .timeline .event h3 { font-size: inherit; text-align: left; font-weight: bold; }
+
+#album .timeline .during { margin-bottom: -1.8vw; text-align: right; width: 3vw; margin-left: -3vw; }
+
+#album .timeline .no-margin { margin-bottom: 0; }
+
+#album #p01 { background-image: url("/assets/images/booklet/evils-kingdom/01.jpg"); }
+
+#album #p01 h2, #album #p01 h3 { display: none; }
+
+#album #p02 { grid-gap: 0; grid-template-columns: 50% 50%; align-content: space-evenly; background-color: #351e16; }
+
+#album #p02 p { font-size: .7vw; }
+
+#album #p02 .intro { grid-column: 1 / span 2; }
+
+#album #p02 .intro p { text-align: center; width: 50%; margin-left: auto; margin-right: auto; }
+
+#album #p02 .list { align-self: flex-end; }
+
+#album #p02 .list h2 { color: var(--yellow-text); text-align: left; font-size: 1.75vw; }
+
+#album #p02 .list h3 { color: var(--yellow-text); text-align: left; font-size: .7vw; padding-bottom: .5em; }
+
+#album #p02 .list .song { text-align: left; padding: unset; }
+
+#album #p02 .list .song .title { font-size: 1.2em; color: var(--yellow-text); }
+
+#album #p03 { background-image: url("/assets/images/booklet/evils-kingdom/03.png"); }
+
+#album #p03 p { font-size: .75vw; }
+
+#album #p04 { background-image: url("/assets/images/booklet/evils-kingdom/04.png"); }
+
+#album #p05 { background-image: url("/assets/images/booklet/evils-kingdom/05.png"); }
+
+#album #p05 .keyword { font-size: .7vw; }
+
+#album #p06 { background-image: url("/assets/images/booklet/evils-kingdom/06.png"); }
+
+#album #p06 h2 { text-shadow: white 1px -1px 0, white -1px 1px 0, white -1px -1px 0, white 1px 1px 0; }
+
+#album #p06 p { font-size: .75vw; }
+
+#album #p07 { background-image: url("/assets/images/booklet/evils-kingdom/07.png"); }
+
+#album #p08 { background-image: url("/assets/images/booklet/evils-kingdom/08.png"); }
+
+#album #p08 .keyword { font-size: .7vw; }
+
+#album #p09 { background-image: url("/assets/images/booklet/evils-kingdom/09.png"); }
+
+#album #p09 h2 { text-shadow: black 1px -1px 0, black -1px 1px 0, black -1px -1px 0, black 1px 1px 0; }
+
+#album #p10 { background-image: url("/assets/images/booklet/evils-kingdom/10.png"); }
+
+#album #p10 h2 { text-shadow: black 1px -1px 0, black -1px 1px 0, black -1px -1px 0, black 1px 1px 0; }
+
+#album #p10 p { font-size: .75vw; }
+
+#album #p11 { background-image: url("/assets/images/booklet/evils-kingdom/11.png"); }
+
+#album #p11 .keyword { font-size: .67vw; }
+
+#album #p12 { background-image: url("/assets/images/booklet/evils-kingdom/12.png"); }
+
+#album #p12 .keyword { font-size: .67vw; }
+
+#album #p13 { background-image: url("/assets/images/booklet/evils-kingdom/13.png"); }
+
+#album #p14 { background-image: url("/assets/images/booklet/evils-kingdom/14.png"); }
+
+#album #p14 h2 { text-shadow: white 1px -1px 0, white -1px 1px 0, white -1px -1px 0, white 1px 1px 0; }
+
+#album #p14 p { font-size: .75vw; }
+
+#album #p15 { background-image: url("/assets/images/booklet/evils-kingdom/15.png"); }
+
+#album #p15 p { font-size: .78vw; }
+
+#album #p16 { background-image: url("/assets/images/booklet/evils-kingdom/16.png"); }
+
+#album #p17 { background-image: url("/assets/images/booklet/evils-kingdom/17.png"); }
+
+#album #p17 p { font-size: .72vw; }
+
+#album #p17 .color { border-radius: .5vw; padding: 0 .25vw; display: inline-block; }
+
+#album #p17 .red { background: #dd463b; }
+
+#album #p17 .yellow { background: #e1a350; }
+
+#album #p17 .green { background: #639741; }
+
+#album #p17 .purple { background: #6a2655; }
+
+#album #p17 .blue { background: #3b4189; }
+
+#album #p17 .pink { background: #e67093; }
+
+#album #p19 { background: linear-gradient(-183deg, #f9d9c0 37vw, #34231b 40vw); }
+
+#album #p20 { display: flex; flex-direction: column; justify-content: center; align-content: center; align-items: flex-start; }
+
+#album #p20 p { margin-bottom: .5em; padding: 0; font-size: 1.09vw; }
+
+#album #p20 .tab-5 { padding-left: 0.5em; }
+
+#album #p20 .tab1 { padding-left: 1em; }
+
+#album #p20 .tab1-5 { padding-left: 1.5em; }
+
+#album #p20 .tab2 { padding-left: 2em; }
+
+#album #p20 .tab3 { padding-left: 3em; }
+
+#album #p20 .tab4 { padding-left: 4em; }
+
+#album #p20 .tab5 { padding-left: 5em; }
+
+#album #p20 .break { margin-bottom: 2vw; }
+
+/*# sourceMappingURL=evilskingdom.css.map */

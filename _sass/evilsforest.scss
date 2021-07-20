@@ -1,0 +1,245 @@
+:root {
+	--red-text: #ba2129;
+}
+
+#album {
+	margin:0;
+	
+	figure {
+		display:grid;
+		grid-gap:0;
+		grid-template-rows: 9.8% 80.4% 9.8%;
+		grid-template-columns: 100%;
+		background-color:black;
+		justify-content:flex-start;
+		padding:0;
+		font-family:serif;
+		h2 {
+			align-self:flex-end;
+			padding:.5vw;
+			font-size:2vw;
+			text-align:left;
+			font-weight:inherit;
+		}
+		.lyrics {
+			display:flex;
+			flex-direction:column;
+			flex-wrap:wrap;
+			padding: .25vw 0;
+			p {
+				text-align:left;
+				width:50%;
+				font-size:1.07vw;
+			}
+		}
+		.comment {
+			align-self:center;
+			padding:0.25vw .5vw;
+			font-size:1.07vw;
+			text-align:right;
+			h3 {
+				font-weight:inherit;
+				font-size:inherit;
+			}
+			p {
+				padding:0;
+				font-size:inherit;
+			}
+		}
+	}
+
+	.red {
+		color:var(--red-text);
+	}
+
+	#p01 {
+		background-image:url('/assets/images/booklet/evils-forest/01.jpg');
+		h2, h3 {
+			display:none;
+		}
+	}
+
+	#p02 {
+		display:flex;
+		justify-content:center;
+		align-content:center;
+		background-color:#120d41;
+		p {
+			font-size:1.25vw;
+			text-align:center;
+			width:100%;
+		}
+	}
+
+	#p03 {
+		display:flex;
+		background-color:white;
+		background-image:url('/assets/images/booklet/evils-forest/03.jpg');
+		justify-content:flex-end;
+		padding:3vw;
+		h2 {
+			display: none;
+		}
+		p {
+			text-align:right;
+			color:black;
+			font-size:1.25vw;
+			width:100%;
+		}
+	}
+	
+	#p04 {
+		.lyrics {
+			background-color:#495D39;
+			p {
+				width:100%;
+			}
+			hr {
+				width:98%;
+				align-self:center;
+				border:none;
+				border-bottom:.2vw solid white;
+				margin-bottom:1vw;
+			}
+		}
+	}
+
+	#p05 {
+		.lyrics {
+			background-color:#7D3D3F;
+			p {
+				font-size:.78vw;
+			}
+		}
+	}
+
+	#p06 {
+		.lyrics {
+			background-color:#5B6978;
+			p {
+				font-size:.8vw;
+			}
+		}
+	}
+
+	#p07 {
+		.lyrics {
+			background-color:#A9AF7F;
+			p {
+				font-size:.9vw;
+			}
+		}
+	}
+
+	#p08 {
+		.lyrics {
+			background-color:#39304F;
+			p {
+				font-size:.87vw;
+			}
+		}
+	}
+
+	#p09 {
+		.lyrics {
+			background-color:#bE90B4;
+			p {
+				width:33.3%;
+				font-size:.77vw;
+			}
+		}
+	}
+
+	#p10 {
+		.lyrics {
+			background-color:#7D4C7F;
+			p {
+				font-size:.85vw;
+			}
+		}
+	}
+
+	#p11 {
+		.lyrics {
+			background-color:#D3BE9C;
+			p {
+				font-size:.87vw;
+			}
+		}
+		.comment {
+			align-self:flex-start;
+		}
+	}
+
+	#p12 {
+		.lyrics {
+			background-color:#AAAAAA;
+			p {
+				width:25%;
+				font-size:.73vw;
+			}
+		}
+	}
+
+	#p13 {
+		.lyrics {
+			background-color:#948655;
+			p {
+				font-size:.85vw;
+			}
+		}
+	}
+
+	#p14 {
+		.lyrics {
+			background-color:#EEEEEE;
+			p {
+				color:black;
+				font-size:.87vw;
+			}
+		}
+	}
+
+	#p15 {
+		display:flex;
+		padding:1vw;
+		background-image:url('/assets/images/booklet/evils-forest/15.jpg'), url('/assets/images/booklet/evils-forest/15b.jpg');
+		background-position:left center, right top;
+		background-size:contain, 35%;
+		background-repeat:no-repeat;
+		justify-content:center;
+		text-align:right;
+		p {
+			width:100%;
+			margin-bottom:0;
+			font-size:1.5vw;
+			padding:0;
+		}
+		h2, .sins {
+			display: none;
+		}
+		h3 {
+			width:100%;
+			color:#689e5c;
+			font-size:1.75vw;
+			margin-bottom:1.5em;
+			text-align:inherit;
+			font-weight:inherit;
+		}
+		h3:last-child {
+			margin-bottom:0;
+		}
+	}
+
+	#p16 {
+		background-image:url('/assets/images/booklet/evils-forest/16.jpg');
+	}
+}
+
+#prescript, #postscript {
+	color:var(--red-text);
+	font-family:serif;
+}
+#postscript {
+	line-height:4vw;
+}

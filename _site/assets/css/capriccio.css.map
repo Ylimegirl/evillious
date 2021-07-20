@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "capriccio.css",
+	"sources": [
+		"capriccio.scss",
+		"_sass/capriccio.scss"
+	],
+	"sourcesContent": [
+		"@import \"capriccio\";",
+		"hr {/**creates the styling for the dividing lines that reappear frequently throughout the lyric versions**/\r\n\tborder:none;\r\n\tborder-bottom:1px black dashed;\r\n\tmargin:.8em 0;\r\n}\r\n#evilscourt p, #evilscourt hr {/**the lyric booklet for evils court is stupid in that the \"line breaks\" are instead emspaces in a paragraph that line breaks hence the uhh. have to make the lines break at roughly the right spot. yes**/\r\n\tmax-width:19em;\r\n}\r\n#clockworklullaby p {/**and in contrast to the other lyric versions for capriccio the verses are more consistently stacked directly on top of each other for the clockwork lullaby version. yay!**/\r\n\tmargin-bottom:0;\r\n}"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,EAAE,CAAC,EAAC,uGAAuG,CAC1G,MAAM,EAAC,IAAI,EACX,aAAa,EAAC,gBAAgB,EAC9B,MAAM,EAAC,MAAM,GACb;;AACD,AAAA,WAAW,CAAC,CAAC,EAAE,WAAW,CAAC,EAAE,CAAC,EAAC,2MAA2M,CACzO,SAAS,EAAC,IAAI,GACd;;AACD,AAAA,iBAAiB,CAAC,CAAC,CAAC,EAAC,8KAA8K,CAClM,aAAa,EAAC,CAAC,GACf"
+}

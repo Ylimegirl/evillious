@@ -1,0 +1,91 @@
+#album figure { padding: 2vw; font-family: serif; }
+
+#album .character { justify-content: space-between; background-color: #aaa; gap: 1vw; }
+
+#album .character div { background-repeat: no-repeat; background-size: 8vw; min-height: 11.5vw; width: 100%; text-align: left; }
+
+#album .character div p { font-size: 1vw; padding: 0; }
+
+#album .character div h2 { font-weight: inherit; font-size: 1.5vw; margin-bottom: .5vw; }
+
+#album .character > .left { background-position: left top; }
+
+#album .character > .left h2, #album .character > .left p { padding-left: 8.5vw; }
+
+#album .character > .right { background-position: right top; }
+
+#album .character > .right h2, #album .character > .right p { padding-right: 8.5vw; }
+
+#album .commentary { justify-content: space-between; background-color: black; }
+
+#album .commentary p { font-size: 1vw; padding: 0; }
+
+#album .commentary > .left { text-align: left; }
+
+#album .commentary > .right { text-align: right; }
+
+#album .lyric { display: grid; grid-gap: 0; grid-template-rows: 1.75vw 2vw 38.5vw; grid-template-columns: 1fr 1fr; background-color: #2A2A2A; padding: 1vw 2vw; color: white; }
+
+#album .lyric p { font-size: .9vw; }
+
+#album .lyric .versebreak { margin-bottom: 2em; }
+
+#album .lyric > .left, #album .lyric > .right { padding-top: 1vw; }
+
+#album .lyric > .left p { text-align: left; }
+
+#album .lyric > .right p { text-align: right; }
+
+#album .lyric h2 { grid-row: 2; grid-column: 1 / span 2; justify-self: center; align-self: center; background-image: url("/assets/images/booklet/oss-complete/heading.jpg"); background-size: 100% 100%; min-width: 65%; padding: .4em 20%; font-size: 1.25vw; font-weight: inherit; }
+
+#album .lyric h3 { grid-row: 1; grid-column: 1 / span 2; font-weight: inherit; font-size: 1.25vw; }
+
+#album #p01 { background-image: url("/assets/images/booklet/oss-complete/01.jpg"); }
+
+#album #p01 h2 { color: black; font-weight: initial; text-align: center; position: absolute; top: 2vw; left: 0; padding: 0 2vw; font-size: 3vw; width: 100%; text-shadow: white .1vw -.1vw 0, white -.1vw .1vw 0, white -.1vw -.1vw 0, white .1vw 0; }
+
+#album #p01 h3 { display: none; }
+
+#album #p02 .eve { background-image: url("/assets/images/booklet/oss-complete/eve.jpg"); }
+
+#album #p02 .adam { background-image: url("/assets/images/booklet/oss-complete/adam.jpg"); }
+
+#album #p02 .meta { background-image: url("/assets/images/booklet/oss-complete/meta.jpg"); }
+
+#album #p04 { grid-template-rows: 1.75vw 2vw 1vw 1.75vw 2vw 34.75vw; }
+
+#album #p04 h2.second { grid-row: 5; grid-column: 1 / span 2; }
+
+#album #p04 h3.second { grid-row: 4; grid-column: 1 / span 2; }
+
+#album #p04 p { font-size: 1vw; }
+
+#album #p04 > .left, #album #p04 > .right { grid-row: 6; }
+
+#album #p05 p { font-size: .8vw; }
+
+#album #p08 .elluka { background-image: url("/assets/images/booklet/oss-complete/elluka.jpg"); }
+
+#album #p08 .irina { background-image: url("/assets/images/booklet/oss-complete/irina.jpg"); }
+
+#album #p10 p { font-size: .77vw; }
+
+#album #p11 p { font-size: .85vw; }
+
+#album #p14 .hansel { background-image: url("/assets/images/booklet/oss-complete/hansel.jpg"); }
+
+#album #p14 .gretel { background-image: url("/assets/images/booklet/oss-complete/gretel.jpg"); }
+
+#album #p14 .seth { background-image: url("/assets/images/booklet/oss-complete/seth.jpg"); }
+
+#album #p19 { justify-content: flex-start; background-image: url("/assets/images/booklet/thy.png"); background-position: 95% 95%; background-size: 20%; background-repeat: no-repeat; background-color: #2A2A2A; text-align: left; font-size: 1.25vw; }
+
+#album #p19 h2 { font-size: inherit; font-weight: inherit; padding: 0 .5em; margin-bottom: 1em; font-size: 1.5vw; }
+
+#album #p19 h3 { font-size: inherit; font-weight: inherit; text-align: right; }
+
+#album #p19 .thy { display: none; }
+
+#album #p20 { background-image: url("/assets/images/booklet/oss-complete/20.jpg"); background-position: center right; background-size: contain; background-repeat: no-repeat; background-color: black; }
+
+/*# sourceMappingURL=osscomplete.css.map */

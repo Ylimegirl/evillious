@@ -1,0 +1,104 @@
+#album {
+	margin-top:0;
+	margin-bottom:0;
+
+	figure {
+		background-color:#111;
+		justify-content:flex-start;
+		z-index:5;
+		padding:.75vw;
+		font-size:1vw;
+		font-family:serif;
+		text-align:left;
+		p, h2 {
+			width:33%;
+			padding:0 .5em;
+		}
+		h2 {
+			margin-top:1em;
+			margin-bottom:1em;
+			font-size:inherit;
+			font-weight:inherit;
+		}
+		h2:first-child {
+			margin-top:0;
+		}
+	}
+
+	#p01 {
+		background-image:url(/assets/images/booklet/prelude-to-forest/01.jpg);
+		h2, h3 {
+			display:none;
+		}
+	}
+	#p02 {
+		background-color:#423330;
+		font-size:.61vw;
+	}
+	#p03 {
+		background-color:#423330;
+		font-size:.63vw;
+	}
+	#p04 {
+		display: grid;
+		grid-gap:0;
+		grid-template-columns:2fr 1fr;
+		grid-template-rows:100%;
+		background-color:#2f254a;
+		font-size:.66vw;
+		.lyrics {
+			display:flex;
+			flex-direction:column;
+			justify-content:flex-start;
+			flex-wrap:wrap;
+			p, h2 {
+				width:50%;
+			}
+			.moshimo {
+				display:inline-block;
+				margin-left:6vw;
+			}
+		}
+		h3 {
+			font-weight:inherit;
+			justify-self:flex-start;
+			align-self:center;
+			padding:0 .5em;
+			font-size:1.1vw;
+			font-family:sans-serif;
+		}
+	}
+}
+
+#jacket {
+	margin-top:12vw;
+	font-family:serif;
+	text-align:center;
+	background-color:#352c1c;
+	justify-content:space-around;
+	margin-bottom:0;
+	font-size:1.86vw;
+	p {
+		width:100%;
+		margin-bottom:1em;
+		padding:0 .5em;
+	}
+	p:last-child {
+		margin-bottom:0;
+	}
+}
+
+#prescript {
+	font-family:serif;
+	line-height:4vw;
+}
+
+#postscript {
+	text-align:left;
+	display:grid;
+	grid-template-columns:50% 50%;
+	p:last-of-type {
+		grid-column:1 / span 2;
+		text-align:right;
+	}
+}

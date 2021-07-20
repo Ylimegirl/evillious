@@ -1,0 +1,3 @@
+{%- assign obj = site.data.translations | find: "eng", include.eng -%}
+{% assign autorom = obj.rom[0] %}{% assign autojpn = obj.jpn[0] %}{% assign autofuri = obj.furi[0] %}
+{%- include jpn.html class=include.class jpn=autojpn rom=autorom furi=autofuri -%}

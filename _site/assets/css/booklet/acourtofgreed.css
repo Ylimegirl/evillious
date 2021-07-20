@@ -1,0 +1,49 @@
+:root { --gold-text: #C99D5E; }
+
+#album { margin-top: 0; }
+
+#album figure { display: grid; grid-gap: 0; grid-template-rows: 2.5vw 32.5vw; grid-template-columns: 100%; background-color: white; padding: 5vw 1vw; }
+
+#album figure h2 { align-self: flex-start; color: black; text-align: left; font-weight: inherit; font-size: 2vw; }
+
+#album figure .lyrics { display: flex; flex-direction: column; flex-wrap: wrap; }
+
+#album figure .lyrics p { color: black; text-align: left; font-size: .93vw; width: 50%; }
+
+#album #p01 { display: flex; background-image: url("/assets/images/booklet/a-court-of-greed/01.jpg"); background-color: black; justify-content: center; align-content: center; align-items: center; }
+
+#album #p01 h2 { color: var(--gold-text); text-align: center; font-family: serif; font-size: 4vw; line-height: 3vw; }
+
+#album #p01 h2 .subtitle { font-size: .75em; }
+
+#album #p01 h3 { display: none; }
+
+#album #p02 { background-image: url("/assets/images/booklet/a-court-of-greed/02.jpg"); }
+
+#album #p02 .lyrics p { width: 33.3%; font-size: .75vw; }
+
+#album #p03 { background-image: url("/assets/images/booklet/a-court-of-greed/03.jpg"); }
+
+#album #p04 { background-image: url("/assets/images/booklet/a-court-of-greed/04.jpg"); }
+
+#album #p04 p { font-size: .85vw; }
+
+#album #p05 { background-image: url("/assets/images/booklet/a-court-of-greed/05.jpg"); }
+
+#album #p05 p { font-size: .89vw; }
+
+#album #p06 { background-image: url("/assets/images/booklet/a-court-of-greed/06.jpg"); }
+
+#album #p07 { background-image: url("/assets/images/booklet/a-court-of-greed/07.jpg"); }
+
+#album #p08 { background-image: url("/assets/images/booklet/a-court-of-greed/08.jpg"); }
+
+#album #p08 h2, #album #p08 p { display: none; }
+
+#jacket { background-image: url("/assets/images/booklet/a-court-of-greed/00.jpg"); color: var(--gold-text); margin-top: 12vw; padding: 4.5vw; text-align: center; justify-content: space-between; flex-direction: column; font-family: serif; background-color: black; }
+
+#jacket p { font-size: 1.5vw; }
+
+#prescript { font-family: serif; color: var(--gold-text); line-height: 4vw; }
+
+/*# sourceMappingURL=acourtofgreed.css.map */

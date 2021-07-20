@@ -1,0 +1,120 @@
+:root {
+	--gold-text: #C99D5E;
+}
+
+#album {
+	margin-top:0;
+	
+	figure {
+		display:grid;
+		grid-gap:0;
+		grid-template-rows: 2.5vw 32.5vw;
+		grid-template-columns: 100%;
+		background-color:white;
+		padding:5vw 1vw;
+		h2 {
+			align-self:flex-start;
+			color:black;
+			text-align:left;
+			font-weight:inherit;
+			font-size:2vw;
+		}
+		.lyrics {
+			display:flex;
+			flex-direction:column;
+			flex-wrap:wrap;
+			p {
+				color:black;
+				text-align:left;
+				font-size:.93vw;
+				width:50%;
+			}
+		}
+	}
+	
+	#p01 {
+		display:flex;
+		background-image:url('/assets/images/booklet/a-court-of-greed/01.jpg');
+		background-color:black;
+		justify-content:center;
+		align-content:center;
+		align-items:center;
+		h2 {
+			color:var(--gold-text);
+			text-align:center;
+			font-family:serif;
+			font-size:4vw;
+			line-height:3vw;
+			.subtitle {
+				font-size:.75em;
+			}
+		}
+		h3 {
+			display:none;
+		}
+	}
+	
+	#p02 {
+		background-image:url('/assets/images/booklet/a-court-of-greed/02.jpg');
+		.lyrics {
+			p {
+				width:33.3%;
+				font-size:.75vw;
+			}
+		}
+	}
+	
+	#p03 {
+		background-image:url('/assets/images/booklet/a-court-of-greed/03.jpg');
+	}
+	
+	#p04 {
+		background-image:url('/assets/images/booklet/a-court-of-greed/04.jpg');
+		p {
+			font-size:.85vw;
+		}
+	}
+	
+	#p05 {
+		background-image:url('/assets/images/booklet/a-court-of-greed/05.jpg');
+		p {
+			font-size:.89vw;
+		}
+	}
+	
+	#p06 {
+		background-image:url('/assets/images/booklet/a-court-of-greed/06.jpg');
+	}
+	
+	#p07 {
+		background-image:url('/assets/images/booklet/a-court-of-greed/07.jpg');
+	}
+	
+	#p08 {
+		background-image:url('/assets/images/booklet/a-court-of-greed/08.jpg');
+		h2, p {
+			display:none;
+		}
+	}
+}
+
+#jacket {
+	background-image:url('/assets/images/booklet/a-court-of-greed/00.jpg');
+	color:var(--gold-text);
+	margin-top:12vw;
+	padding:4.5vw;
+	text-align:center;
+	justify-content:space-between;
+	flex-direction:column;
+	font-family:serif;
+	background-color:black;
+	p {
+		font-size:1.5vw;
+	}
+}
+
+#prescript {
+	font-family:serif;
+	color:var(--gold-text);
+	line-height:4vw;
+}

@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "chrono.css",
+	"sources": [
+		"chrono.scss",
+		"_sass/chrono.scss"
+	],
+	"sourcesContent": [
+		"@import \"chrono\";",
+		".timeline {/**just changes up the margins of the bulleted lists a tad**/\r\n\tpadding: 0;\r\n\ttext-align: left;\r\n\tul {\r\n\t\tmargin: 5px 0;\r\n\t}\r\n}\r\n\r\n.citation {/**superscripts that shit, just like wikipedia**/\r\n\tvertical-align: super;\r\n\tfont-size: smaller;\r\n}\r\n\r\n#refs {/**formats up this section a bit**/\r\n\tpadding: 0;\r\n\tmargin-top: 10vh;/**visual separator from the main timeline bit**/\r\n\th1 {\r\n\t\tbackground-color: var(--foreground-color);\r\n\t\tmargin: 5px 0;\r\n\t\tfont-size: 1.5em;\r\n\t\tborder-radius: 10px;\r\n\t\tpadding: 5px;\r\n\t}\r\n\t.bibliography {/**changes up the list style but only a little**/\r\n\t\tli {\r\n\t\t\tmargin-left: 1.75em;\r\n\t\t}\r\n\t\t:target {\r\n\t\t\tfont-weight: bold;\r\n\t\t}\r\n\t}\r\n}"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,SAAS,CAAC,EAAC,6DAA6D,CACvE,OAAO,EAAE,CAAC,EACV,UAAU,EAAE,IAAI,GAIhB;;AAND,AAGC,SAHQ,CAGR,EAAE,CAAC,EACF,MAAM,EAAE,KAAK,GACb;;AAGF,AAAA,SAAS,CAAC,EAAC,iDAAiD,CAC3D,cAAc,EAAE,KAAK,EACrB,SAAS,EAAE,OAAO,GAClB;;AAED,AAAA,KAAK,CAAC,EAAC,mCAAmC,CACzC,OAAO,EAAE,CAAC,EACV,UAAU,EAAE,IAAI,EAAC,iDAAiD,EAgBlE;;AAlBD,AAGC,KAHI,CAGJ,EAAE,CAAC,EACF,gBAAgB,EAAE,uBAAuB,EACzC,MAAM,EAAE,KAAK,EACb,SAAS,EAAE,KAAK,EAChB,aAAa,EAAE,IAAI,EACnB,OAAO,EAAE,GAAG,GACZ;;AATF,AAUC,KAVI,CAUJ,aAAa,CAAC,EAAC,iDAAiD,EAO/D;;AAjBF,AAWE,KAXG,CAUJ,aAAa,CACZ,EAAE,CAAC,EACF,WAAW,EAAE,MAAM,GACnB;;AAbH,AAcE,KAdG,CAUJ,aAAa,EAIX,MAAM,CAAC,EACP,WAAW,EAAE,IAAI,GACjB"
+}

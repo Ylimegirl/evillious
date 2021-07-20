@@ -1,0 +1,52 @@
+#intro {
+	margin:5px auto 10px auto;
+	min-height: unset;
+	max-width: 720px;
+	flex-direction: row;
+	gap:0 10px;
+}
+.introImage {/**this is designed so i can have multiple intro images oooooo and is also the only reason the #intro element is a flexbox**/
+	border-radius: 15px;
+	min-height: unset;
+	min-width: unset;
+	max-height: 250px;
+	max-width: unset;
+	margin:5px 0;
+}
+header p {
+	text-align: left;
+	padding: .25em;
+	width: 100%;
+}
+.links {
+	text-align: center;
+}
+h3 {
+	width: 100%;
+}
+footer {
+	max-width: 780px;
+}
+
+/**Short Screen**/
+@media screen and (max-height:667px){
+	.introImage {
+		width: auto;
+		min-width: unset;
+		max-width: unset;
+		height: auto;
+		min-height: unset;
+		max-height: 200px;
+	}
+}
+/**Skinny screen**/
+@media screen and (max-width:667px){
+	.introImage {
+		width: auto;
+		min-width: unset;
+		max-width: calc(100% - 5px);/**weird calc thing to account for the weird padding thing to account for the sometimes there are multiple header images thing**/
+		height: auto;
+		min-height: unset;
+		max-height: unset;
+	}
+}

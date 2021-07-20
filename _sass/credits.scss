@@ -1,0 +1,11 @@
+.credits p {/**adds padding so the paragraphs don't look like shit**/
+	padding: 5px 15px;
+}
+.links {/**centers the links to the artists' profiles**/
+	text-align:center;
+}
+hr {
+	border: none; /**resets the default hr border**/
+	border-bottom: 1px solid #666;
+	margin: 1em 10%; /**adds a lil margin. yay**/
+}

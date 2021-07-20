@@ -1,0 +1,332 @@
+:root {
+	--yellow-text: #eed660;
+	--miku-song: #52b795;
+	--kagamine-song: #dec25f;
+	--luka-song: #bb5f90;
+	--gackpo-song: #836597;
+}
+
+#album {
+	figure {
+		display:grid;
+		background-color:#1f1514;
+		padding:2vw;
+		p {
+			font-family:serif;
+			text-align:left;
+			font-size:.80vw;
+		}
+		h2, h3 {
+			font-weight:inherit;
+		}
+	}
+	
+	.theater {
+		grid-template-columns:4vw 32.5vw;
+		grid-template-rows:auto 11vw;
+		grid-gap:0;
+		align-content:flex-end;
+		justify-content:center;
+		background-size:80%;
+		background-repeat:no-repeat;
+		background-position:50% 25%;
+		h2 {
+			grid-column: 1 / span 2;
+			font-size:1vw;
+			font-family:serif;
+			text-align:right;
+			padding-right:.75vw;
+			padding-bottom:1vw;
+		}
+		.miku {
+			color:var(--miku-song);
+		}
+		.kagamine {
+			color:var(--kagamine-song);
+		}
+		.luka {
+			color:var(--luka-song);
+		}
+		.gackpo {
+			color:var(--gackpo-song);
+		}
+		.keyword {
+			text-align:center;
+		}
+		.summary {
+			grid-area:2 / 2;
+		}
+		h3 {
+			grid-area:2 / 2;
+			font-size:.80vw;
+			font-family:serif;
+			align-self:flex-start;
+			justify-self:flex-end;
+			text-align:right;
+			top:-.25vw;
+			right:.5vw;
+			z-index:1;
+		}
+	}
+	
+	.timeline {
+		grid-gap:.5em;
+		grid-template-columns:2vw auto;
+		align-content:flex-start;
+		justify-content:stretch;
+		background-color:#f9d9c0;
+		color:#40251a;
+		font-size:.76vw;
+		h2 {
+			grid-column: 2;
+			color:#f9d9c0;
+			background-color:#40251a;
+			width:60%;
+			text-align:center;
+			border-radius:1vw;
+			font-size:1vw;
+			width:12em;
+		}
+		.date {
+			grid-column: 1;
+			text-align:right;
+			justify-self:flex-end;
+		}
+		p {
+			margin-bottom:0;
+			padding:0;
+			font-size:inherit;
+		}
+		.event {
+			grid-column: 2;
+			h3 {
+				font-size:inherit;
+				text-align:left;
+				font-weight:bold;
+			}
+		}
+		.during {
+			margin-bottom:-1.8vw;
+			text-align:right;
+			width:3vw;
+			margin-left:-3vw;
+		}
+		.no-margin {
+			margin-bottom:0;
+		}
+	}
+	
+	#p01 {
+		background-image:url('/assets/images/booklet/evils-kingdom/01.jpg');
+		h2, h3 {
+			display:none;
+		}
+	}
+	
+	#p02 {
+		grid-gap:0;
+		grid-template-columns: 50% 50%;
+		align-content:space-evenly;
+		background-color:#351e16;
+		p {
+			font-size:.7vw;
+		}
+		.intro {
+			grid-column: 1 / span 2;
+			p {
+				text-align:center;
+				width:50%;
+				margin-left:auto;
+				margin-right:auto;
+			}
+		}
+		.list {
+			align-self:flex-end;
+			h2 {
+				color:var(--yellow-text);
+				text-align:left;
+				font-size:1.75vw;
+			}
+			h3 {
+				color:var(--yellow-text);
+				text-align:left;
+				font-size:.7vw;
+				padding-bottom:.5em;
+			}
+			.song {
+				text-align:left;
+				padding:unset;
+				.title {
+					font-size:1.2em;
+					color:var(--yellow-text);
+				}
+			}
+		}
+	}
+	
+	#p03 {
+		background-image:url('/assets/images/booklet/evils-kingdom/03.png');
+		p {
+			font-size:.75vw;
+		}
+	}
+	
+	#p04 {
+		background-image:url('/assets/images/booklet/evils-kingdom/04.png');
+	}
+	
+	#p05 {
+		background-image:url('/assets/images/booklet/evils-kingdom/05.png');
+		.keyword {
+			font-size:.7vw;
+		}
+	}
+	
+	#p06 {
+		background-image:url('/assets/images/booklet/evils-kingdom/06.png');
+		h2 {
+			text-shadow:white 1px -1px 0, white -1px 1px 0, white -1px -1px 0, white 1px 1px 0;
+		}
+		p {
+			font-size:.75vw;
+		}
+	}
+	
+	#p07 {
+		background-image:url('/assets/images/booklet/evils-kingdom/07.png');
+	}
+	
+	#p08 {
+		background-image:url('/assets/images/booklet/evils-kingdom/08.png');
+		.keyword {
+			font-size:.7vw;
+		}
+	}
+	
+	#p09 {
+		background-image:url('/assets/images/booklet/evils-kingdom/09.png');
+		h2 {
+			text-shadow:black 1px -1px 0, black -1px 1px 0, black -1px -1px 0, black 1px 1px 0;
+		}
+	}
+	
+	#p10 {
+		background-image:url('/assets/images/booklet/evils-kingdom/10.png');
+		h2 {
+			text-shadow:black 1px -1px 0, black -1px 1px 0, black -1px -1px 0, black 1px 1px 0;
+		}
+		p {
+			font-size:.75vw;
+		}
+	}
+	
+	#p11 {
+		background-image:url('/assets/images/booklet/evils-kingdom/11.png');
+		.keyword {
+			font-size:.67vw;
+		}
+	}
+	
+	#p12 {
+		background-image:url('/assets/images/booklet/evils-kingdom/12.png');
+		.keyword {
+			font-size:.67vw;
+		}
+	}
+	
+	#p13 {
+		background-image:url('/assets/images/booklet/evils-kingdom/13.png');
+	}
+	
+	#p14 {
+		background-image:url('/assets/images/booklet/evils-kingdom/14.png');
+		h2 {
+			text-shadow:white 1px -1px 0, white -1px 1px 0, white -1px -1px 0, white 1px 1px 0;
+		}
+		p {
+			font-size:.75vw;
+		}
+	}
+	
+	#p15 {
+		background-image:url('/assets/images/booklet/evils-kingdom/15.png');
+		p {
+			font-size:.78vw;
+		}
+	}
+	
+	#p16 {
+		background-image:url('/assets/images/booklet/evils-kingdom/16.png');
+	}
+	
+	#p17 {
+		background-image:url('/assets/images/booklet/evils-kingdom/17.png');
+		p {
+			font-size:.72vw;
+		}
+		.color {
+			border-radius:.5vw;
+			padding:0 .25vw;
+			display:inline-block;
+		}
+		.red {
+			background:#dd463b;
+		}
+		.yellow {
+			background:#e1a350;
+		}
+		.green {
+			background:#639741;
+		}
+		.purple {
+			background:#6a2655;
+		}
+		.blue {
+			background:#3b4189;
+		}
+		.pink {
+			background:#e67093;
+		}
+	}
+	
+	#p19 {
+		background:linear-gradient(-183deg, rgb(249, 217, 192) 37vw, rgb(52, 35, 27) 40vw);
+	}
+	
+	#p20 {
+		display:flex;
+		flex-direction:column;
+		justify-content:center;
+		align-content:center;
+		align-items:flex-start;
+		p {
+			margin-bottom: .5em;
+			padding:0;
+			font-size:1.09vw;
+		}
+		.tab-5 {
+			padding-left: 0.5em;
+		}
+		.tab1 {
+			padding-left: 1em;
+		}
+		.tab1-5 {
+			padding-left: 1.5em;
+		}
+		.tab2 {
+			padding-left: 2em;
+		}
+		.tab3 {
+			padding-left: 3em;
+		}
+		.tab4 {
+			padding-left: 4em;
+		}
+		.tab5 {
+			padding-left: 5em;
+		}
+		.break {
+			margin-bottom: 2vw;
+		}
+	}
+}

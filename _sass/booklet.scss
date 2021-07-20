@@ -1,0 +1,120 @@
+/** this is the Only stylesheet that is not used alongside evillious.css so we get to initialize all this shit again**/
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	position: relative;
+}
+
+body {
+	background-color: #222;
+	color: white;
+	font-family: Verdana, sans-serif;
+	font-style: normal;
+	position: relative;
+}
+
+a {
+	color:#B3A41D;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#album {
+	height:45vw;
+	overflow:hidden;
+	position:relative;
+	margin-top:4vw;
+	margin-bottom:4vw;
+	font-size:1vw;
+	figure {
+		width: 45vw;
+		height: 45vw;
+		display: flex;
+		z-index:1;
+		justify-content:center;
+		background-size:cover;
+		flex-direction:column;
+		background-position:center center;
+		text-align:center;
+		flex-wrap:wrap;
+		position:absolute;
+		top: 0;
+		p {
+			margin-bottom:1em;
+			padding:0 .5em;
+			line-height:1.2em;
+		}
+		p:last-child {
+			margin-bottom:0;
+		}
+	}
+
+	> .left {
+		right:50%;
+	}
+
+	> .right {
+		left:50%;
+	}
+
+	#buttonLeft, #buttonRight {
+		position:absolute;
+		width:5vw;
+		height:45vw;
+		top: 0;
+		background-size:3vw;
+		background-repeat:no-repeat;
+		background-color:transparent;
+		border:0;
+		cursor:pointer;
+	}
+	
+	#buttonLeft {
+		left:0;
+		background-image:url("/assets/images/booklet/left.png");
+		background-position:left center;
+	}
+	
+	#buttonRight {
+		right:0;
+		background-image:url("/assets/images/booklet/right.png");
+		background-position:right center;
+	}
+}
+
+#jacket {
+	position:absolute;
+	top:0;
+	right:50%;
+	height:45vw;
+	width:45vw;
+	background-position:center center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	flex-wrap:wrap;
+}
+
+#prescript, #postscript {
+	text-align:center;
+	padding:4vw;
+	font-size:1.5vw;
+	min-height:12vw;
+}
+
+footer {
+	text-align:center;
+	margin-top:1em;
+	padding:0 .5em;
+	p {
+		padding-bottom:.5em;
+	}
+}

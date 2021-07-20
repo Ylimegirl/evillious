@@ -1,0 +1,115 @@
+#album { margin-top: 0; }
+
+#album figure { display: grid; gap: 1vw 0; grid-template-rows: 3vw 37vw; grid-template-columns: 100%; background-color: #60492f; padding: 2vw; font-family: sans-serif; text-align: left; }
+
+#album figure h2 { color: white; font-size: 2vw; line-height: 2vw; align-self: center; padding-left: 2.3vw; text-align: left; background-repeat: no-repeat; background-size: 2vw; background-position: left; }
+
+#album figure .lyrics { display: flex; flex-direction: column; flex-wrap: wrap; }
+
+#album figure .lyrics p { color: white; width: 33.3%; font-size: 1vw; }
+
+#album figure .lyrics .versebreak { margin-bottom: 2em; }
+
+#album figure h3 { color: white; font-weight: normal; text-align: center; font-family: serif; font-size: .9vw; transform-origin: bottom left; transform: rotate(-45deg); position: absolute; right: -1vw; bottom: .5vw; text-align: center; z-index: 1; }
+
+#album figure .disk01 { background-image: url("/assets/images/booklet/evils-extra/disk01.png"); }
+
+#album figure .disk02 { background-image: url("/assets/images/booklet/evils-extra/disk02.png"); }
+
+#album figure .disk03 { background-image: url("/assets/images/booklet/evils-extra/disk03.png"); }
+
+#album figure .disk04 { background-image: url("/assets/images/booklet/evils-extra/disk04.png"); }
+
+#album figure .disk05 { background-image: url("/assets/images/booklet/evils-extra/disk05.png"); }
+
+#album figure .disk06 { background-image: url("/assets/images/booklet/evils-extra/disk06.png"); }
+
+#album figure .disk07 { background-image: url("/assets/images/booklet/evils-extra/disk07.png"); }
+
+#album figure .disk08 { background-image: url("/assets/images/booklet/evils-extra/disk08.png"); }
+
+#album figure .disk09 { background-image: url("/assets/images/booklet/evils-extra/disk09.png"); }
+
+#album figure .disk10 { background-image: url("/assets/images/booklet/evils-extra/disk10.png"); }
+
+#album figure .disk11 { background-image: url("/assets/images/booklet/evils-extra/disk11.png"); }
+
+#album figure .disk12 { background-image: url("/assets/images/booklet/evils-extra/disk12.png"); }
+
+#album #p01 { background-image: url("/assets/images/booklet/evils-extra/01.png"); }
+
+#album #p01 h2, #album #p01 h3 { display: none; }
+
+#album #p02 { display: flex; justify-content: flex-start; gap: 0; }
+
+#album #p02 p { width: 50%; font-size: 1.3vw; font-family: serif; }
+
+#album #p03 .lyrics p { font-size: .75vw; }
+
+#album #p04 { grid-template-columns: 1fr 1fr 1fr; }
+
+#album #p04 h2 { grid-column: 1 / span 3; }
+
+#album #p04 .lyrics p { width: 100%; }
+
+#album #p05 { right: -1.5vw; }
+
+#album #p06 .lyrics p { font-size: .95vw; }
+
+#album #p06 h3 { right: -.5vw; }
+
+#album #p07 .lyrics p { font-size: .95vw; }
+
+#album #p07 h3 { right: 0; }
+
+#album #p08 h3 { right: -.5vw; }
+
+#album #p09 h3 { right: -.5vw; }
+
+#album #p10 { grid-template-rows: 3vw 33vw 3vw; }
+
+#album #p10 .lyrics p { font-size: .9vw; }
+
+#album #p10 h2:nth-of-type(1) { font-size: 1.87vw; }
+
+#album #p10 h3:nth-of-type(1) { bottom: 5.5vw; right: -.75vw; }
+
+#album #p10 h3:nth-of-type(2) { right: -.75vw; }
+
+#album #p11 h2 { font-size: 1.44vw; }
+
+#album #p11 h3 { right: .5vw; bottom: 1vw; }
+
+#album #p11 p { font-size: .85vw; }
+
+#album #p12 { grid-template-columns: 1fr 1fr 1fr; }
+
+#album #p12 h2 { grid-column: 1 / span 3; font-size: 1.57vw; }
+
+#album #p12 h3 { right: -.25vw; }
+
+#album #p12 .lyrics p { width: 100%; }
+
+#album #p13 p { font-size: .85vw; }
+
+#album #p14 { display: flex; justify-content: flex-start; gap: 0; }
+
+#album #p14 p { width: 50%; font-size: 1.2vw; font-family: serif; }
+
+#album #p15 { display: flex; gap: 0; background-image: url("/assets/images/booklet/evils-extra/15.png"); background-size: 25%; background-position: center 1vw; background-repeat: no-repeat; padding: 12.5vw 2vw 7vw; justify-content: center; }
+
+#album #p15 h2 { display: none; }
+
+#album #p15 h3 { right: 1.5vw; bottom: 1.5vw; transform: unset; text-align: right; font-size: 1.25vw; }
+
+#album #p15 p { font-size: 1vw; background-size: 1vw; background-repeat: no-repeat; width: 50%; margin-bottom: .5em; }
+
+#album #p15 p.left { background-position: left; margin-left: calc(20.5vw - 2em); padding-left: 1.25em; text-align: left; }
+
+#album #p15 p.right { background-position: right; margin-right: calc(20.5vw - 2em); padding-right: 1.25em; text-align: right; }
+
+#album #p16 { background-image: url("/assets/images/booklet/evils-extra/16.png"); }
+
+#prescript { font-family: serif; line-height: calc(4em/3); }
+
+/*# sourceMappingURL=evilsextra.css.map */

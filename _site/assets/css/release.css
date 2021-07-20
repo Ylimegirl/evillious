@@ -1,0 +1,35 @@
+body { padding: 0; }
+
+#intro { /**there's all these new and fun 25vh paddings and margins around for gradient overlap yaaaay**/ padding: 10px 10px 25vh 10px; }
+
+li { /**sets the color transition the color coming in for jumping to the latest update**/ transition: background-color 0.5s, box-shadow 0.5s; }
+
+li:target { /**hightlighs the latest update when navigating to it**/ background-color: rgba(128, 196, 255, 0.25); border-radius: 5px; box-shadow: 0 0 3px 3px rgba(128, 196, 255, 0.25); }
+
+section { margin-top: -25vh; padding: 25vh 10px; background: var(--background-color); /**setting the background-color here in addition to the body so that it can change fluidly w/ each section as i utilize below**/ max-width: unset; }
+
+section > * { max-width: 980px; }
+
+section h2 { margin: 0; }
+
+section ul { margin: 0; width: 980px; }
+
+section.flex { gap: 5px; }
+
+/**and this is all just setting the colors and fancy gradients for each section**/
+#V1 { --foreground-color: #8A8A8A; --background-color: linear-gradient(rgba(192,192,192,0) 0px, rgba(192,192,192,1) 25vh); --link-color: #383838; }
+
+#Beginning { --foreground-color: #EDDF45; --background-color: linear-gradient(rgba(250,241,145,0) 0px, rgba(250,241,145,1) 25vh); --link-color: #918503; }
+
+#DOENovels { --foreground-color: #D1D1D1; --background-color: linear-gradient(rgba(237,237,237,0) 0px, rgba(237,237,237,1) 25vh); --link-color: #737373; }
+
+#SDSNovels { --foreground-color: #F589B5; --background-color: linear-gradient(rgba(250,185,212,0) 0px, rgba(250,185,212,1) 25vh); --link-color: #CC296B; }
+
+#Beyond { --foreground-color: #FFF86E; --background-color: linear-gradient(rgba(250,246,175,0) 0px, rgba(250,246,175,1) 25vh); --link-color: #757002; }
+
+#footerbox { --background-color: linear-gradient(rgba(245,245,191,0) 0px, rgba(245,245,191,1) 25vh); padding: 25vh 10px 10px 10px; }
+
+/**Short Screen**/
+@media screen and (max-height: 667px) { section header { margin: 0 0 5px 0; } }
+
+/*# sourceMappingURL=release.css.map */

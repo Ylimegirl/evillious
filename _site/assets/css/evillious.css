@@ -1,0 +1,90 @@
+@charset "UTF-8";
+:root { /**sets consistent theme colors for each arc**/ --oss-color: #7A7A7A; --oss-background: #B5B5B5; --oss-link: #363636; --oss-furi: #484848; --lust-color: #B167E6; --lust-background: #C393E6; --lust-link: #6E15AD; --lust-furi: #6E15AD; --gluttony-color: #D91E2B; --gluttony-background: #E36871; --gluttony-link: #570006; --gluttony-furi: #760810; --pride-color: #E3D839; --pride-background: #FFFF91; --pride-link: #A19608; --pride-furi: #A19608; --sloth-color: #2ADBD2; --sloth-background: #86EBE5; --sloth-link: #01827B; --sloth-furi: #019089; --envy-color: #F05B98; --envy-background: #F28AB4; --envy-link: #B31052; --envy-furi: #B31052; --greed-color: #446CE3; --greed-background: #738FE6; --greed-link: #062B99; --greed-furi: #133BB1; --wrath-color: #41B037; --wrath-background: #7FD177; --wrath-link: #096600; --wrath-furi: #096600; --fourendings-color: #D1D1D1; --fourendings-background: #EDEDED; --fourendings-link: #949494; --fourendings-furi: #949494; }
+
+:root { /** sets variables for theme colors so they can later be dynamically changed on a page-by-page basis**/ --foreground-color: #F0E68C; --background-color: #F5F5BF; --link-color: #B3A41D; --fuributton-color: #C7BB52; }
+
+* { /**resets all html elements to have consistent and boring properties rather than whatever the browser slaps on them on default**/ padding: 0; margin: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; position: relative; }
+
+body { /**base styles for the body of the page. nuff said**/ background-color: var(--background-color); color: black; font-family: Verdana, sans-serif; font-style: normal; padding: 10px; }
+
+header { width: 100%; overflow: hidden; /**sometimes japanese text wants to go out side of bounds. that's a no-no sir**/ max-width: 980px; /**980 is kind of an arbitrary max width but it's the one i use**/ margin: 5vh 0; border-radius: 20px; /**i like to style things to be round because rounds tuff is cool. you're going to be seeing a lot of border radius in here**/ text-align: center; background-color: var(--foreground-color); padding: 5px; min-height: 25vh; }
+
+header p { padding-top: .25em; /**puts spacing between the paragraphs so they're not squished into each other to hell**/ padding-bottom: .25em; }
+
+#intro { /**intro by default takes up a decent chunk of the page. the intro and header may or may not be the same element!**/ min-height: 75vh; margin-bottom: 10px; }
+
+.circle { /**for any elements i want to slap inside a completely round thing**/ border-radius: 50%; }
+
+.introImage { /**uhhh yeah intro image gets to be anywhere between 200-300px in both dimensions, margin of 5px. the end**/ width: auto; height: auto; min-width: 200px; max-width: 300px; min-height: 200px; max-height: 300px; margin: 5px; }
+
+h1 { width: 100%; /**full width babey. usually inside a different element with a max-width so no max-width needed here!**/ }
+
+section { /**stylings for the sections of the webpage**/ margin: 0 auto; padding: 5px; max-width: 980px; }
+
+section header p { width: 100%; margin: 10px; text-align: center; }
+
+section ol, section ul { text-align: left; line-height: 1.5em; margin: 5px 10px; }
+
+section ol li, section ul li { margin-left: 4em; }
+
+section ul { list-style: "⁕ "; }
+
+section ul li { margin-left: 1.25em; margin-bottom: .1em; }
+
+section h2 { background-color: var(--foreground-color); width: 100%; margin: 0; padding: 5px; border-radius: 10px; }
+
+.subtitle { font-size: smaller; }
+
+.center { /**do i even use this class anywhere anymore**/ text-align: center; }
+
+/**Flexing**/
+.flex { display: -webkit-flex; /**i dont even know if i still need to do the -webkit thing tbh**/ display: flex; justify-content: center; align-content: center; flex-direction: row; flex-wrap: wrap; height: auto; width: 100%; gap: 10px; align-items: center; }
+
+.flex article { height: auto; width: calc(50% - 5px); /**uses calc() to account for the gap**/ background-color: var(--foreground-color); max-width: 450px; border-radius: 10px; padding: 10px; display: flex; /**i heard you like flexboxes so i put a flexbox inside your flexbox**/ display: -webkit-flex; justify-content: center; align-content: center; align-items: center; flex-direction: column; }
+
+navigation.flex { /**not 100 % sure why this is a different rule than .flex but i am scared of breaking things so**/ justify-content: space-around; align-content: flex-start; align-items: stretch; max-width: 980px; margin: 0 auto; min-height: 25vh; gap: 10px; }
+
+navigation.flex > h2 { background-color: var(--foreground-color); text-align: center; width: 100%; padding: 5px; border-radius: 10px; margin: 0; }
+
+figure { /**figures are p much 100% used for those cute little navboxes i like**/ text-align: center; max-width: 100%; display: grid; align-content: flex-start; gap: 5px; }
+
+figure a { justify-self: center; line-height: 0; }
+
+figure img { border-radius: 10px; max-height: 200px; height: auto; width: auto; max-width: 100%; }
+
+figure figcaption { background-color: var(--foreground-color); border-radius: 10px; padding: 2px 5px; max-width: 100%; line-height: 1.5em; overflow: hidden; }
+
+figure figcaption .title { /**just a littl bit bigger**/ font-size: larger; }
+
+a { color: var(--link-color); text-decoration: none; }
+
+a:hover { text-decoration: underline; }
+
+/**styling for when i have the text for the japanese words**/
+.jpn { cursor: help; border-bottom: 1px dotted; /**so you know to hover over it for romaji**/ }
+
+.jpn .kana { /**is secret**/ visibility: hidden; }
+
+.jpn rt { /**styles furigana a little more evenly**/ font-size: .5em; line-height: 1em; font-style: normal; }
+
+.jpn .romaji { /**styles the romaji tooltip!**/ position: absolute; display: none; background-color: var(--fuributton-color); color: black; padding: 0 5px; line-height: 1.75em; border-radius: 5px; z-index: 1; font-size: small; font-weight: normal; font-style: normal; max-width: 350px; text-align: center; }
+
+.jpn:hover .romaji { display: block; }
+
+#fuributton { /**formats the furigana toggle button**/ position: fixed; top: 10px; right: 10px; border-radius: 10px; border: none; background-color: var(--fuributton-color); padding: 5px; z-index: 100; font-size: larger; cursor: pointer; }
+
+.collapse { /**for the buttons of the collapsible sections that are few and far between on my website**/ background: transparent; float: right; border: none; font-variant: small-caps; font-size: inherit; }
+
+footer { /**footer. nuff said**/ width: auto; text-align: center; background-color: var(--foreground-color); padding: 10px; border-radius: 10px; max-width: 980px; margin: 10px auto 0 auto; }
+
+footer p { padding-bottom: .5em; }
+
+footer p:last-child { /**gotta undo the padding boi**/ padding-bottom: 0; }
+
+/**Short Screen**/
+@media screen and (max-height: 667px) { #intro { /**shrinks the height so it doesn't necessarily take up the whole screen anymore**/ min-height: unset; } header { /**resets the margin and height of the header for short screens**/ margin: unset; min-height: unset; } .introImage { /**new intro image size it is 150px now.**/ width: 150px; height: 150px; min-width: unset; max-width: unset; min-height: unset; max-height: unset; } }
+
+/**Skinny screen**/
+@media screen and (max-width: 667px) { body { /**adds a margin to account for the new location of the furigana button**/ margin-top: 45px; } .flex article { width: 500px; max-width: 100%; } .introImage { /**new intro image size it is 150px now.**/ width: 150px; height: 150px; min-width: unset; max-width: unset; min-height: unset; max-height: unset; } #fuributton { /**stickies the furigana button to take up the whole width of the top of the page**/ position: fixed; border-radius: 0; top: 0; left: 0; width: 100%; text-align: center; } }
+
+/*# sourceMappingURL=evillious.css.map */

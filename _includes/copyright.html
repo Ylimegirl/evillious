@@ -1,0 +1,33 @@
+{%- assign copyrights = include.copyrights | split: "|" | default: "VOCALOID" -%}
+{%- assign owners = "|" | split: "|" -%}
+<footer>
+		<p>{% if include.sublink %}<a href="{{ include.sublink-target | default: page.dir }}">{{ include.sublink }}</a> | {% endif %}<a href="/">Index</a>
+		<p>Website copyright &copy; Ylimegirl 2021. All rights reserved.</p>{% if include.notes %}{%- assign notes = include.notes | split: "|" -%}
+		{% for note in notes %}<p>{{ note }}</p>{% endfor %}{%- endif %}
+		<p>{{ include.mothyrights | default: "<em>The Evillious Chronicles</em>" | split: "|" | array_to_sentence_string }} copyright &copy; <span style="white-space:nowrap;">mothy_Akuno-P.</span></p>{% if include.altrights and include.altowners %}{% assign altrights = include.altrights | split: "|" %}{%- assign altowners = include.altowners | split: "|" -%}
+	{% for entity in altrights %}
+		<p>{{ altrights[forloop.index0] }} copyright &copy; {{ altowners[forloop.index0] }}.</p>
+	{% endfor %}
+	{%- endif -%}
+	{%- for entity in site.data.copyrights -%}
+		{%- for ip in entity.copyrights -%}
+			{%- if copyrights contains ip -%}
+				{%- assign owners = owners | push: entity.owner | uniq -%}
+			{%- endif -%}
+		{%- endfor -%}
+	{%- endfor -%}
+	{%- for entity in owners %}
+		{%- assign var = site.data.copyrights | find: "owner", entity -%}
+		{%- assign hell = "|" | split: "|" -%}
+		{%- assign last = entity | slice: -1 -%}
+		{%- for line in var.copyrights -%}
+			{%- if copyrights contains line -%}
+				{%- assign hell = hell | push: line | uniq -%}
+			{%- endif -%}
+		{%- endfor %}
+		<p>{{ hell | array_to_sentence_string }} copyright &copy; {{ entity }}{% unless last == "." %}.{% endunless %}</p>
+	{%- endfor %}{% if include.artists or include.photographer %}
+		<p>{% if include.artists %}Art by {{ include.artists | split: "|" | array_to_sentence_string }}.{% endif %}{% if include.photographer %} Photography by {{ include.photographer | split: "|" | array_to_sentence_string }}.{% endif %}</p>{% endif %}{% if include.scans %}
+		<p>Scans by {{include.scans | split: "|" array_to_sentence_string }}.</p>{% endif %}{% if include.translation %}
+		<p>Translations by {{ include.translation | split: "|" | array_to_sentence_string }}.</p>{% endif %}
+	</footer>

@@ -1,0 +1,41 @@
+#album { margin-top: 0; margin-bottom: 0; }
+
+#album figure { background-color: #111; justify-content: flex-start; z-index: 5; padding: .75vw; font-size: 1vw; font-family: serif; text-align: left; }
+
+#album figure p, #album figure h2 { width: 33%; padding: 0 .5em; }
+
+#album figure h2 { margin-top: 1em; margin-bottom: 1em; font-size: inherit; font-weight: inherit; }
+
+#album figure h2:first-child { margin-top: 0; }
+
+#album #p01 { background-image: url(/assets/images/booklet/prelude-to-forest/01.jpg); }
+
+#album #p01 h2, #album #p01 h3 { display: none; }
+
+#album #p02 { background-color: #423330; font-size: .61vw; }
+
+#album #p03 { background-color: #423330; font-size: .63vw; }
+
+#album #p04 { display: grid; grid-gap: 0; grid-template-columns: 2fr 1fr; grid-template-rows: 100%; background-color: #2f254a; font-size: .66vw; }
+
+#album #p04 .lyrics { display: flex; flex-direction: column; justify-content: flex-start; flex-wrap: wrap; }
+
+#album #p04 .lyrics p, #album #p04 .lyrics h2 { width: 50%; }
+
+#album #p04 .lyrics .moshimo { display: inline-block; margin-left: 6vw; }
+
+#album #p04 h3 { font-weight: inherit; justify-self: flex-start; align-self: center; padding: 0 .5em; font-size: 1.1vw; font-family: sans-serif; }
+
+#jacket { margin-top: 12vw; font-family: serif; text-align: center; background-color: #352c1c; justify-content: space-around; margin-bottom: 0; font-size: 1.86vw; }
+
+#jacket p { width: 100%; margin-bottom: 1em; padding: 0 .5em; }
+
+#jacket p:last-child { margin-bottom: 0; }
+
+#prescript { font-family: serif; line-height: 4vw; }
+
+#postscript { text-align: left; display: grid; grid-template-columns: 50% 50%; }
+
+#postscript p:last-of-type { grid-column: 1 / span 2; text-align: right; }
+
+/*# sourceMappingURL=preludetoforest.css.map */

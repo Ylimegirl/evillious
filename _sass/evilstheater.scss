@@ -1,0 +1,326 @@
+@font-face {
+	font-family: spooky;
+	src: url(/assets/fonts/October_Crow.ttf);
+}
+
+:root {
+	--red-text: #ed1c24;
+}
+
+#album {
+	margin-top:0;
+
+	figure {
+		display:grid;
+		grid-gap:0;
+		grid-template-rows:4vw 35vw;
+		grid-template-columns:100%;
+		background-color:#111;
+		font-size:1.14vw;
+		padding:3vw;
+		font-family:serif;
+		h2 {
+			width:auto;
+			text-align:left;
+			z-index:3;
+			font-weight:normal;
+			font-size:1.77vw;
+			align-self:center;
+		}
+		h3 {
+			z-index:2;
+			color:rgba(255, 255, 255, .125);
+			font-weight:normal;
+			position:absolute;
+			width:auto;
+			font-family:sans-serif;
+		}
+		.lyrics {
+			display:flex;
+			flex-direction:column;
+			justify-content:flex-start;
+			flex-wrap:wrap;
+			z-index:3;
+			p {
+				text-align:left;
+				width:50%;
+			}
+			.versebreak {
+				margin-bottom:2em;
+			}
+		}
+	}
+
+	.scrawl {
+		font-family:'Shadows Into Light', cursive;
+	}
+
+	.whimsy {
+		font-family:'Gloria Hallelujah', cursive;
+	}
+
+	.spooky {
+		font-family:spooky, sans-serif;
+	}
+
+	.cute {
+		font-family:'Pacifico', cursive;
+	}
+
+	.techno {
+		font-family:'Abel', sans-serif;
+	}
+
+	.red {
+		color:var(--red-text);
+	}
+
+	#p01 {
+		background-image:url('/assets/images/booklet/evils-theater/01.jpg');
+		background-position:right center;
+		h2, h3 {
+			display: none;
+		}
+	}
+
+	#p02 {
+		display:flex;
+		text-align:center;
+		justify-content:center;
+		p {
+			font-size:1.41vw;
+			text-align:center;
+			width:100%;
+		}
+	}
+
+	#p03 {
+		display:flex;
+		justify-content:flex-start;
+		h2 {
+			font-size:2.48vw;
+			margin-bottom:2vw;
+			text-align:center;
+		}
+		p {
+			width:100%;
+			text-align:center;
+			font-size:1.77vw;
+			margin-bottom:.5em;
+		}
+	}
+
+	#p04 {
+		grid-template-rows:100%;
+		grid-template-columns:1fr 2fr;
+		h2 {
+			align-self:center;
+		}
+		h3 {
+			bottom:3vw;
+			right:3vw;
+			font-size:3vw;
+		}
+		.lyrics {
+			p {
+				font-size:.70vw;
+			}
+		}
+	}
+
+	#p05 {
+		grid-template-rows:100%;
+		grid-template-columns:2fr 1fr;
+		h2 {
+			grid-area:1 / 2;
+			align-self:center;
+		}
+		h3 {
+			top:3vw;
+			right:3vw;
+			font-size:3vw;
+		}
+		.lyrics {
+			grid-area:1 / 1;
+			p {
+				font-size:.82vw;
+			}
+		}
+	}
+
+	#p06 {
+		h2 {
+			text-align:center;
+		}
+		h3 {
+			bottom:3vw;
+			left:3vw;
+			font-size:1.25vw;
+		}
+		.lyrics {
+			align-items:center;
+			p {
+				font-size:.75vw;
+				text-align:center;
+				width:100%;
+			}
+		}
+	}
+
+	#p07 {
+		h2 {
+			text-align:center;
+		}
+		h3 {
+			bottom:3vw;
+			right:3vw;
+			font-size:1.25vw;
+		}
+		.lyrics {
+			align-content:center;
+			align-items:flex-start;
+			p {
+				font-size:.87vw;
+				width:auto;
+			}
+		}
+	}
+
+	#p08 {
+		h3 {
+			bottom:2vw;
+			right:2vw;
+			font-size:3vw;
+		}
+		.lyrics {
+			p {
+				font-size:.94vw;
+			}
+		}
+	}
+
+	#p09 {
+		h3 {
+			bottom:2vw;
+			left:2vw;
+			font-size:3vw;
+		}
+		.lyrics {
+			p {
+				font-size:.95vw;
+			}
+		}
+	}
+
+	#p10 {
+		h3 {
+			top:calc(50% - 3vw);
+			left:3vw;
+			transform:rotate(-20deg);
+			font-size:6vw;
+		}
+		.lyrics {
+			p {
+				font-size:.88vw;
+			}
+		}
+	}
+	#p11 {
+		grid-template-columns:1fr 1fr;
+		h2 {
+			grid-column:1 / span 2;
+		}
+		h3 {
+			bottom:3vw;
+			right:3vw;
+			font-size:3.5vw;
+		}
+		.lyrics p {
+			width:100%;
+		}
+	}
+
+	#p12 {
+		h2 {
+			text-align:center;
+		}
+		h3 {
+			top:calc(50% - 2.5vw);
+			left:9vw;
+			font-size:5vw;
+			transform: rotate(45deg);
+		}
+		.lyrics {
+			p {
+				font-size:.95vw;
+			}
+			.moshimo {
+				display:inline-block;
+				margin-left:11vw;
+			}
+		}
+	}
+
+	#p13 {
+		grid-template-rows:35vw 4vw;
+		h2 {
+			grid-area: 2 / 1;
+			text-align:center;
+		}
+		h3 {
+			top:calc(50% - 2.5vw);
+			left:0;
+			font-size:5vw;
+			transform:rotate(-45deg);
+		}
+		.lyrics {
+			grid-area: 1 / 1;
+			p {
+				font-size:.93vw;
+			}
+		}
+	}
+
+	#p14 {
+		h3 {
+			top:calc(50% - 2.25vw);
+			left:0;
+			width:100%;
+			font-size:4.5vw;
+			text-align:center;
+		}
+		.lyrics {
+			p {
+				font-size:.88vw;
+			}
+		}
+	}
+
+	#p15 {
+		display:flex;
+		justify-content:center;
+		font-family:sans-serif;
+		.sins {
+			text-align:center;
+			width:100%;
+		}
+		.credits {
+			text-align:left;
+			position:absolute;
+			bottom:3vw;
+			right:3vw;
+		}
+	}
+
+	#p16 {
+		background-image:url('/assets/images/booklet/evils-theater/16.jpg');
+		background-position:left center;
+		h2, h3 {
+			display:none;
+		}
+	}
+}
+
+#prescript {
+	font-family:serif;
+}

@@ -1,0 +1,77 @@
+#album figure { display: grid; grid-template-rows: 3vw 36.5vw; grid-template-columns: 100%; padding: 2vw; background-color: #d0e5bb; font-family: 'Shadows Into Light', cursive; color: black; text-align: left; }
+
+#album figure .lyrics { display: flex; flex-direction: column; flex-wrap: wrap; }
+
+#album figure .lyrics p { width: 50%; font-size: 1vw; }
+
+#album figure h2 { font-size: 2vw; align-self: center; }
+
+#album figure .year { position: absolute; font-size: 1.5vw !important; width: auto; bottom: 2vw; padding: 0; }
+
+#album figure .versebreaker { margin-bottom: 2em; }
+
+#album .left .year { left: 2vw; }
+
+#album .right .year { right: 2vw; }
+
+#album #p01 { background-image: url("/assets/images/booklet/muzzle-of-nemesis/01.jpg"); background-color: black; }
+
+#album #p01 h2 { position: absolute; left: 2vw; bottom: 2vw; color: white; font-size: 4vw; padding: 0; text-shadow: #1C232D .1vw -.1vw 0, #1C232D -.1vw .1vw 0, #1C232D -.1vw -.1vw 0, #1C232D .1vw .1vw 0; font-weight: inherit; width: 50%; line-height: 1em; }
+
+#album #p01 h3 { display: none; }
+
+#album #p02 { display: flex; justify-content: center; text-align: center; gap: 1.5vw; }
+
+#album #p02 p { font-size: 2vw; margin: 0; }
+
+#album #p03 { display: flex; justify-content: center; }
+
+#album #p03 p { font-size: 1.15vw; }
+
+#album #p04 { display: flex; justify-content: center; text-align: center; gap: 1.5vw; }
+
+#album #p04 p { font-size: 1.25vw; margin: 0; }
+
+#album #p05 .lyrics p { font-size: 1.1vw; }
+
+#album #p06 .lyrics p { font-size: .88vw; }
+
+#album #p07 .lyrics p { font-size: 1.1vw; }
+
+#album #p08 h2 { font-size: 1.4vw; }
+
+#album #p08 .lyrics p { font-size: 1.2vw; }
+
+#album #p09 h2 { font-size: 1.5vw; }
+
+#album #p09 .lyrics p { font-size: .99vw; }
+
+#album #p10 { grid-template-columns: 1fr 1fr; }
+
+#album #p10 h2 { grid-column: 1 / span 2; }
+
+#album #p10 p { width: 100%; }
+
+#album #p13 .lyrics p { font-size: .99vw; }
+
+#album #p14 .lyrics p { font-size: .95vw; }
+
+#album #p15 { grid-template-columns: 1fr 1fr; }
+
+#album #p15 h2 { grid-column: 1 / span 2; }
+
+#album #p15 .col { display: grid; grid-template-columns: 2vw auto; gap: 0 .5vw; }
+
+#album #p15 .col p { grid-column: 2; padding: 0; margin-bottom: 0; font-size: .95vw; }
+
+#album #p15 .col .date { grid-column: 1; text-align: right; justify-self: right; white-space: nowrap; }
+
+#album #p16 { background-image: url("/assets/images/booklet/muzzle-of-nemesis/16.jpg"); background-color: white; }
+
+#album #p16 h2, #album #p16 h3 { display: none; }
+
+#jacket { justify-content: space-between; align-content: center; align-items: center; padding: 2vw; background-color: #d0e5bb; font-family: 'Shadows Into Light', cursive; text-align: center; color: black; }
+
+#jacket p { width: 66.6%; font-size: 1.2vw; }
+
+/*# sourceMappingURL=muzzleofnemesis.css.map */

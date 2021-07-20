@@ -1,0 +1,4 @@
+---
+---
+{%- assign obj = site.data.translations | find: "eng", entry.title -%}
+<span id="{{ entry.key }}">{% if entry.link %}<a href="{% link {{ entry.link }}.html %}"><em>{% if obj.eng != nil %}{{ obj.eng[0] }}{% else %}{{ entry.title }}{% endif %}</em>{% if obj.jpn != obj.eng and obj.jpn != nil %} ({{ obj.jpn[-1] }}){% elsif entry.jpntitle %} ({{ entry.jpntitle }}){% endif %}</a>{% else %}<em>{% if obj.eng != nil %}{{ obj.eng[0] }}{% else %}{{ entry.title }}{% endif %}</em>{% if obj.jpn != obj.eng and obj.jpn != nil %} ({{ obj.jpn[-1] }}){% elsif entry.jpntitle %}({{ entry.jpntitle }}){% endif %}{% endif %}</span>, released {{ entry.date }}.{% if entry.pv-date %} PV released {{ entry.pv-date }}.{% endif %}

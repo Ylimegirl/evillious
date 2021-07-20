@@ -1,0 +1,54 @@
+{%- assign obj = site.data.translations | find: "eng", page.english-name -%}
+{%- assign release = page.release | split: "|" -%}
+{%- assign artists = page.info-artists | split: "|" -%}	
+{%- if page.directory -%}{%- assign dir = page.directory -%}{%- else -%}{%- assign dir = page.url | remove: "/novel/" -%}{%- endif -%}
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>{% if obj.eng[0] != nil and obj.eng[0] != page.english-name %}{{ obj.eng[0] }}{% else %}{{ page.english-name }}{% endif %}{% if obj.jpn[0] != obj.eng[0] %} | {{ obj.jpn[-1] }}{% elsif page.japanese-name != nil and page.japanese-name != page.english-name %} | {{ page.japanese-name | remove: "|" }}{% endif %}</title>
+		<link rel="stylesheet" href="/assets/css/evillious.css">
+		<link rel="stylesheet" href="/assets/css/novel.css">
+		<link rel="shortcut icon" href="/assets/images/novel/{{ dir }}/{{ page.favicon | default: "favicon.png" }}">
+		{% seo title=false -%}
+		<script src="/assets/js/minified.js"></script>
+		<script src="/assets/js/evillious.js"></script>
+		<style>
+			:root {
+				--foreground-color: {{ page.foreground | default: "var(--foreground-color, #f0e68c)" }};
+				--background-color: {{ page.background | default: "var(--background-color, #F5F5BF)" }};
+				--link-color: {{ page.link-color | default: "var(--link-color, #B3A41D)" }};
+				--infobox-color: {{ page.infobox-color | default: "var(--link-color, #B3A41D)" }};
+				--fuributton-color: {{ page.furi-color | default: "var(--fuributton-color, #C7BB52)" }};
+			}
+		</style>
+	</head>
+	<body>
+		<div class="flex" id="intro">
+			<h1><em>{% if obj.eng[0] == obj.jpn[0] and obj.furi != nil %}{%- assign incljpn = obj.jpn[0] -%}{%- assign inclfuri = obj.furi[0] -%}{%- assign inclrom = obj.rom[0] -%}{% include jpn.html jpn=incljpn furi=inclfuri rom=inclrom %}{% elsif obj.eng[0] != nil and obj.eng[0] != page.english-name %}{{ obj.eng[0] }}{% else %}{{ page.english-name }}{% endif %}</em>{% if obj.jpn[0] != obj.eng[0] %}<br />{% include jpnauto.html eng=page.english-name %}{% elsif page.japanese-name %}<br />{% include jpn.html jpn=page.japanese-name furi=page.furi-name rom=page.romaji-name %}{% endif %}</h1>
+			{% unless page.front == "none" %}<img src="/assets/images/novel/{{ dir }}/{{ page.front | default: "front.png" }}" class="front" />{% endunless %}
+			{% unless page.back == "none" %}<img src="/assets/images/novel/{{ dir }}/{{ page.back | default: "back.png" }}" class="back" />{% endunless %}
+			<header>
+				<div class="infobox">
+					<p><strong>Publisher</strong>: {{ page.publisher }}</p>
+					<p><strong>ISBN</strong>: {{ page.isbn | default: "N/A" }}</p>
+					<p><strong>Release Date</strong>: {% for date in release %}{{ date }}{%- unless forloop.last -%}<br />{%- endunless -%}{% endfor %}</p>
+					<p><strong>Illustrators</strong>: {{ artists | array_to_sentence_string: "" }}</p>
+				</div>
+				{% if page.quote %}<p class="quote">"{{ page.quote }}"</p>{% endif %}
+				<div class="summary">
+					{% if page.summary %}{%- assign summary = page.summary | split: "|" -%}{% for paragraph in summary %}
+					<p>{{ paragraph }}</p>{% endfor %}{% else %}<p><em>No summary available</em></p>{% endif %}
+				</div>
+				{% if page.links %}{%- assign links = page.links | split: "|" -%}
+				<p class="links">{% for link in links %}{{ link }}{% unless forloop.last %} &middot; {% endunless %}{% endfor %}</p>{% endif %}
+				{% if page.translation %}{%- assign translations = page.translation | split: "|" -%}<p class="links">{% if translations.size == 1 %}{{ translations[0] }}{% elsif translations.size > 1 %}<strong>Translations</strong>: {% for translation in translations %}{{ translation }}{% unless forloop.last %} &middot; {%endunless %}{% endfor %}{% endif %}</p>{% endif %}
+				{% if page.infomines %}{%- assign infomines = page.infomines | split: "|" -%}<p class="links">{% if infomines.size == 1 %}{{ infomines[0] }}{% elsif infomines.size > 1 %}<strong>Infomines</strong>: {% for infomine in infomines %}{{ infomine }}{% unless forloop.last %} &middot; {% endunless %}{% endfor %}{% endif %}</p>{% elsif page.infomines-hide %}{%- assign infomines = page.infomines-hide | split: "|" %}<!--<p class="links">{% if infomines.size == 1 %}{{ infomines[0] }}{% elsif infomines.size > 1 %}<strong>Infomines</strong>: {% for infomine in infomines %}{{ infomine }}{% unless forloop.last %} &middot; {% endunless %}{% endfor %}{% endif %}</p>-->{% endif %}
+				{% include fuributton.html %}
+			</header>
+		</div>
+		{{ content }}
+		{% include copyright.html sublink="Novels" mothyrights=page.mothyrights copyrights=page.copyrights artists=page.artists scans=page.scans %}
+	</body>
+</html>

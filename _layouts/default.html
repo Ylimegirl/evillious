@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>{{ page.title }}</title>
+		<link rel="stylesheet" href="/assets/css/evillious.css">
+		{% if page.css %}{% assign sheets = page.css | split: "|" %}{% for style in sheets %}<link rel="stylesheet" href="/assets/css/{{ style }}">{% endfor %}{% endif %}
+		<link rel="shortcut icon" href="/assets/images/headerImage.png">
+		{% seo title=false %}
+		<script src="/assets/js/minified.js"></script>
+		<script src="/assets/js/evillious.js"></script>
+		<style>
+			:root {
+				--foreground-color: var(--{{ page.foreground | default: foreground-color }}, #f0e68c);
+				--background-color: var(--{{ page.background | default: background-color }}, #F5F5BF);
+				--link-color: var(--{{ page.link-color | default: link-color }}, #B3A41D);
+				--fuributton-color: var(--{{ page.furi-color | default: fuributton-color }}, #C7BB52);
+			}
+		</style>
+	</head>
+	<body>
+		{{ content }}
+	</body>
+</html>
