@@ -1,0 +1,25 @@
+body {
+	height: 100vh;
+	justify-content: center;
+	align-content: center;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	text-align: center;
+}
+
+h1 {
+	width:3em;
+	height:3em;
+	border-radius:50%;
+	color:#F5F5BF;
+	background:#f0e68c;
+	line-height:3em;
+	font-size:4rem;
+	margin: .25rem auto;
+}
+
+p {
+	margin: .25rem;
+}

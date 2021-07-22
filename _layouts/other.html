@@ -6,6 +6,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>{% if page.title %}{{ page.title }}{% else %}{% if obj.eng[0] != nil and obj.eng[0] != page.english-name %}{{ obj.eng[0] }}{% else %}{{ page.english-name }}{% endif %}{% if obj.jpn[0] != obj.eng[0] %} | {{ obj.jpn[-1] }}{% elsif page.japanese-name != nil and page.japanese-name != page.english-name %} | {{ page.japanese-name | remove: "|" }}{% endif %}{% endif %}</title>
 		<link rel="stylesheet" href="/assets/css/evillious.css">
 		<link rel="stylesheet" href="/assets/css/other.css">

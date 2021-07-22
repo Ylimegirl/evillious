@@ -24,98 +24,98 @@
 			height: 200px;
 		}
 	}
-}
-/** this next bit is all just rules to color the little infocards by vocaloid**/
-.miku {
-	background-color: var(--miku-color);
-}
+	/** this next bit is all just rules to color the little infocards by vocaloid**/
+	.miku {
+		background-color: var(--miku-color);
+	}
 
-.rin {
-	background-color: var(--rin-color);
-}
+	.rin {
+		background-color: var(--rin-color);
+	}
 
-.len {
-	background-color: var(--len-color);
-}
+	.len {
+		background-color: var(--len-color);
+	}
 
-.rin.len {/**this is only use for the sarvants in evils theater**/
-	background-image: linear-gradient(to right, var(--rin-color), var(--len-color));
-}
+	.rin.len {/**this is only use for the sarvants in evils theater**/
+		background-image: linear-gradient(to right, var(--rin-color), var(--len-color));
+	}
 
-.luka {
-	background-color: var(--luka-color);
-}
+	.luka {
+		background-color: var(--luka-color);
+	}
 
-.haku {
-	background-color: var(--haku-color);
-}
+	.haku {
+		background-color: var(--haku-color);
+	}
 
-.neru {
-	background-color: var(--neru-color);
-}
+	.neru {
+		background-color: var(--neru-color);
+	}
 
-.meiko {
-	background-color: var(--meiko-color);
-}
+	.meiko {
+		background-color: var(--meiko-color);
+	}
 
-.kaito {
-	background-color: var(--kaito-color);
-}
+	.kaito {
+		background-color: var(--kaito-color);
+	}
 
-.gackpo {
-	background-color: var(--gackpo-color);
-}
+	.gackpo {
+		background-color: var(--gackpo-color);
+	}
 
-.gumi {
-	background-color: var(--gumi-color);
-}
+	.gumi {
+		background-color: var(--gumi-color);
+	}
 
-.lily {
-	background-color: var(--lily-color);
-}
+	.lily {
+		background-color: var(--lily-color);
+	}
 
-.miki {
-	background-color: var(--miki-color);
-}
+	.miki {
+		background-color: var(--miki-color);
+	}
 
-.yuki {
-	background-color: var(--yuki-color);
-}
+	.yuki {
+		background-color: var(--yuki-color);
+	}
 
-.kiyoteru {
-	background-color: var(--kiyoteru-color);
-}
+	.kiyoteru {
+		background-color: var(--kiyoteru-color);
+	}
 
-.iroha {
-	background-color: var(--iroha-color);
-}
+	.iroha {
+		background-color: var(--iroha-color);
+	}
 
-.leon {
-	background-color: var(--leon-color);
-}
+	.leon {
+		background-color: var(--leon-color);
+	}
 
-.miriam {
-	background-color: var(--miriam-color);
-}
+	.miriam {
+		background-color: var(--miriam-color);
+	}
 
-.prima {
-	background-color: var(--prima-color);
-}
+	.prima {
+		background-color: var(--prima-color);
+	}
 
-.tonio {
-	background-color: var(--tonio-color);
-}
+	.tonio {
+		background-color: var(--tonio-color);
+	}
 
-.ann {
-	background-color: var(--ann-color);
-}
+	.ann {
+		background-color: var(--ann-color);
+	}
 
-.teto {
-	background-color: var(--teto-color);
-}
+	.teto {
+		background-color: var(--teto-color);
+	}
 
-.yufu {
-	background-color: var(--yufu-color);
+	.yufu {
+		background-color: var(--yufu-color);
+	}
 }
 
 /**Skinny screen**/

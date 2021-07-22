@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "404.css",
+	"sources": [
+		"404.scss",
+		"_sass/404.scss"
+	],
+	"sourcesContent": [
+		"@import \"404\";",
+		"body {\r\n\theight: 100vh;\r\n\tjustify-content: center;\r\n\talign-content: center;\r\n\tdisplay: -webkit-flex;\r\n\tdisplay: flex;\r\n\tflex-direction: column;\r\n\tflex-wrap: nowrap;\r\n\ttext-align: center;\r\n}\r\n\r\nh1 {\r\n\twidth:3em;\r\n\theight:3em;\r\n\tborder-radius:50%;\r\n\tcolor:#F5F5BF;\r\n\tbackground:#f0e68c;\r\n\tline-height:3em;\r\n\tfont-size:4rem;\r\n\tmargin: .25rem auto;\r\n}\r\n\r\np {\r\n\tmargin: .25rem;\r\n}"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,IAAI,CAAC,EACJ,MAAM,EAAE,KAAK,EACb,eAAe,EAAE,MAAM,EACvB,aAAa,EAAE,MAAM,EACrB,OAAO,EAAE,YAAY,EACrB,OAAO,EAAE,IAAI,EACb,cAAc,EAAE,MAAM,EACtB,SAAS,EAAE,MAAM,EACjB,UAAU,EAAE,MAAM,GAClB;;AAED,AAAA,EAAE,CAAC,EACF,KAAK,EAAC,GAAG,EACT,MAAM,EAAC,GAAG,EACV,aAAa,EAAC,GAAG,EACjB,KAAK,EAAC,OAAO,EACb,UAAU,EAAC,OAAO,EAClB,WAAW,EAAC,GAAG,EACf,SAAS,EAAC,IAAI,EACd,MAAM,EAAE,WAAW,GACnB;;AAED,AAAA,CAAC,CAAC,EACD,MAAM,EAAE,MAAM,GACd"
+}
