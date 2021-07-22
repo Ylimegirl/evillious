@@ -2,7 +2,7 @@
 
 :root { /**sets consistent theme colors for each arc**/ --oss-color: #7A7A7A; --oss-background: #B5B5B5; --oss-link: #363636; --oss-furi: #484848; --lust-color: #B167E6; --lust-background: #C393E6; --lust-link: #6E15AD; --lust-furi: #6E15AD; --gluttony-color: #D91E2B; --gluttony-background: #E36871; --gluttony-link: #570006; --gluttony-furi: #760810; --pride-color: #E3D839; --pride-background: #FFFF91; --pride-link: #A19608; --pride-furi: #A19608; --sloth-color: #2ADBD2; --sloth-background: #86EBE5; --sloth-link: #01827B; --sloth-furi: #019089; --envy-color: #F05B98; --envy-background: #F28AB4; --envy-link: #B31052; --envy-furi: #B31052; --greed-color: #446CE3; --greed-background: #738FE6; --greed-link: #062B99; --greed-furi: #133BB1; --wrath-color: #41B037; --wrath-background: #7FD177; --wrath-link: #096600; --wrath-furi: #096600; --fourendings-color: #D1D1D1; --fourendings-background: #EDEDED; --fourendings-link: #949494; --fourendings-furi: #949494; }
 
-.characters { max-width: 980px; /**arbitrary max width for any giant fucking monitors out there**/ margin: 0 auto; /**centers the section horizontally**/ align-items: stretch; /**gives all the infocards in a row the same height**/ }
+.characters { max-width: 980px; /**arbitrary max width for any giant fucking monitors out there**/ margin: 0 auto; /**centers the section horizontally**/ align-items: stretch; /**gives all the infocards in a row the same height**/ /** this next bit is all just rules to color the little infocards by vocaloid**/ }
 
 .characters article { min-width: 220px; /**so the image bit doesn't end up having its margins cut off**/ width: calc(33.3% - 6.66px); /**have to calc to account for the margin**/ justify-content: flex-start; }
 
@@ -12,52 +12,51 @@
 
 .characters article img { /**the source images should all be 200x200px anyways but yknow**/ width: 200px; height: 200px; }
 
-/** this next bit is all just rules to color the little infocards by vocaloid**/
-.miku { background-color: var(--miku-color); }
+.characters .miku { background-color: var(--miku-color); }
 
-.rin { background-color: var(--rin-color); }
+.characters .rin { background-color: var(--rin-color); }
 
-.len { background-color: var(--len-color); }
+.characters .len { background-color: var(--len-color); }
 
-.rin.len { /**this is only use for the sarvants in evils theater**/ background-image: linear-gradient(to right, var(--rin-color), var(--len-color)); }
+.characters .rin.len { /**this is only use for the sarvants in evils theater**/ background-image: linear-gradient(to right, var(--rin-color), var(--len-color)); }
 
-.luka { background-color: var(--luka-color); }
+.characters .luka { background-color: var(--luka-color); }
 
-.haku { background-color: var(--haku-color); }
+.characters .haku { background-color: var(--haku-color); }
 
-.neru { background-color: var(--neru-color); }
+.characters .neru { background-color: var(--neru-color); }
 
-.meiko { background-color: var(--meiko-color); }
+.characters .meiko { background-color: var(--meiko-color); }
 
-.kaito { background-color: var(--kaito-color); }
+.characters .kaito { background-color: var(--kaito-color); }
 
-.gackpo { background-color: var(--gackpo-color); }
+.characters .gackpo { background-color: var(--gackpo-color); }
 
-.gumi { background-color: var(--gumi-color); }
+.characters .gumi { background-color: var(--gumi-color); }
 
-.lily { background-color: var(--lily-color); }
+.characters .lily { background-color: var(--lily-color); }
 
-.miki { background-color: var(--miki-color); }
+.characters .miki { background-color: var(--miki-color); }
 
-.yuki { background-color: var(--yuki-color); }
+.characters .yuki { background-color: var(--yuki-color); }
 
-.kiyoteru { background-color: var(--kiyoteru-color); }
+.characters .kiyoteru { background-color: var(--kiyoteru-color); }
 
-.iroha { background-color: var(--iroha-color); }
+.characters .iroha { background-color: var(--iroha-color); }
 
-.leon { background-color: var(--leon-color); }
+.characters .leon { background-color: var(--leon-color); }
 
-.miriam { background-color: var(--miriam-color); }
+.characters .miriam { background-color: var(--miriam-color); }
 
-.prima { background-color: var(--prima-color); }
+.characters .prima { background-color: var(--prima-color); }
 
-.tonio { background-color: var(--tonio-color); }
+.characters .tonio { background-color: var(--tonio-color); }
 
-.ann { background-color: var(--ann-color); }
+.characters .ann { background-color: var(--ann-color); }
 
-.teto { background-color: var(--teto-color); }
+.characters .teto { background-color: var(--teto-color); }
 
-.yufu { background-color: var(--yufu-color); }
+.characters .yufu { background-color: var(--yufu-color); }
 
 /**Skinny screen**/
 @media screen and (max-width: 667px) { .characters article { /**stops that 33% shit and just lets it take up the whole screen for skinny windows**/ width: 100%; } }
