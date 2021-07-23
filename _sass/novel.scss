@@ -75,7 +75,7 @@ figure {/**commenting css is boring as fuck. this styles the illustration galler
 }
 /**Skinny screen**/
 	@media screen and (max-width:667px){
-	div.infobox {/**unfloats the infobox on skinny screens**/
+	#intro header .infobox {/**unfloats the infobox on skinny screens**/
 		float: none;
 		width: auto;
 		p {

@@ -156,6 +156,7 @@ figure {/**figures are p much 100% used for those cute little navboxes i like**/
 	max-width: 100%;
 	display: grid;
 	align-content:flex-start;
+	justify-items:center;
 	gap:5px;
 	a {
 		justify-self:center;

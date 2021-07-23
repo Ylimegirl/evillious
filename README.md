@@ -11,9 +11,9 @@ The steps I use to deploy the live branch are:
 
 `git checkout -b live`
 
-- Force only the content from the \_site directory to be included. (This command is apparently deprecated and iffy, but I was utilizing tutorials from half a decade ago and have no idea how to update this to better syntax. Plus, it worked! So.)
+- Force only the content in the \_site directory to be included in the build.
 
-`git filter-branch --subdirectory-filter _site/ -f`
+`git filter-repo --subdirectory-filter _site/ --refs live -f`
 
 - Checkout a new source branch
 
