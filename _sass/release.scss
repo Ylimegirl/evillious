@@ -21,9 +21,6 @@ section {
 	> * {
 		max-width:980px;
 	}
-	h2 {
-		margin: 0;
-	}
 	ul {
 		margin: 0;
 		width: 980px;
@@ -66,12 +63,13 @@ section.flex {
 }
 
 #footerbox {
-	--background-color: linear-gradient(rgba(245,245,191,0) 0px, rgba(245,245,191,1) 25vh);
+	background: linear-gradient(rgba(245,245,191,0) 0px, rgba(245,245,191,1) 25vh);
 	padding: 25vh 10px 10px 10px;
+	margin-top: -25vh;
 }
 
 /**Short Screen**/
-@media screen and (max-height:667px) {
+@media screen and (max-height:500px) {
 	section header {
 		margin: 0 0 5px 0;
 	}

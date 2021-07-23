@@ -64,8 +64,7 @@ h1 {
 }
 
 section {/**stylings for the sections of the webpage**/
-	margin: 0 auto;
-	padding: 5px;
+	margin: 10px auto;
 	max-width: 980px;
 	header p {
 		width: 100%;
@@ -77,7 +76,7 @@ section {/**stylings for the sections of the webpage**/
 		line-height: 1.5em;
 		margin:5px 10px;
 		li {
-			margin-left: 4em;
+			margin-left: 2.5em;
 		}
 	}
 	ul {
@@ -88,7 +87,7 @@ section {/**stylings for the sections of the webpage**/
 			margin-bottom: .1em;
 		}
 	}
-	h2 {
+	> h2 {
 		background-color: var(--foreground-color);
 		width: 100%;
 		margin: 0;
@@ -119,17 +118,20 @@ section {/**stylings for the sections of the webpage**/
 	align-items: center;
 	article {
 		height: auto;
-		width: calc(50% - 5px);/**uses calc() to account for the gap**/
+		flex-basis: calc(50% - 5px);/**uses calc() to account for the gap**/
 		background-color: var(--foreground-color);
 		max-width: 450px;
 		border-radius: 10px;
 		padding: 10px;
-		display: flex;/**i heard you like flexboxes so i put a flexbox inside your flexbox**/
 		display: -webkit-flex;
+		display: flex;/**i heard you like flexboxes so i put a flexbox inside your flexbox**/
 		justify-content: center;
 		align-content: center;
 		align-items: center;
 		flex-direction: column;
+		h2 {
+			text-align:center;
+		}
 	}
 }
 
@@ -170,6 +172,7 @@ figure {/**figures are p much 100% used for those cute little navboxes i like**/
 		max-width: 100%;
 	}
 	figcaption {
+		justify-self: stretch;
 		background-color: var(--foreground-color);
 		border-radius: 10px;
 		padding: 2px 5px;
@@ -262,12 +265,12 @@ footer {/**footer. nuff said**/
 }
 
 /**Short Screen**/
-@media screen and (max-height:667px) {
+@media screen and (max-height:500px) {
 	#intro {/**shrinks the height so it doesn't necessarily take up the whole screen anymore**/
 		min-height: unset;
 	}
 	header {/**resets the margin and height of the header for short screens**/
-		margin: unset;
+		margin: 0;
 		min-height: unset;
 	}
 	.introImage {/**new intro image size it is 150px now.**/
@@ -286,7 +289,7 @@ footer {/**footer. nuff said**/
 		margin-top: 45px;
 	}
 	.flex article {
-		width: 500px;
+		flex-basis: 500px;
 		max-width: 100%;
 	}
 	.introImage {/**new intro image size it is 150px now.**/

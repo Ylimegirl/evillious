@@ -3,7 +3,7 @@
 }
 #intro {
 	max-width: 980px;
-	margin: 0 auto;
+	margin: 0 auto 10px auto;
 	gap:10px;
 	h1 {
 		text-align: center;
@@ -12,7 +12,6 @@
 		border-radius: 10px;
 		width: auto;
 		min-width: 60%;
-		max-width: 980px;
 		.jpn {/**just a bit smaller than the english title**/
 			font-size: .9em;
 		}
@@ -26,7 +25,7 @@
 		align-self: stretch;
 	}
 	header {
-		margin: 0 auto;
+		margin: unset;
 		min-height: unset;
 		text-align: left;
 		.quote {/**styles the novel quote**/
@@ -54,12 +53,12 @@
 		}
 	}
 }
-.art {/**just fucks with the margins and paddings a little uwu**/
-	margin-top:10px;
-	padding: 0;
-	gap:10px;
+
+.art {/**just fucks with the margins and alignments a little uwu**/
+	margin:10px auto;
 	align-items: flex-end;
 }
+
 figure {/**commenting css is boring as fuck. this styles the illustration gallery**/
 	background-color: var(--foreground-color);
 	border-radius: 15px;
@@ -73,6 +72,7 @@ figure {/**commenting css is boring as fuck. this styles the illustration galler
 		background-color:unset;
 	}
 }
+
 /**Skinny screen**/
 	@media screen and (max-width:667px){
 	#intro header .infobox {/**unfloats the infobox on skinny screens**/
@@ -84,6 +84,6 @@ figure {/**commenting css is boring as fuck. this styles the illustration galler
 	}
 	figure img {/**unmaxes the height on skinny screens**/
 		max-height: unset;
-		width: 300px;
+		width: 275px;
 	}
 }

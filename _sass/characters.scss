@@ -1,14 +1,17 @@
 @import "vocaloid-colors";
 @import "arc-colors";
 
+#intro {
+	margin-bottom:0;
+}
+
 .characters {
-	max-width: 980px;/**arbitrary max width for any giant fucking monitors out there**/
-	margin:0 auto;/**centers the section horizontally**/
 	align-items: stretch;/**gives all the infocards in a row the same height**/
 
 	article {
 		min-width: 220px;/**so the image bit doesn't end up having its margins cut off**/
-		width: calc(33.3% - 6.66px);/**have to calc to account for the margin**/
+		flex-basis: 100%;
+		max-width: unset;
 		justify-content: flex-start;
 		h2 {
 			text-align: center;
@@ -118,16 +121,14 @@
 	}
 }
 
-/**Skinny screen**/
-@media screen and (max-width:667px){
-	.characters article {/**stops that 33% shit and just lets it take up the whole screen for skinny windows**/
-		width: 100%;
+/**Skinny screens**/
+@media screen and (min-width:470px) and (max-width:699px){
+	.characters article {/**switches to two columns on larger screens**/
+		flex-basis: calc((100% - 10px)/2);
 	}
 }
-
-/**Short screen**/
-@media screen and (max-height:667px){
-	#intro {/**adds a lil more margin below the header**/
-		margin-bottom: 5px;
+@media screen and (min-width:700px){
+	.characters article {/**switches to three columns on largest screens**/
+		flex-basis: calc((100% - 20px)/3);
 	}
 }

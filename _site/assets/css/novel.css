@@ -1,14 +1,14 @@
 :root { --infobox-color: var(--link-color); /**wake up babe new variable just dropped**/ }
 
-#intro { max-width: 980px; margin: 0 auto; gap: 10px; }
+#intro { max-width: 980px; margin: 0 auto 10px auto; gap: 10px; }
 
-#intro h1 { text-align: center; padding: 10px; background-color: var(--foreground-color); border-radius: 10px; width: auto; min-width: 60%; max-width: 980px; }
+#intro h1 { text-align: center; padding: 10px; background-color: var(--foreground-color); border-radius: 10px; width: auto; min-width: 60%; }
 
 #intro h1 .jpn { /**just a bit smaller than the english title**/ font-size: .9em; }
 
 #intro img.front, #intro img.back { width: 480px; max-width: calc(50% - 5px); height: auto; border-radius: 15px; align-self: stretch; }
 
-#intro header { margin: 0 auto; min-height: unset; text-align: left; }
+#intro header { margin: unset; min-height: unset; text-align: left; }
 
 #intro header .quote { /**styles the novel quote**/ font-size: 1.25em; font-style: italic; font-weight: bold; text-align: center; }
 
@@ -18,7 +18,7 @@
 
 #intro header .links { /**formats the external links**/ text-align: center; clear: both; }
 
-.art { /**just fucks with the margins and paddings a little uwu**/ margin-top: 10px; padding: 0; gap: 10px; align-items: flex-end; }
+.art { /**just fucks with the margins and alignments a little uwu**/ margin: 10px auto; align-items: flex-end; }
 
 figure { /**commenting css is boring as fuck. this styles the illustration gallery**/ background-color: var(--foreground-color); border-radius: 15px; padding: 5px; }
 
@@ -27,6 +27,6 @@ figure img { max-height: 325px; }
 figure figcaption { line-height: 1em; font-style: italic; background-color: unset; }
 
 /**Skinny screen**/
-@media screen and (max-width: 667px) { div.infobox { /**unfloats the infobox on skinny screens**/ float: none; width: auto; } div.infobox p { text-align: center; } figure img { /**unmaxes the height on skinny screens**/ max-height: unset; width: 300px; } }
+@media screen and (max-width: 667px) { #intro header .infobox { /**unfloats the infobox on skinny screens**/ float: none; width: auto; } #intro header .infobox p { text-align: center; } figure img { /**unmaxes the height on skinny screens**/ max-height: unset; width: 275px; } }
 
 /*# sourceMappingURL=novel.css.map */

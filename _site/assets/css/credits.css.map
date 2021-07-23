@@ -7,8 +7,8 @@
 	],
 	"sourcesContent": [
 		"@import \"credits\";",
-		".credits p {/**adds padding so the paragraphs don't look like shit**/\r\n\tpadding: 5px 15px;\r\n}\r\n.links {/**centers the links to the artists' profiles**/\r\n\ttext-align:center;\r\n}\r\nhr {\r\n\tborder: none; /**resets the default hr border**/\r\n\tborder-bottom: 1px solid #666;\r\n\tmargin: 1em 10%; /**adds a lil margin. yay**/\r\n}"
+		".credits {\r\n\tdisplay: grid;\r\n\tgap: 5px;\r\n\tp {/**adds padding so the paragraphs don't look like shit**/\r\n\t\tpadding: 0 10px;\r\n\t}\r\n}\r\n.links {/**centers the links to the artists' profiles**/\r\n\ttext-align:center;\r\n}\r\nhr {\r\n\tborder: none; /**resets the default hr border**/\r\n\tborder-bottom: 1px solid #666;\r\n\tmargin: 1em 10%; /**adds a lil margin. yay**/\r\n}"
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,QAAQ,CAAC,CAAC,CAAC,EAAC,yDAAyD,CACpE,OAAO,EAAE,QAAQ,GACjB;;AACD,AAAA,MAAM,CAAC,EAAC,gDAAgD,CACvD,UAAU,EAAC,MAAM,GACjB;;AACD,AAAA,EAAE,CAAC,EACF,MAAM,EAAE,IAAI,EAAE,kCAAkC,CAChD,aAAa,EAAE,cAAc,EAC7B,MAAM,EAAE,OAAO,EAAE,4BAA4B,EAC7C"
+	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACR,OAAO,EAAE,IAAI,EACb,GAAG,EAAE,GAAG,GAIR;;AAND,AAGC,QAHO,CAGP,CAAC,CAAC,EAAC,yDAAyD,CAC3D,OAAO,EAAE,MAAM,GACf;;AAEF,AAAA,MAAM,CAAC,EAAC,gDAAgD,CACvD,UAAU,EAAC,MAAM,GACjB;;AACD,AAAA,EAAE,CAAC,EACF,MAAM,EAAE,IAAI,EAAE,kCAAkC,CAChD,aAAa,EAAE,cAAc,EAC7B,MAAM,EAAE,OAAO,EAAE,4BAA4B,EAC7C"
 }

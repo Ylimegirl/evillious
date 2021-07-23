@@ -1,4 +1,4 @@
-header {
+#intro {
 	max-width: 720px;/**i liked the width for the header on footer on lyrics pages to be 720 instead of 980. iunno**/
 	border-radius: 10px;/**little less roundsince it's less big**/
 	min-height: unset;
@@ -6,10 +6,9 @@ header {
 }
 
 .lyrics {
-	padding: 0;
 	align-items: flex-start;
 	div {
-		width: calc(50% - 5px);
+		flex-basis: calc((100% - 10px)/2);
 		h3 {
 			background-color: var(--foreground-color);
 			padding: 5px;
@@ -36,6 +35,6 @@ footer {
 /**Skinny screen**/
 @media screen and (max-width:667px){
 	.lyrics div {
-		width: 100%;
+		flex-basis: 100%;
 	}
 }

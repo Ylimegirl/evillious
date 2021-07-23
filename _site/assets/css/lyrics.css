@@ -1,8 +1,8 @@
-header { max-width: 720px; /**i liked the width for the header on footer on lyrics pages to be 720 instead of 980. iunno**/ border-radius: 10px; /**little less roundsince it's less big**/ min-height: unset; margin: 0 auto 10px auto; /**centers it**/ }
+#intro { max-width: 720px; /**i liked the width for the header on footer on lyrics pages to be 720 instead of 980. iunno**/ border-radius: 10px; /**little less roundsince it's less big**/ min-height: unset; margin: 0 auto 10px auto; /**centers it**/ }
 
-.lyrics { padding: 0; align-items: flex-start; }
+.lyrics { align-items: flex-start; }
 
-.lyrics div { width: calc(50% - 5px); }
+.lyrics div { flex-basis: calc((100% - 10px)/2); }
 
 .lyrics div h3 { background-color: var(--foreground-color); padding: 5px; border-radius: 10px; text-align: center; margin-bottom: 5px; }
 
@@ -13,6 +13,6 @@ header { max-width: 720px; /**i liked the width for the header on footer on lyri
 footer { max-width: 720px; }
 
 /**Skinny screen**/
-@media screen and (max-width: 667px) { .lyrics div { width: 100%; } }
+@media screen and (max-width: 667px) { .lyrics div { flex-basis: 100%; } }
 
 /*# sourceMappingURL=lyrics.css.map */

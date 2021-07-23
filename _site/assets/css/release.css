@@ -10,8 +10,6 @@ section { margin-top: -25vh; padding: 25vh 10px; background: var(--background-co
 
 section > * { max-width: 980px; }
 
-section h2 { margin: 0; }
-
 section ul { margin: 0; width: 980px; }
 
 section.flex { gap: 5px; }
@@ -27,9 +25,9 @@ section.flex { gap: 5px; }
 
 #Beyond { --foreground-color: #FFF86E; --background-color: linear-gradient(rgba(250,246,175,0) 0px, rgba(250,246,175,1) 25vh); --link-color: #757002; }
 
-#footerbox { --background-color: linear-gradient(rgba(245,245,191,0) 0px, rgba(245,245,191,1) 25vh); padding: 25vh 10px 10px 10px; }
+#footerbox { background: linear-gradient(rgba(245, 245, 191, 0) 0px, #f5f5bf 25vh); padding: 25vh 10px 10px 10px; margin-top: -25vh; }
 
 /**Short Screen**/
-@media screen and (max-height: 667px) { section header { margin: 0 0 5px 0; } }
+@media screen and (max-height: 500px) { section header { margin: 0 0 5px 0; } }
 
 /*# sourceMappingURL=release.css.map */

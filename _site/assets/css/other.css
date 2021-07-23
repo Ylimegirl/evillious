@@ -11,7 +11,7 @@ h3 { width: 100%; }
 footer { max-width: 780px; }
 
 /**Short Screen**/
-@media screen and (max-height: 667px) { .introImage { width: auto; min-width: unset; max-width: unset; height: auto; min-height: unset; max-height: 200px; } }
+@media screen and (max-height: 450px) { .introImage { width: auto; min-width: unset; max-width: unset; height: auto; min-height: unset; max-height: 200px; } }
 
 /**Skinny screen**/
 @media screen and (max-width: 667px) { .introImage { width: auto; min-width: unset; max-width: calc(100% - 5px); /**weird calc thing to account for the weird padding thing to account for the sometimes there are multiple header images thing**/ height: auto; min-height: unset; max-height: unset; } }

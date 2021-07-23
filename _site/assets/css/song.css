@@ -2,112 +2,106 @@
 
 :root { /**these colors are (so far) only used on the song pages so putting them with the rest of the vocaloid colors felt like overkill**/ --rinlen-color: #EBCA2C; --vy1-color: #97F4E6; }
 
-#intro { /**man idk what to say. styles the intro.**/ margin: 0 auto 10px auto; min-height: unset; padding: 10px; max-width: 720px; flex-direction: column; gap: 0; }
+#intro { /**man idk what to say. styles the intro.**/ margin: 0 auto 10px auto; min-height: unset; padding: 10px; max-width: 720px; flex-direction: column; gap: 0; /**and then these are all just subtitle colorings**/ /**add some padding between the quote and the singer circles**/ /**styles the singer circles**/ /**add colors depending on class**/ /**hi welcome to hell this is when the singer is secondary and the border is colored instead of the whole circle**/ /**and then i got tired of adding css rules i never used the end**/ }
 
 #intro p { text-align: left; padding: .25em; }
 
 #intro .introImage { /**uncircles your image**/ border-radius: 15px; min-height: unset; min-width: unset; max-height: 200px; max-width: 100%; }
 
-section { padding: 0; margin-bottom: 10px; }
+#intro .subtitle { /**expand subtitle. also this subtitle is the one and only reason the intro box is a flex box**/ border-radius: .5em; padding: .1em .4em; font-size: larger; margin: .5em auto; max-width: 75%; }
+
+#intro .subtitle.miku { padding: .1em; box-shadow: 0 0 0.25em 0.25em var(--miku-color); background-color: var(--miku-color); }
+
+#intro .subtitle.rin { padding: .1em; box-shadow: 0 0 0.25em 0.25em var(--rin-color); background-color: var(--rin-color); }
+
+#intro .subtitle.len { padding: .1em; box-shadow: 0 0 0.25em 0.25em var(--len-color); background-color: var(--len-color); }
+
+#intro .subtitle.rin.len { padding: .1em; box-shadow: 0 0 0.25em 0.25em var(--rinlen-color); background-color: var(--rinlen-color); }
+
+#intro .subtitle.luka { padding: .1em; box-shadow: 0 0 0.25em 0.25em var(--luka-color); background-color: var(--luka-color); }
+
+#intro .subtitle.haku { padding: .1em; box-shadow: 0 0 0.25em 0.25em var(--haku-color); background-color: var(--haku-color); }
+
+#intro .subtitle.meiko { padding: .1em; box-shadow: 0 0 0.25em 0.25em var(--meiko-color); background-color: var(--meiko-color); }
+
+#intro .subtitle.kaito { padding: .1em; box-shadow: 0 0 0.25em 0.25em var(--kaito-color); background-color: var(--kaito-color); }
+
+#intro .subtitle.gackpo { padding: .1em; box-shadow: 0 0 0.25em 0.25em var(--gackpo-color); background-color: var(--gackpo-color); }
+
+#intro .subtitle.gumi { padding: .1em; box-shadow: 0 0 0.25em 0.25em var(--gumi-color); background-color: var(--gumi-color); }
+
+#intro .subtitle.kiyoteru { padding: .1em; box-shadow: 0 0 0.25em 0.25em var(--kiyoteru-color); background-color: var(--kiyoteru-color); }
+
+#intro .subtitle.iroha { padding: .1em; box-shadow: 0 0 0.25em 0.25em var(--iroha-color); background-color: var(--iroha-color); }
+
+#intro .subtitle.mayu { padding: .1em; box-shadow: 0 0 0.25em 0.25em var(--mayu-color); background-color: var(--mayu-color); }
+
+#intro .subtitle.vy1 { padding: .1em; box-shadow: 0 0 0.25em 0.25em var(--vy1-color); background-color: var(--vy1-color); }
+
+#intro .singers { padding-top: 5px; }
+
+#intro .singers span { width: 20px; height: 20px; display: inline-block; color: transparent; overflow: hidden; border-radius: 50%; font-size: 10px; line-height: 20px; margin: 0 2.5px; cursor: default; }
+
+#intro .singers span.miku { background-color: var(--miku-color); }
+
+#intro .singers span.rin { background-color: var(--rin-color); }
+
+#intro .singers span.len { background-color: var(--len-color); }
+
+#intro .singers span.luka { background-color: var(--luka-color); }
+
+#intro .singers span.haku { background-color: var(--haku-color); }
+
+#intro .singers span.meiko { background-color: var(--meiko-color); }
+
+#intro .singers span.kaito { background-color: var(--kaito-color); }
+
+#intro .singers span.gackpo { background-color: var(--gackpo-color); }
+
+#intro .singers span.gumi { background-color: var(--gumi-color); }
+
+#intro .singers span.lily { background-color: var(--lily-color); }
+
+#intro .singers span.miki { background-color: var(--miki-color); }
+
+#intro .singers span.yuki { background-color: var(--yuki-color); }
+
+#intro .singers span.kiyoteru { background-color: var(--kiyoteru-color); }
+
+#intro .singers span.iroha { background-color: var(--iroha-color); }
+
+#intro .singers span.mayu { background-color: var(--mayu-color); }
+
+#intro .singers span.vy1 { background-color: var(--vy1-color); }
+
+#intro .singers span.human { background-color: black; }
+
+#intro .singers span.secondary { border: 2px solid; background-color: transparent !important; }
+
+#intro .singers span.rin.secondary { border-color: var(--rin-color); }
+
+#intro .singers span.len.secondary { border-color: var(--len-color); }
+
+#intro .singers span.luka.secondary { border-color: var(--luka-color); }
+
+#intro .singers span.kaito.secondary { border-color: var(--kaito-color); }
+
+#intro .singers span.gumi.secondary { border-color: var(--gumi-color); }
+
+#intro .singers span.kiyoteru.secondary { border-color: var(--kiyoteru-color); }
+
+#intro .singers span.human.secondary { border-color: black; }
+
+section { margin: 10px auto; }
 
 .albums { align-content: flex-start; align-items: flex-start; justify-content: space-around; }
 
-.subtitle { /**expand subtitle. also this subtitle is the one and only reason the intro box is a flex box**/ border-radius: .5em; padding: .1em .4em; font-size: larger; margin: .5em auto; max-width: 75%; }
-
-/**and then these are all just subtitle colorings**/
-.subtitle.miku { padding: .1em; box-shadow: 0 0 0.25em 0.25em var(--miku-color); background-color: var(--miku-color); }
-
-.subtitle.rin { padding: .1em; box-shadow: 0 0 0.25em 0.25em var(--rin-color); background-color: var(--rin-color); }
-
-.subtitle.len { padding: .1em; box-shadow: 0 0 0.25em 0.25em var(--len-color); background-color: var(--len-color); }
-
-.subtitle.rin.len { padding: .1em; box-shadow: 0 0 0.25em 0.25em var(--rinlen-color); background-color: var(--rinlen-color); }
-
-.subtitle.luka { padding: .1em; box-shadow: 0 0 0.25em 0.25em var(--luka-color); background-color: var(--luka-color); }
-
-.subtitle.haku { padding: .1em; box-shadow: 0 0 0.25em 0.25em var(--haku-color); background-color: var(--haku-color); }
-
-.subtitle.meiko { padding: .1em; box-shadow: 0 0 0.25em 0.25em var(--meiko-color); background-color: var(--meiko-color); }
-
-.subtitle.kaito { padding: .1em; box-shadow: 0 0 0.25em 0.25em var(--kaito-color); background-color: var(--kaito-color); }
-
-.subtitle.gackpo { padding: .1em; box-shadow: 0 0 0.25em 0.25em var(--gackpo-color); background-color: var(--gackpo-color); }
-
-.subtitle.gumi { padding: .1em; box-shadow: 0 0 0.25em 0.25em var(--gumi-color); background-color: var(--gumi-color); }
-
-.subtitle.kiyoteru { padding: .1em; box-shadow: 0 0 0.25em 0.25em var(--kiyoteru-color); background-color: var(--kiyoteru-color); }
-
-.subtitle.iroha { padding: .1em; box-shadow: 0 0 0.25em 0.25em var(--iroha-color); background-color: var(--iroha-color); }
-
-.subtitle.mayu { padding: .1em; box-shadow: 0 0 0.25em 0.25em var(--mayu-color); background-color: var(--mayu-color); }
-
-.subtitle.vy1 { padding: .1em; box-shadow: 0 0 0.25em 0.25em var(--vy1-color); background-color: var(--vy1-color); }
-
-/**add some padding between the quote and the singer circles**/
-.singers { padding-top: 5px; }
-
-/**styles the singer circles**/
-.singers span { width: 20px; height: 20px; display: inline-block; color: transparent; overflow: hidden; border-radius: 50%; font-size: 10px; line-height: 20px; margin: 0 2.5px; cursor: default; }
-
-/**add colors depending on class**/
-.singers span.miku { background-color: var(--miku-color); }
-
-.singers span.rin { background-color: var(--rin-color); }
-
-.singers span.len { background-color: var(--len-color); }
-
-.singers span.luka { background-color: var(--luka-color); }
-
-.singers span.haku { background-color: var(--haku-color); }
-
-.singers span.meiko { background-color: var(--meiko-color); }
-
-.singers span.kaito { background-color: var(--kaito-color); }
-
-.singers span.gackpo { background-color: var(--gackpo-color); }
-
-.singers span.gumi { background-color: var(--gumi-color); }
-
-.singers span.lily { background-color: var(--lily-color); }
-
-.singers span.miki { background-color: var(--miki-color); }
-
-.singers span.yuki { background-color: var(--yuki-color); }
-
-.singers span.kiyoteru { background-color: var(--kiyoteru-color); }
-
-.singers span.iroha { background-color: var(--iroha-color); }
-
-.singers span.mayu { background-color: var(--mayu-color); }
-
-.singers span.vy1 { background-color: var(--vy1-color); }
-
-.singers span.human { background-color: black; }
-
-/**hi welcome to hell this is when the singer is secondary and the border is colored instead of the whole circle**/
-.singers span.secondary { border: 2px solid; background-color: transparent !important; }
-
-.singers span.rin.secondary { border-color: var(--rin-color); }
-
-.singers span.len.secondary { border-color: var(--len-color); }
-
-.singers span.luka.secondary { border-color: var(--luka-color); }
-
-.singers span.kaito.secondary { border-color: var(--kaito-color); }
-
-.singers span.gumi.secondary { border-color: var(--gumi-color); }
-
-.singers span.kiyoteru.secondary { border-color: var(--kiyoteru-color); }
-
-.singers span.human.secondary { border-color: black; }
-
-/**and then i got tired of adding css rules i never used the end**/
 footer { max-width: 720px; }
 
 /**Short Screen**/
-@media screen and (max-height: 667px) { .introImage { width: auto; height: auto; } }
+@media screen and (max-height: 500px) { #intro .introImage { width: auto; height: auto; } }
 
 /**Skinny screen**/
-@media screen and (max-width: 667px) { .introImage { width: auto; height: auto; max-height: unset; } }
+@media screen and (max-width: 667px) { #intro .introImage { width: auto; height: auto; } #intro .subtitle { max-width: 100%; margin: .5em .25em; } }
 
 /*# sourceMappingURL=song.css.map */

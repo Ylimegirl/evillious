@@ -14,7 +14,7 @@
 		<script src="/assets/js/evillious.js"></script>
 	</head>
 	<body>
-	<header>
+	<header id="intro">
 		<h1><a href="{% link {{ page.path | remove: "lyrics/" | prepend: "song/" }} %}"><em>{% if obj.eng[0] == obj.jpn[0] and obj.furi != nil %}{%- assign incljpn = obj.jpn[0] -%}{%- assign inclfuri = obj.furi[0] -%}{%- assign inclrom = obj.rom[0] -%}{% include jpn.html jpn=incljpn furi=inclfuri rom=inclrom %}{% elsif obj.eng[0] != nil and obj.eng[0] != page.english-name %}{{ obj.eng[0] }}{% else %}{{ page.english-name }}{% endif %}</em></a></h1>
 		{% if obj.jpn[0] != obj.eng[0] %}<h2>{% include jpnauto.html eng=page.english-name %}</h2>{% elsif page.japanese-name %}<h2>{% include jpn.html jpn=page.japanese-name furi=page.furi-name rom=page.romaji-name %}</h2>{% endif %}
 		{% if page.translation %}<p class="links"><a href="{{ page.translation }}">Translation</a>{% if page.trans2 %} {{ page.trans2 }} {% endif %}</p>{% endif %}
