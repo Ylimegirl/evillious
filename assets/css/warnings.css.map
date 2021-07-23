@@ -7,7 +7,7 @@
 	],
 	"sourcesContent": [
 		"@import \"warnings\";",
-		".warnings p {/**new padding. nuff said**/\r\n\tpadding:5px 15px;\r\n}"
+		".warnings p {/**new padding. nuff said**/\r\n\tpadding:5px 10px;\r\n}"
 	],
 	"names": [],
 	"mappings": "ACAA,AAAA,SAAS,CAAC,CAAC,CAAC,EAAC,4BAA4B,CACxC,OAAO,EAAC,QAAQ,GAChB"

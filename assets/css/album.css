@@ -1,15 +1,12 @@
-#intro { margin: 0 auto 10px auto; min-height: unset; /**the height is whatever it wants to be. follow your dreams**/ max-width: 720px; /**i decided i liked the widths of the header and footer for some pages to be 720 instead of 980. why? fuck you**/ flex-direction: column; padding: 10px; }
+#intro { margin: 0 auto 10px auto; min-height: unset; /**the height is whatever it wants to be. follow your dreams**/ max-width: 720px; /**i decided i liked the widths of the header and footer for some pages to be 720 instead of 980. why? fuck you**/ flex-direction: column; padding: 10px; gap: 0; }
 
-.introImage { border-radius: 15px; /**uncircles the intro image**/ width: 250px; height: auto; }
+.introImage { border-radius: 15px; /**uncircles the intro image**/ width: 250px; height: auto; max-width: 100%; }
 
 .subtitle { /**embiggens the subtitle to be a little less sub**/ font-size: larger; margin: .5em 0; max-width: 75%; }
 
 footer { max-width: 720px; }
 
-/**Short Screen**/
-@media screen and (max-height: 667px) { .introImage { width: auto; max-height: 200px; } }
-
 /**Skinny screen**/
-@media screen and (max-width: 667px) { .introImage { width: auto; max-width: 100%; } .subtitle { max-width: 100%; } }
+@media screen and (max-width: 667px) { .subtitle { max-width: 100%; } }
 
 /*# sourceMappingURL=album.css.map */

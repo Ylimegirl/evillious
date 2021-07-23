@@ -1,4 +1,4 @@
-.timeline { /**just changes up the margins of the bulleted lists a tad**/ padding: 0; text-align: left; }
+.timeline { /**just changes up the margins of the bulleted lists a tad**/ text-align: left; }
 
 .timeline ul { margin: 5px 0; }
 

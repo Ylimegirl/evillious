@@ -1,4 +1,6 @@
-.credits p { /**adds padding so the paragraphs don't look like shit**/ padding: 5px 15px; }
+.credits { display: grid; gap: 5px; }
+
+.credits p { /**adds padding so the paragraphs don't look like shit**/ padding: 0 10px; }
 
 .links { /**centers the links to the artists' profiles**/ text-align: center; }
 
