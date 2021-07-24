@@ -227,6 +227,10 @@ a:hover {
 	display:block;
 }
 
+ruby .hidden {
+	display:none;
+}
+
 #fuributton {/**formats the furigana toggle button**/
 	position: fixed;
 	top: 10px;
@@ -246,6 +250,10 @@ a:hover {
 	border: none;
 	font-variant: small-caps;
 	font-size: inherit;
+}
+
+.collapsed {
+	display: none;
 }
 
 footer {/**footer. nuff said**/

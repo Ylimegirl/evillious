@@ -73,9 +73,13 @@ a:hover { text-decoration: underline; }
 
 .jpn:hover .romaji { display: block; }
 
+ruby .hidden { display: none; }
+
 #fuributton { /**formats the furigana toggle button**/ position: fixed; top: 10px; right: 10px; border-radius: 10px; border: none; background-color: var(--fuributton-color); padding: 5px; z-index: 100; font-size: larger; cursor: pointer; }
 
 .collapse { /**for the buttons of the collapsible sections that are few and far between on my website**/ background: transparent; float: right; border: none; font-variant: small-caps; font-size: inherit; }
+
+.collapsed { display: none; }
 
 footer { /**footer. nuff said**/ width: auto; text-align: center; background-color: var(--foreground-color); padding: 10px; border-radius: 10px; max-width: 980px; margin: 10px auto 0 auto; }
 
