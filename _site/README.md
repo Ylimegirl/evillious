@@ -13,7 +13,7 @@ The steps I use to deploy the live branch are:
 
 - Force only the content in the \_site directory to be included in the build.
 
-`git filter-repo --subdirectory-filter _site/ --refs live -f`
+`git filter-repo --subdirectory-filter _site/ --refs live`
 
 - Checkout a new source branch
 
