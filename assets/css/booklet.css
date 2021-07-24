@@ -7,6 +7,10 @@ a { color: #B3A41D; text-decoration: none; }
 
 a:hover { text-decoration: underline; }
 
+.current { visibility: visible; }
+
+.hidden { visibility: hidden; }
+
 #album { height: 45vw; overflow: hidden; position: relative; margin-top: 4vw; margin-bottom: 4vw; font-size: 1vw; }
 
 #album figure { width: 45vw; height: 45vw; display: flex; z-index: 1; justify-content: center; background-size: cover; flex-direction: column; background-position: center center; text-align: center; flex-wrap: wrap; position: absolute; top: 0; }
