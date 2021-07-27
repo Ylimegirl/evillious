@@ -1,18 +1,15 @@
 $(document).ready(function(){
 	"use strict";//no clue what this means tbh but i think its important
-	//console.log("Ready"); for debugging
+	//console.log("Ready"); //for debugging
 	
 	$("a").each(function(){//Adds target="_blank" and rel="noreferrer noopener" to all external links
-		if(!(location.hostname === this.hostname || !this.hostname.length))
+		if(location.hostname !== this.hostname && this.hostname.length)
 			$(this).attr({ target: "_blank", rel: "noreferrer noopener"});
 	});
 	
 	$(".collapse").each(function(){//changes the content of all collapse buttons to "hide", unless the section is already collapsed in which case the content is "show"
 		var section = $(this).attr("ID").substring(8,10);
-		if($("#collapsible"+section).hasClass("collapsed"))
-			$(this).html("[show]");
-		else
-			$(this).html("[hide]");
+		$(this).html(toggleButtonText(section));//updates the text of the buttons
 	});
 	
 	$("#fuributton").click(function() {//toggles furigana on and off when the fuributton is clicked
@@ -22,11 +19,15 @@ $(document).ready(function(){
 	$(".collapse").click(function() {//opens and closes collapsible sections when a collapse button is clicked
 		var section = $(this).attr("ID").substring(8,10);//grabs the section ID of the collapsible section for the given button i.e. collapse08 outputs 08 for collapsible08
 		$("#collapsible"+section).toggleClass("collapsed");//toggles the relevant CSS class
-		if($("#collapsible"+section).hasClass("collapsed"))//updates the text of the button
-			$(this).html("[show]");
-		else
-			$(this).html("[hide]");
+		$(this).html(toggleButtonText(section));//updates the text of the button
 	});
+	
+	function toggleButtonText(a) {//updates the text of the show/hide button
+		if($("#collapsible"+a).hasClass("collapsed"))
+			return "[show]";
+		else
+			return "[hide]";
+	}
 
 	$(".jpn").hover(function() {//this is when i make an attempt to do tooltip shit ig key word being attempt. anyways makes tooltip go brrr when hover over .jpn thingie, theoretically
 		//console.log("fuck") //for debugging
