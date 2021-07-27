@@ -1,7 +1,7 @@
 {%- assign copyrights = include.copyrights | split: "|" | default: "VOCALOID" -%}
 {%- assign owners = "|" | split: "|" -%}
 <footer>
-		<p>{% if include.sublink %}<a href="{% if include.sublink-target %}{% link {{ include.sublink-target | append: ".html" }} %}{% else %}{% link {{ page.dir | remove_first: "/" | append: "index.html" }} %}{% endif %}">{{ include.sublink }}</a> | {% endif %}<a href="{% link index.html %}">Index</a>
+		<p>{% if include.sublink %}<a href="{% if include.sublink-target %}{% link {{ include.sublink-target | append: ".html" }} %}{% else %}{% link {{ page.dir | remove_first: "/" | append: "index.html" }} %}{% endif %}">{{ include.sublink }}</a> | {% endif %}<a href="{% link index.html %}">Index</a> | <a href="https://github.com/Ylimegirl/evillious">GitHub</a>
 		<p>Website copyright &copy; Ylimegirl 2021. All rights reserved.</p>{% if include.notes %}{%- assign notes = include.notes | split: "|" -%}
 		{% for note in notes %}<p>{{ note }}</p>{% endfor %}{%- endif %}
 		<p>{{ include.mothyrights | default: "<em>The Evillious Chronicles</em>" | split: "|" | array_to_sentence_string }} copyright &copy; <span style="white-space:nowrap;">mothy_Akuno-P.</span></p>{% if include.altrights and include.altowners %}{% assign altrights = include.altrights | split: "|" %}{%- assign altowners = include.altowners | split: "|" -%}
