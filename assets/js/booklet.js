@@ -5,9 +5,14 @@ $(document).ready(function(){
 	var max = leadingZero(finalID.substring(1,3)/2+1);//grabs the max spread number by taking the number portion of finalID (i.e. #p00) and then converts that into the amount of spreads the booklet has by dividing it in half and adding one (to account for the "spreads" of the front and back covers as well), and then adds a leading zero if needed
 	//console.log("Ready"); //for debugging
 	
+	$("a").each(function(){//Adds target="_blank" and rel="noreferrer noopener" to all external links
+		if(location.hostname !== this.hostname && this.hostname.length)
+			$(this).attr({ target: "_blank", rel: "noreferrer noopener"});
+	});
+	
 	$("figure").removeClass("current").addClass("hidden");//sets all pages to No Appear by default
 	showSpread(spread);//displays the elements in the first spread of the booklet
-	toggleJacket();//and also the jacket
+	toggleJacket(spread);//and also the jacket
 	
 	$("#buttonLeft").click(function() {//if the left arrow is clicked
 		if(spread !== "01") {//and we're not on the first spread
@@ -15,7 +20,7 @@ $(document).ready(function(){
 			spread--;//move the spread down by one
 			spread = leadingZero(spread);//add a leading zero, if needed
 			showSpread(spread)//and then display the corresponding spread
-			toggleJacket();//toggle the visibility of the jacket
+			toggleJacket(spread);//toggle the visibility of the jacket
 		}
 	});
 	
@@ -25,12 +30,12 @@ $(document).ready(function(){
 			spread++;//move the spread up by one
 			spread = leadingZero(spread);//add a leading zero, if needed
 			showSpread(spread)//and then display the corresponding spread
-			toggleJacket();//toggles the visibility of the jacket
+			toggleJacket(spread);//toggles the visibility of the jacket
 		}
 	});
 	
-	function toggleJacket() {//toggles the visibility of the jacket
-		if(spread == "01")
+	function toggleJacket(a) {//toggles the visibility of the jacket
+		if(a == "01")
 			$("#jacket").removeClass("hidden").addClass("current");
 		else
 			$("#jacket").removeClass("current").addClass("hidden");
