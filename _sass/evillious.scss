@@ -4,7 +4,7 @@
 	--foreground-color: #F0E68C;
 	--background-color: #F5F5BF;
 	--link-color: #B3A41D;
-	--fuributton-color: #C7BB52;
+	--fuributton-color: #BBAF45;
 }
 
 * {/**resets all html elements to have consistent and boring properties rather than whatever the browser slaps on them on default**/
@@ -210,7 +210,7 @@ a:hover {
 		position: absolute;
 		display: none;
 		background-color: var(--fuributton-color);
-		color: black;
+		color: #F8F8F8;
 		padding: 0 5px;
 		line-height: 1.75em;
 		border-radius: 5px;
@@ -242,6 +242,7 @@ ruby .hidden {
 	z-index: 100;
 	font-size: larger;
 	cursor: pointer;
+	color: #F8F8F8;
 }
 
 .collapse {/**for the buttons of the collapsible sections that are few and far between on my website**/

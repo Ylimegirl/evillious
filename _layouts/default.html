@@ -9,15 +9,15 @@
 		<link rel="shortcut icon" href="/assets/images/headerImage.png">
 		{% seo title=false %}
 		<script src="/assets/js/minified.js"></script>
-		<script src="/assets/js/evillious.js"></script>
+		<script src="/assets/js/evillious.js"></script>{% if page.foreground or page.background or page.link-color or page.furi-color %}
 		<style>
 			:root {
-				--foreground-color: var(--{{ page.foreground | default: foreground-color }}, #f0e68c);
-				--background-color: var(--{{ page.background | default: background-color }}, #F5F5BF);
-				--link-color: var(--{{ page.link-color | default: link-color }}, #B3A41D);
-				--fuributton-color: var(--{{ page.furi-color | default: fuributton-color }}, #C7BB52);
+				--foreground-color: var(--{{ page.foreground | default: "foreground-color" }}, #F0E68C);
+				--background-color: var(--{{ page.background | default: "background-color" }}, #F5F5BF);
+				--link-color: var(--{{ page.link-color | default: "link-color" }}, #B3A41D);
+				--fuributton-color: var(--{{ page.furi-color | default: "fuributton-color" }}, #BBAF45);
 			}
-		</style>
+		</style>{% endif %}
 	</head>
 	<body>
 		{{ content }}

@@ -1,7 +1,7 @@
 @charset "UTF-8";
 :root { /**sets consistent theme colors for each arc**/ --oss-color: #7A7A7A; --oss-background: #B5B5B5; --oss-link: #363636; --oss-furi: #484848; --lust-color: #B167E6; --lust-background: #C393E6; --lust-link: #6E15AD; --lust-furi: #6E15AD; --gluttony-color: #D91E2B; --gluttony-background: #E36871; --gluttony-link: #570006; --gluttony-furi: #760810; --pride-color: #E3D839; --pride-background: #FFFF91; --pride-link: #A19608; --pride-furi: #A19608; --sloth-color: #2ADBD2; --sloth-background: #86EBE5; --sloth-link: #01827B; --sloth-furi: #019089; --envy-color: #F05B98; --envy-background: #F28AB4; --envy-link: #B31052; --envy-furi: #B31052; --greed-color: #446CE3; --greed-background: #738FE6; --greed-link: #062B99; --greed-furi: #133BB1; --wrath-color: #41B037; --wrath-background: #7FD177; --wrath-link: #096600; --wrath-furi: #096600; --fourendings-color: #D1D1D1; --fourendings-background: #EDEDED; --fourendings-link: #949494; --fourendings-furi: #949494; }
 
-:root { /** sets variables for theme colors so they can later be dynamically changed on a page-by-page basis**/ --foreground-color: #F0E68C; --background-color: #F5F5BF; --link-color: #B3A41D; --fuributton-color: #C7BB52; }
+:root { /** sets variables for theme colors so they can later be dynamically changed on a page-by-page basis**/ --foreground-color: #F0E68C; --background-color: #F5F5BF; --link-color: #B3A41D; --fuributton-color: #BBAF45; }
 
 * { /**resets all html elements to have consistent and boring properties rather than whatever the browser slaps on them on default**/ padding: 0; margin: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; position: relative; }
 
@@ -69,13 +69,13 @@ a:hover { text-decoration: underline; }
 
 .jpn rt { /**styles furigana a little more evenly**/ font-size: .5em; line-height: 1em; font-style: normal; }
 
-.jpn .romaji { /**styles the romaji tooltip!**/ position: absolute; display: none; background-color: var(--fuributton-color); color: black; padding: 0 5px; line-height: 1.75em; border-radius: 5px; z-index: 1; font-size: small; font-weight: normal; font-style: normal; max-width: 350px; text-align: center; }
+.jpn .romaji { /**styles the romaji tooltip!**/ position: absolute; display: none; background-color: var(--fuributton-color); color: #F8F8F8; padding: 0 5px; line-height: 1.75em; border-radius: 5px; z-index: 1; font-size: small; font-weight: normal; font-style: normal; max-width: 350px; text-align: center; }
 
 .jpn:hover .romaji { display: block; }
 
 ruby .hidden { display: none; }
 
-#fuributton { /**formats the furigana toggle button**/ position: fixed; top: 10px; right: 10px; border-radius: 10px; border: none; background-color: var(--fuributton-color); padding: 5px; z-index: 100; font-size: larger; cursor: pointer; }
+#fuributton { /**formats the furigana toggle button**/ position: fixed; top: 10px; right: 10px; border-radius: 10px; border: none; background-color: var(--fuributton-color); padding: 5px; z-index: 100; font-size: larger; cursor: pointer; color: #F8F8F8; }
 
 .collapse { /**for the buttons of the collapsible sections that are few and far between on my website**/ background: transparent; float: right; border: none; font-variant: small-caps; font-size: inherit; }
 
