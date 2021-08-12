@@ -69,7 +69,11 @@ a:hover { text-decoration: underline; }
 
 .jpn rt { /**styles furigana a little more evenly**/ font-size: .5em; line-height: 1em; font-style: normal; }
 
-.jpn .romaji { /**styles the romaji tooltip!**/ position: absolute; display: none; background-color: var(--fuributton-color); color: #F8F8F8; padding: 0 5px; line-height: 1.75em; border-radius: 5px; z-index: 1; font-size: small; font-weight: normal; font-style: normal; max-width: 350px; text-align: center; }
+.jpn .romaji { /**styles the romaji tooltip!**/ display: none; background-color: var(--fuributton-color); color: #F8F8F8; padding: 0 5px; line-height: 1.75em; z-index: 1; font-weight: normal; font-style: normal; text-align: center; }
+
+@media (hover: hover) { /**styles the romaji tooltip for devices with hovering**/ .jpn .romaji { border-radius: 5px; font-size: small; max-width: 350px; } }
+
+@media (hover: none) { /**styles the romaji tooltip for other devices**/ .jpn .romaji { position: fixed; left: 0; bottom: 0; width: 100%; font-size: initial; } }
 
 .jpn:hover .romaji { display: block; }
 
