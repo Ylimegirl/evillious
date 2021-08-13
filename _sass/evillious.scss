@@ -208,6 +208,7 @@ a:hover {
 	}
 	.romaji {/**styles the romaji tooltip!**/
 		display: none;
+		position:fixed;
 		background-color: var(--fuributton-color);
 		color: #F8F8F8;
 		padding: 0 5px;
@@ -217,6 +218,9 @@ a:hover {
 		font-style: normal;
 		text-align: center;
 	}
+	.current {
+		display:block;
+	}
 }
 
 @media (hover: hover) {/**styles the romaji tooltip for devices with hovering**/
@@ -224,22 +228,16 @@ a:hover {
 		border-radius: 5px;
 		font-size: small;
 		max-width: 350px;
-	}
-	.jpn:hover .romaji {
-		display:block;
+		margin:10px;
 	}
 }
 
 @media (hover: none) {/**styles the romaji tooltip for other devices**/
 	.jpn .romaji {
-		position: fixed;
 		left: 0;
 		bottom: 0;
 		width: 100%;
 		font-size: initial;
-	}
-	.jpn .romaji.current {
-		display:block;
 	}
 }
 

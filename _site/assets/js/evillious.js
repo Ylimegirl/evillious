@@ -39,18 +39,18 @@ $(document).ready(function(){
 		//console.log("yes hover");//for debugging
 		$(".jpn").hover(function() {//this is when i make an attempt to do tooltip shit ig key word being attempt. anyways makes tooltip go brrr when hover over .jpn thingie, theoretically
 			//console.log("fuck") //for debugging
+			$(this).children(".romaji").addClass("current");//show the current romaji
 			$(".jpn").mousemove(function(event){//when mouse enters
 				$(this).children(".romaji").css({//change the inline style of the corresponding romaji object
-					"position": "fixed",//set position to be fixed on the screen
-					"left": event.clientX+10,//and to appear 10 pixels right of
-					"top": event.clientY+20//and 20 pixels below the mouse position
+					"left": event.clientX,//set it to appear to the right of
+					"top": event.clientY+10//and below the mouse position
 				});
 			});
 		}, function() {//when mouse leaves
 			//console.log("unfuck") //for debugging
+			$(this).children(".romaji").removeClass("current");//hide the current romaji
 			$(this).children(".romaji").css({//change the inline style of the corresponding romaji object
-				"position": "",//time to
-				"left": "",//reset all
+				"left": "",//time to reset
 				"top": "",//the parameters
 			});
 		});
@@ -61,8 +61,8 @@ $(document).ready(function(){
 			$(".romaji").removeClass("current");//hide any other romaji then
 			$(this).children(".romaji").addClass("current");//show the current romaji
 		});
-		$("body").click(function(e) {
-			if(!$(e.target).closest(".jpn").length)//if clicking literally any other element besides a .jpn element
+		$(document).click(function(event) {
+			if(!$(event.target).closest(".jpn").length)//if clicking literally any other element besides a .jpn element
 				$(".romaji").removeClass("current");//hide all the romaji
 		});
 	}
