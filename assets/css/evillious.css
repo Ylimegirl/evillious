@@ -73,11 +73,13 @@ a:hover { text-decoration: underline; }
 
 @media (hover: hover) { /**styles the romaji tooltip for devices with hovering**/ .jpn .romaji { border-radius: 5px; font-size: small; max-width: 350px; } .jpn:hover .romaji { display: block; } }
 
-@media (hover: none) { /**styles the romaji tooltip for other devices**/ .jpn .romaji { position: fixed; left: 0; bottom: 0; width: 100%; font-size: initial; } }
+@media (hover: none) { /**styles the romaji tooltip for other devices**/ .jpn .romaji { position: fixed; left: 0; bottom: 0; width: 100%; font-size: initial; } .jpn .romaji.current { display: block; } }
 
 ruby .hidden { display: none; }
 
 #fuributton { /**formats the furigana toggle button**/ position: fixed; top: 10px; right: 10px; border-radius: 10px; border: none; background-color: var(--fuributton-color); padding: 5px; z-index: 100; font-size: larger; cursor: pointer; color: #F8F8F8; }
+
+#fuributton.hidden { display: none; }
 
 .collapse { /**for the buttons of the collapsible sections that are few and far between on my website**/ background: transparent; float: right; border: none; font-variant: small-caps; font-size: inherit; }
 
@@ -93,6 +95,6 @@ footer p:last-child { /**gotta undo the padding boi**/ padding-bottom: 0; }
 @media screen and (max-height: 500px) { #intro { /**shrinks the height so it doesn't necessarily take up the whole screen anymore**/ min-height: unset; } header { /**resets the margin and height of the header for short screens**/ margin: 0; min-height: unset; } .introImage { /**new intro image size it is 150px now.**/ width: 150px; height: 150px; min-width: unset; max-width: unset; min-height: unset; max-height: unset; } }
 
 /**Skinny screen**/
-@media screen and (max-width: 667px) { body { /**adds a margin to account for the new location of the furigana button**/ margin-top: 45px; } .flex article { flex-basis: 500px; max-width: 100%; } .introImage { /**new intro image size it is 150px now.**/ width: 150px; height: 150px; min-width: unset; max-width: unset; min-height: unset; max-height: unset; } #fuributton { /**stickies the furigana button to take up the whole width of the top of the page**/ position: fixed; border-radius: 0; top: 0; left: 0; width: 100%; text-align: center; } }
+@media screen and (max-width: 667px) { body.furiMargin { /**adds a margin to account for the new location of the furigana button, if present**/ margin-top: 45px; } .flex article { flex-basis: 500px; max-width: 100%; } .introImage { /**new intro image size it is 150px now.**/ width: 150px; height: 150px; min-width: unset; max-width: unset; min-height: unset; max-height: unset; } #fuributton { /**stickies the furigana button to take up the whole width of the top of the page**/ position: fixed; border-radius: 0; top: 0; left: 0; width: 100%; text-align: center; } }
 
 /*# sourceMappingURL=evillious.css.map */
