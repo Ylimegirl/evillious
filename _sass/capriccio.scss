@@ -1,11 +1,28 @@
 hr {/**creates the styling for the dividing lines that reappear frequently throughout the lyric versions**/
 	border:none;
 	border-bottom:1px black dashed;
-	margin:.8em 0;
+	margin:.8em 5px;
 }
-#evilscourt p, #evilscourt hr {/**the lyric booklet for evils court is stupid in that the "line breaks" are instead emspaces in a paragraph that line breaks hence the uhh. have to make the lines break at roughly the right spot. yes**/
-	max-width:19em;
+
+#evilscourt {
+	p, hr {/**the lyric booklet for evils court is stupid in that the "line breaks" are instead emspaces in a paragraph that line breaks hence the uhh. have to make the lines break at roughly the right spot. yes**/
+		max-width:19em;
+	}
+
+	.nomargin {/**for when a p element is right above an hr element**/
+		margin-bottom:0;
+	}
+
+	hr.versebreak {/**the versebreak amount is different for hrs because of their special margins**/
+		margin-bottom:2.4em;
+	}
 }
-#clockworklullaby p {/**and in contrast to the other lyric versions for capriccio the verses are more consistently stacked directly on top of each other for the clockwork lullaby version. yay!**/
-	margin-bottom:0;
+
+#clockworklullaby {
+	p {/**and in contrast to the other lyric versions for capriccio the verses are more consistently stacked directly on top of each other for the clockwork lullaby version. yay!**/
+		margin-bottom:0;
+	}
+	.versebreak {/**so the versebreaks are instead just normalsized instead of double**/
+		margin-bottom:1.6em;
+	}
 }

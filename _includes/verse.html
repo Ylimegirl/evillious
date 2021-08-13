@@ -1,6 +1,6 @@
 {%- assign lyrics = include.lyrics | split: "/" -%}
 {%- assign end = lyrics.size | minus: 1 -%}
-<p{% if include.style %} style="{{ include.style }}"{% endif %}>
+<p{% if include.class %} class="{{ include.class }}"{% endif %}>
 {%- if include.romaji %}
 	{%- assign romaji = include.romaji | split: "/" -%}
 	{%- if lyrics.size == romaji.size -%}

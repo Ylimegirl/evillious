@@ -7,7 +7,7 @@
 
 .lyrics {
 	align-items: flex-start;
-	div {
+	> div {
 		flex-basis: calc((100% - 10px)/2);
 		h3 {
 			background-color: var(--foreground-color);
@@ -21,6 +21,9 @@
 			font-family: Meiryo, sans-serif;
 			line-height: 1.6em;/**with the usage of this other font family the line-height needs adjusting so the dotted lines of .jpn don't fuck up**/
 			margin-bottom: 1.6em;/**margin of "one line" between verses**/
+		}
+		.versebreak {
+			margin-bottom:3.2em;
 		}
 		p:last-child {
 			margin-bottom: 0;/**unless of course it's the last verse, in which case no margin**/

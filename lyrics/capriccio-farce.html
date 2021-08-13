@@ -7,11 +7,11 @@ css: capriccio.css
 <div id="evilscourt">
 	<h3><a href="{% link album/evils-court.html %}"><em>EVILS COURT</em></a></h3>
 	<hr />
-	{% include verse.html style="margin-bottom:0;"
+	{% include verse.html class="nomargin"
 		lyrics="空の被告席|ガラクタばかりの傍聴席/さあ始めよう|裁判という茶番を"
 		romaji="kara no hikokuseki|GARAKUTA bakari no bouchouseki/saa hajimeyou|saiban to iu chaban wo"
 	%}
-	<hr style="margin-bottom:2.4em;" />
+	<hr class="versebreak" />
 	{% include verse.html
 		lyrics="master of the court/「神の命により探し求める器も残るはあと一つだけ|その在りかをもしも知るのならばそれを証言なさい/『時の魔導師』よ」"
 		romaji="master of the court/&quot;kami no ei ni yori sagashimotomeru utsuwa mo nokuru wa ato hitotsu dake|sono arika wo moshimo shiru no naraba sore wo shougen nasai/'toki no madoushi' yo&quot;"
@@ -37,11 +37,11 @@ css: capriccio.css
 		lyrics="揺らぐ天秤|乱れた脚本（シナリオ）/罪に汚れた器達|各々の歌を勝手に奏でる不協和音の狂想曲（カプリシオ）/物語は既に神と悪魔の手を離れて独り歩き|彼らがもしもこの地にいたならこう言って嘆くだろう"
 		romaji="yuragu tenbin|midareta SHINARIO/tsumi ni yogoreta utsuwa-tachi|onoono no uta wo katte ni kanaderu fukyouwaon no KAPURISHIO/monogatari wa sude ni kami to akuma no te wo hanarete hitori aruki|karera ga moshimo kono chi ni ita nara kou itte nageku darou"
 	%}
-	{% include verse.html style="margin-bottom:0;"
+	{% include verse.html class="nomargin"
 		lyrics="――本当に恐ろしいのは/&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|人間の欲望だった――"
 		romaji="hontou ni osoroshii no wa/&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|ningen no yokubou datta"
 	%}
-	<hr style="margin-bottom:2.4em;" />
+	<hr class="versebreak" />
 	{% include verse.html
 		lyrics="master of the court/「少し情報を整理しましょう|悪魔の血を引く卑し男よ|許可してあげるので語りなさい|お前がこの森に来た時の事を」"
 		romaji="master of the court/&quot;sukoshi jouhou wo seirishimashou|akuma no chi wo hiku iyashi otoko yo|kyokashiteageru no de katarinasai|omae ga kono mori ni kita toki no koto wo&quot;"
@@ -83,7 +83,7 @@ css: capriccio.css
 		lyrics="友情|トラウマ|正義|幻覚/希望|破滅|夢|欲|愛|死/全てを溶かして廻り続ける/ぜんまい仕掛けの子守唄/孤独な男がその死の間際/作りあげた映画館/彼が望んでいたユートピアは/完成するのだろうか？"
 		romaji="yuujou|TORAUMA|seigi|genkaku/kibou|hametsu|yume|yoku|ai|shi/subete wo tokashite mawari tsudzukeru/zenmaijikake no komoriuta/kodokuna otoko ga sono shi no magiwa/tsukuriageta eigakan/kare ga nozondeita YUUTOPIA wa/kanseisuru no darou ka?"
 	%}
-	{% include verse.html style="margin-bottom:0;"
+	{% include verse.html class="nomargin"
 		lyrics="さあ見届けよう|人生という茶番を"
 		romaji="saa mitodokeyou|jinsei to iu chaban wo"
 	%}
@@ -277,15 +277,15 @@ css: capriccio.css
 		romaji="master of the graveyard/&quot;wana ni ochita ADAMU no tamashii yo/omae no naseru koto nado mou nani mo nai&quot;"
 	%}
 	<hr />
-	{% include verse.html style="margin-bottom:1.6em;"
+	{% include verse.html class="versebreak"
 		lyrics="揺らぐ天秤|乱れた脚本（シナリオ）/罪に汚れた器達/各々の歌を勝手に奏でる/不協和音の狂想曲（カプリシオ）"
 		romaji="yuragu tenbin|midareta SHINARIO/tsumi ni yogoreta utsuwa-tachi/onoono no uta wo katte ni kanaderu/fukyouwaon no KAPURISHIO"
 	%}
-	{% include verse.html style="margin-bottom:1.6em;"
+	{% include verse.html class="versebreak"
 		lyrics="物語は既に神と悪魔の|手を離れて独り歩き/彼らがもしもこの地にいたなら/こう言って嘆くだろう"
 		romaji="monogatari wa sude ni kami to akuma no|te wo hanarete hitori aruki/karera ga moshimo kono chi ni ita nara/kou itte nageku darou"
 	%}
-	{% include verse.html style="margin-bottom:0;"
+	{% include verse.html
 		lyrics="――本当に恐ろしいのは/&emsp;|人間の欲望だった――"
 		romaji="hontou ni osoroshii no wa/&emsp;|ningen no yokubou datta"
 	%}
@@ -315,23 +315,23 @@ css: capriccio.css
 		romaji="gardener/&quot;soshite ware wa 'niwashi' ni natta&quot;"
 	%}
 	<hr />
-	{% include verse.html style="margin-bottom:1.6em;"
+	{% include verse.html class="versebreak"
 		lyrics="『時の魔導師』『呪われた庭師』/目覚めぬ器の代用品/各々の野望|胸に秘める/不穏分子の侵入者（インベーダー）"
 		romaji="'toki no madoushi' 'norowareta niwashi'/mezamenu utsuwa no daiyouhin/onoono no yabou|mune ni himeru/fuonbunshi no INBEEDAA"
 	%}
-	{% include verse.html style="margin-bottom:1.6em;"
+	{% include verse.html class="versebreak"
 		lyrics="『人形館長』『墓場の主』『歯車』/『待つ者』『冥界の主』/全ての終わりが訪れた時/笑っているのは誰なのか？"
 		romaji="'ningyou kanchou' 'hakaba no aruji' 'haguruma'/'matsu mono' 'meikai no nushi'/subete no owari ga otozureta toki/waratteiru no wa dare na no ka?"
 	%}
-	{% include verse.html style="margin-bottom:1.6em;"
+	{% include verse.html class="versebreak"
 		lyrics="るりらるりらるりるりら/響くイレギュラーの鼓動"
 		romaji="rurira rurira rurirurira/hibiku IREGYURAA no kodou"
 	%}
-	{% include verse.html style="margin-bottom:1.6em;"
+	{% include verse.html class="versebreak"
 		lyrics="友情|トラウマ|正義|幻覚/希望|破滅|夢|欲|愛|死/全てを溶かして廻り続ける/ぜんまい仕掛けの子守唄/孤独な男がその死の間際/作りあげた映画館/彼が望んでいたユートピアは/完成するのだろうか？"
 		romaji="yuujou|TORAUMA|seigi|genkaku/kibou|hametsu|yume|yoku|ai|shi/subete wo tokashite mawari tsudzukeru/zenmaijikake no komoriuta/kodokuna otoko ga sono shi no magiwa/tsukuriageta eigakan/kare ga nozondeita YUUTOPIA wa/kanseisuru no darou ka?"
 	%}
-	{% include verse.html style="margin-bottom:0;"
+	{% include verse.html
 		lyrics="さあ見届けよう|人生という茶番を"
 		romaji="saa mitodokeyou|jinsei to iu chaban wo"
 	%}
