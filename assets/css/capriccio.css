@@ -1,6 +1,6 @@
 hr { /**creates the styling for the dividing lines that reappear frequently throughout the lyric versions**/ border: none; border-bottom: 1px black dashed; margin: .8em 5px; }
 
-#evilscourt p, #evilscourt hr { /**the lyric booklet for evils court is stupid in that the "line breaks" are instead emspaces in a paragraph that line breaks hence the uhh. have to make the lines break at roughly the right spot. yes**/ max-width: 19em; }
+#evilscourt .lyricbox { /**the lyric booklet for evils court is stupid in that the "line breaks" are instead emspaces in a paragraph that line breaks hence the uhh. have to make the lines break at roughly the right spot. yes**/ max-width: 19em; }
 
 #evilscourt .nomargin { /**for when a p element is right above an hr element**/ margin-bottom: 0; }
 
