@@ -225,6 +225,9 @@ a:hover {
 		font-size: small;
 		max-width: 350px;
 	}
+	.jpn:hover .romaji {
+		display:block;
+	}
 }
 
 @media (hover: none) {/**styles the romaji tooltip for other devices**/
@@ -235,10 +238,6 @@ a:hover {
 		width: 100%;
 		font-size: initial;
 	}
-}
-
-.jpn:hover .romaji {
-	display:block;
 }
 
 ruby .hidden {

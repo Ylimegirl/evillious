@@ -1,6 +1,7 @@
 $(document).ready(function(){
 	"use strict";//no clue what this means tbh but i think its important
 	//console.log("Ready"); //for debugging
+	let hover = window.matchMedia('(hover: hover)'); //grabs media query for hover
 	
 	$("a").each(function(){//Adds target="_blank" and rel="noreferrer noopener" to all external links
 		if(location.hostname !== this.hostname && this.hostname.length)
@@ -35,7 +36,7 @@ $(document).ready(function(){
 			return "[hide]";
 	}
 	
-	if(window.matchMedia("(hover: hover)")) {//if the media is one that allows for hovering
+	if(hover.matches) {//if the media is one that allows for hovering
 		//console.log("yes hover");//for debugging
 		$(".jpn").hover(function() {//this is when i make an attempt to do tooltip shit ig key word being attempt. anyways makes tooltip go brrr when hover over .jpn thingie, theoretically
 			//console.log("fuck") //for debugging
@@ -55,11 +56,15 @@ $(document).ready(function(){
 			});
 		});
 	}
-	/**else {//if the device doesn't allow hovering (such as mobile phone)
+	else {//if the device doesn't allow hovering (such as a mobile phone)
 		//console.log("no hover");//for debugging
-		$(".jpn").click(function() {
-			$(".romaji").css("display", "none");//hide all the other romaji
-			$(this).children(".romaji").css("display", "block");//and show the current one
+		$(".jpn").click(function() {//when clicking a .jpn element
+			$(".romaji").css("display", "none");//hide any other romaji then
+			$(this).children(".romaji").css("display", "block");//show the current romaji
 		});
-	}**/
+		$("body").click(function(e) {
+			if(!$(e.target).closest(".jpn").length)//if clicking literally any other element besides a .jpn element
+				$(".romaji").css("display", "none");//hide all the romaji
+		});
+	}
 });//disclaimer im not a good javascript programmer i barely know what im doing
