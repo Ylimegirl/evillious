@@ -5,7 +5,7 @@
 	{%- assign romaji = include.romaji | split: "/" -%}
 	{%- if lyrics.size == romaji.size -%}
 		{%- for line in lyrics %}
-		{% assign curlyr=lyrics[forloop.index0] -%}{%- assign currom=romaji[forloop.index0] -%}{%- include lyric.html lyric=curlyr rom=currom -%}{%- unless forloop.last -%}<br />{%- endunless %}
+			{% assign curlyr=lyrics[forloop.index0] -%}{%- assign currom=romaji[forloop.index0] -%}{%- include lyric.html lyric=curlyr rom=currom -%}{%- unless forloop.last -%}<br />{%- endunless %}
 		{%- endfor %}
 	{% else -%}
 <strong>Invalid Syntax!</strong>
@@ -13,7 +13,6 @@
 {%- else -%}
 	{%- for line in lyrics -%}
 		{%- assign curlyr=lyrics[forloop.index0] -%}
-		{%- include lyric.html lyric=curlyr -%}{%- unless forloop.last -%}<br />{%- endunless -%}
+			{%- include lyric.html lyric=curlyr -%}{%- unless forloop.last -%}<br />{%- endunless -%}
 	{%- endfor -%}
-{%- endif -%}
-</p>
+{%- endif %}	</p>

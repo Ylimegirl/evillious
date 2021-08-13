@@ -5,7 +5,7 @@ hr {/**creates the styling for the dividing lines that reappear frequently throu
 }
 
 #evilscourt {
-	p, hr {/**the lyric booklet for evils court is stupid in that the "line breaks" are instead emspaces in a paragraph that line breaks hence the uhh. have to make the lines break at roughly the right spot. yes**/
+	.lyricbox {/**the lyric booklet for evils court is stupid in that the "line breaks" are instead emspaces in a paragraph that line breaks hence the uhh. have to make the lines break at roughly the right spot. yes**/
 		max-width:19em;
 	}
 

@@ -16,17 +16,24 @@
 			text-align: center;
 			margin-bottom: 5px;
 		}
-		p {
-			padding: 0 5px;
-			font-family: Meiryo, sans-serif;
-			line-height: 1.6em;/**with the usage of this other font family the line-height needs adjusting so the dotted lines of .jpn don't fuck up**/
-			margin-bottom: 1.6em;/**margin of "one line" between verses**/
-		}
-		.versebreak {
-			margin-bottom:3.2em;
-		}
-		p:last-child {
-			margin-bottom: 0;/**unless of course it's the last verse, in which case no margin**/
+		.lyricbox {
+			display:flex;
+			flex-direction:column;
+			flex-wrap:wrap;
+			align-content:center;
+			margin:auto;
+			p {
+				padding: 0 5px;
+				font-family: Meiryo, sans-serif;
+				line-height: 1.6em;/**with the usage of this other font family the line-height needs adjusting so the dotted lines of .jpn don't fuck up**/
+				margin-bottom: 1.6em;/**margin of "one line" between verses**/
+			}
+			.versebreak {
+				margin-bottom:3.2em;
+			}
+			p:last-child {
+				margin-bottom: 0;/**unless of course it's the last verse, in which case no margin**/
+			}
 		}
 	}
 }
@@ -37,7 +44,7 @@ footer {
 
 /**Skinny screen**/
 @media screen and (max-width:667px){
-	.lyrics div {
+	.lyrics > div {
 		flex-basis: 100%;
 	}
 }
