@@ -8,11 +8,10 @@ $(document).ready(function(){
 			$(this).attr({ target: "_blank", rel: "noreferrer noopener"});
 	});
 	
-	if (document.querySelector("ruby.jpn") === null) {//if there are no ruby elements on the page of the class "jpn" (so as not to count the fuributton itself in the search)
-		//console.log("no furi to toggle!");//for debugging
-		$("#fuributton").css("display", "none");//hide the fuributton
-		$("body").css("margin-top", 0);//and get rid of that conditional margin while we're at it
-	}
+	if (document.querySelector("ruby.jpn") === null)//if there are no ruby elements on the page of the class "jpn" (so as not to count the fuributton itself in the search)
+		$("#fuributton").addClass("hidden");//hide the fuributton
+	else
+		$("body").addClass("furiMargin");//otherwise adds class to add additional margins for the fuributton's presence
 	
 	$(".collapse").each(function(){//changes the content of all collapse buttons to "hide", unless the section is already collapsed in which case the content is "show"
 		var section = $(this).attr("ID").substring(8,10);
@@ -59,12 +58,12 @@ $(document).ready(function(){
 	else {//if the device doesn't allow hovering (such as a mobile phone)
 		//console.log("no hover");//for debugging
 		$(".jpn").click(function() {//when clicking a .jpn element
-			$(".romaji").css("display", "none");//hide any other romaji then
-			$(this).children(".romaji").css("display", "block");//show the current romaji
+			$(".romaji").removeClass("current");//hide any other romaji then
+			$(this).children(".romaji").addClass("current");//show the current romaji
 		});
 		$("body").click(function(e) {
 			if(!$(e.target).closest(".jpn").length)//if clicking literally any other element besides a .jpn element
-				$(".romaji").css("display", "none");//hide all the romaji
+				$(".romaji").removeClass("current");//hide all the romaji
 		});
 	}
 });//disclaimer im not a good javascript programmer i barely know what im doing

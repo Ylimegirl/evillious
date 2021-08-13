@@ -238,6 +238,9 @@ a:hover {
 		width: 100%;
 		font-size: initial;
 	}
+	.jpn .romaji.current {
+		display:block;
+	}
 }
 
 ruby .hidden {
@@ -256,6 +259,10 @@ ruby .hidden {
 	font-size: larger;
 	cursor: pointer;
 	color: #F8F8F8;
+}
+
+#fuributton.hidden {
+	display:none;
 }
 
 .collapse {/**for the buttons of the collapsible sections that are few and far between on my website**/
@@ -307,7 +314,7 @@ footer {/**footer. nuff said**/
 
 /**Skinny screen**/
 @media screen and (max-width:667px) {
-	body {/**adds a margin to account for the new location of the furigana button**/
+	body.furiMargin {/**adds a margin to account for the new location of the furigana button, if present**/
 		margin-top: 45px;
 	}
 	.flex article {
