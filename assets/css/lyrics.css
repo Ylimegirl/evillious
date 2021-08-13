@@ -2,13 +2,15 @@
 
 .lyrics { align-items: flex-start; }
 
-.lyrics div { flex-basis: calc((100% - 10px)/2); }
+.lyrics > div { flex-basis: calc((100% - 10px)/2); }
 
-.lyrics div h3 { background-color: var(--foreground-color); padding: 5px; border-radius: 10px; text-align: center; margin-bottom: 5px; }
+.lyrics > div h3 { background-color: var(--foreground-color); padding: 5px; border-radius: 10px; text-align: center; margin-bottom: 5px; }
 
-.lyrics div p { padding: 0 5px; font-family: Meiryo, sans-serif; line-height: 1.6em; /**with the usage of this other font family the line-height needs adjusting so the dotted lines of .jpn don't fuck up**/ margin-bottom: 1.6em; /**margin of "one line" between verses**/ }
+.lyrics > div p { padding: 0 5px; font-family: Meiryo, sans-serif; line-height: 1.6em; /**with the usage of this other font family the line-height needs adjusting so the dotted lines of .jpn don't fuck up**/ margin-bottom: 1.6em; /**margin of "one line" between verses**/ }
 
-.lyrics div p:last-child { margin-bottom: 0; /**unless of course it's the last verse, in which case no margin**/ }
+.lyrics > div .versebreak { margin-bottom: 3.2em; }
+
+.lyrics > div p:last-child { margin-bottom: 0; /**unless of course it's the last verse, in which case no margin**/ }
 
 footer { max-width: 720px; }
 
