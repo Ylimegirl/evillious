@@ -2,7 +2,7 @@
 
 .introImage { border-radius: 15px; /**uncircles the intro image**/ width: 250px; height: auto; max-width: 100%; }
 
-.subtitle { /**embiggens the subtitle to be a little less sub**/ font-size: larger; margin: .5em 0; max-width: 75%; }
+.subtitle { /**embiggens the subtitle to be a little less sub**/ font-size: larger; margin: .5em 0; max-width: 75%; font-style: italic; }
 
 footer { max-width: 720px; }
 

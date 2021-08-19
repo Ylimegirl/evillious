@@ -35,6 +35,8 @@ section > h2 { background-color: var(--foreground-color); width: 100%; margin: 0
 
 .subtitle { font-size: smaller; }
 
+.subtitle .quote { font-style: italic; }
+
 .center { /**do i even use this class anywhere anymore**/ text-align: center; }
 
 /**Flexing**/
