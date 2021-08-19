@@ -19,7 +19,7 @@
 			{% if obj.jpn[0] != obj.eng[0] %}<h2>{% include jpnauto.html eng=page.english-name %}</h2>{% elsif page.japanese-name %}<h2>{% include jpn.html jpn=page.japanese-name furi=page.furi-name rom=page.romaji-name %}</h2>{% endif %}
 			{% if obj.alt[0] != nil %}<h3>"{{ obj.alt[0] }}"</h3>{% elsif page.alt-name %}<h3>"{{ page.alt-name }}"</h3>{% endif %}
 			<img src="/assets/images/thumbs/{{ page.intro-image }}" class="introImage" />
-			<div class="subtitle{% if page.speaker %} {{ page.speaker | downcase }}{% endif %}" style="font-style:italic;">"{{ page.quote }}"</div>
+			<div class="subtitle{% if page.speaker %} {{ page.speaker | downcase }}{% endif %}">"{{ page.quote }}"</div>
 			<div class="singers">{% for vocal in singers %}{% include singer.html singer=vocal %}{% endfor %}</div>
 			<p>{{ page.summary }}</p>
 			<p class="links"><a href="{% link {{ page.path | remove: "song/" | prepend: "lyrics/" }} %}">Lyrics</a></p><!--i need to come up with a more elegant location for this link...-->

@@ -8,7 +8,7 @@
 
 #intro .introImage { /**uncircles your image**/ border-radius: 15px; min-height: unset; min-width: unset; max-height: 200px; max-width: 100%; }
 
-#intro .subtitle { /**expand subtitle. also this subtitle is the one and only reason the intro box is a flex box**/ border-radius: .5em; padding: .1em .4em; font-size: larger; margin: .5em auto; max-width: 75%; }
+#intro .subtitle { /**expand subtitle. also this subtitle is the one and only reason the intro box is a flex box**/ border-radius: .5em; padding: .1em .4em; font-size: larger; margin: .5em auto; max-width: 75%; font-style: italic; }
 
 #intro .subtitle.miku { padding: .1em; box-shadow: 0 0 0.25em 0.25em var(--miku-color); background-color: var(--miku-color); }
 

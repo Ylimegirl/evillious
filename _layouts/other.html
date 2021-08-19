@@ -21,7 +21,7 @@
 			
 			{% if obj.jpn[0] != obj.eng[0] %}<h2>{% include jpnauto.html eng=page.english-name %}{% if page.english-name-2 %}<br />{% if obj2.jpn[0] != obj2.eng[0] %}{% include jpnauto.html eng=page.english-name-2 %}{% elsif page.japanese-name-2 %}{% include jpn.html jpn=page.japanese-name-2 furi=page.furi-name-2 rom=page.romaji-name-2 %}{% endif %}{% endif %}</h2>{% elsif page.japanese-name %}<h2>{% include jpn.html jpn=page.japanese-name furi=page.furi-name rom=page.romaji-name %}{% if page.english-name-2 %}<br />{% if obj2.jpn[0] != obj2.eng[0] %}{% include jpnauto.html eng=page.english-name-2 %}{% elsif page.japanese-name-2 %}{% include jpn.html jpn=page.japanese-name-2 furi=page.furi-name-2 rom=page.romaji-name-2 %}{% endif %}{% endif %}</h2>{% endif %}
 			
-			{% if page.isbn %}{%- assign isbns = page.isbn | split: "|" -%}<h3>{% for id in isbns %}{{ id }}{% unless forloop.last %}<br />{% endunless %}{% endfor %}</h3>{% else %}<div style="width:100%;" ></div>{% endif %}
+			{% if page.isbn %}{%- assign isbns = page.isbn | split: "|" -%}<h3>{% for id in isbns %}{{ id }}{% unless forloop.last %}<br />{% endunless %}{% endfor %}</h3>{% else %}<div class="divider"></div>{% endif %}
 			{% for img in images %}<img src="/assets/images/thumbs/{{ img }}" class="introImage" />{% endfor %}
 			{% for section in paragraphs %}<p>{{ section }}</p>{% endfor %}
 			{% if page.links %}{%- assign links = page.links | split: "|" -%}<p class="links">{% for link in links %}{{ link }}{% unless forloop.last %} &middot; {% endunless %}{% endfor %}</p>{% endif %}

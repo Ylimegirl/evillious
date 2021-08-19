@@ -24,7 +24,7 @@
 			{% include jpn.html jpn=page.japanese-name furi=page.furi-name rom=page.romaji-name %}{%- endif -%}{% if page.album-id %}
 			<h3>{{ page.album-id }}</h3>{% endif %}
 			<img src="/assets/images/thumbs/{{ page.intro-image }}" class="introImage" />
-			{% if page.quote %}<div class="subtitle" style="font-style:italic;">"{{ page.quote }}"</div>{% endif %}
+			{% if page.quote %}<div class="subtitle">"{{ page.quote }}"</div>{% endif %}
 			<p>{{ page.summary }}</p>
 			{% if page.links %}<p class="links">{% for link in links %}{{ link }}{% unless forloop.last %} &middot; {% endunless %}{% endfor %}</p>{% endif %}
 			{% include fuributton.html %}
