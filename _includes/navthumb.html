@@ -7,14 +7,14 @@
 	{%- endif -%}
 	<figcaption{% if include.style %} style="{{ include.style }}"{% endif %}>
 		{%- if auto.jpn[0] == auto.eng[0] and auto.furi != nil -%}
-			{% assign incljpn = auto.jpn[0] %}{% assign inclfuri = auto.furi[0] %}{% assign inclrom = auto.rom[0] %}
-			<em>{% include jpn.html jpn=incljpn furi=inclfuri rom=inclrom class="title" %}</em>{%- elsif auto.jpn[0] == auto.eng[0] and auto.jpn != nil and auto.eng != nil -%}
-			{%- if include.format == "quote" -%}<span class="title">&quot;{{ include.eng }}&quot;</span>{%- elsif include.format == "none" -%}<span class="title">{{ include.eng }}{%- else -%}</span><em class="title">{{ include.eng }}</em>{%- endif -%}{%- elsif auto.jpn[0] != nil and auto.rom[0] != nil -%}
-			{% include jpnauto.html eng=include.eng class="title" %}<br />{%- if include.format == "quote" -%}&quot;{{ auto.eng[0] }}&quot;{%- elsif include.format == "none" -%}{{ auto.eng[0] }}{%- else -%}<em>{{ auto.eng[0] }}</em>{%- endif -%}{%- elsif include.furi and include.jpn == include.eng -%}
-			<em>{% include jpn.html jpn=include.jpn furi=include.furi rom=include.rom class="title" %}</em>{%- elsif include.jpn %}
-			{% include jpn.html jpn=include.jpn furi=include.furi rom=include.rom class="title" %}<br />{%- if include.format == "quote" -%}&quot;{{ include.eng }}&quot;{%- elsif include.format == "none" -%}{{ include.eng }}{%- else -%}<em>{{ include.eng }}</em>{%- endif -%}{%- elsif include.eng -%}
-			{%- if include.format == "quote" -%}<span class="title">&quot;{{ include.eng }}&quot;</span>{%- elsif include.format == "none" -%}<span class="title">{{ include.eng }}</span>{%- else -%}<em class="title">{{ include.eng }}</em>{%- endif -%}
-		{%- endif -%}
-		{%- if include.date -%}<br /><span class="date">{{ include.date }}</span>{% if include.caption %}<br />{% endif %}{%- endif -%}
-		{%- if include.caption -%}{{ include.caption }}{%- endif -%}
+			{% assign incljpn = auto.jpn[0] %}{% assign inclfuri = auto.furi[0] %}{% assign inclrom = auto.rom[0] -%}
+			<em>{% include jpn.html jpn=incljpn furi=inclfuri rom=inclrom class="title" %}</em>{% elsif auto.jpn[0] == auto.eng[0] and auto.jpn != nil and auto.eng != nil -%}
+			{% if include.format == "quote" %}<span class="title">&quot;{{ include.eng }}&quot;</span>{% elsif include.format == "none" %}<span class="title">{{ include.eng }}{% else %}</span><em class="title">{{ include.eng }}</em>{% endif %}{% elsif auto.jpn[0] != nil and auto.rom[0] != nil -%}
+			{% include jpnauto.html eng=include.eng class="title" %}<br />{% if include.format == "quote" %}&quot;{{ auto.eng[0] }}&quot;{% elsif include.format == "none" %}{{ auto.eng[0] }}{% else %}<em>{{ auto.eng[0] }}</em>{% endif %}{% elsif include.furi and include.jpn == include.eng -%}
+			<em>{% include jpn.html jpn=include.jpn furi=include.furi rom=include.rom class="title" %}</em>{% elsif include.jpn -%}
+			{% include jpn.html jpn=include.jpn furi=include.furi rom=include.rom class="title" %}<br />{% if include.format == "quote" %}&quot;{{ include.eng }}&quot;{% elsif include.format == "none" %}{{ include.eng }}{% else %}<em>{{ include.eng }}</em>{% endif %}{% elsif include.eng -%}
+			{% if include.format == "quote" %}<span class="title">&quot;{{ include.eng }}&quot;</span>{% elsif include.format == "none" %}<span class="title">{{ include.eng }}</span>{% else %}<em class="title">{{ include.eng }}</em>{% endif -%}
+		{% endif -%}
+		{% if include.date %}<br /><span class="date">{{ include.date }}</span>{% if include.caption %}<br />{% endif %}{% endif -%}
+		{% if include.caption %}{{ include.caption }}{% endif -%}
 </figcaption></figure>

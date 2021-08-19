@@ -2,16 +2,16 @@
 	{%- if include.lyric == include.rom or include.rom == "" -%}
 		{{ include.lyric }}
 	{%- elsif include.lyric contains "|" and include.rom contains "|" -%}
-		{%- assign sublyric = include.lyric | split: "|" -%}{%- assign subromaji = include.rom | split: "|" -%}
+		{%- assign sublyric = include.lyric | split: "|" %}{% assign subromaji = include.rom | split: "|" -%}
 		{%- if sublyric.size == subromaji.size -%}
 			{%- assign end2 = sublyric.size | minus: 1 -%}
 			{%- for line in sublyric -%}
-				{%- if subromaji[forloop.index0] == "" or subromaji[forloop.index0] == sublyric[forloop.index0] or subromaji[forloop.index0] == nil -%}{{ sublyric[forloop.index0] }}{%- else -%}<span class="jpn">{{ sublyric[forloop.index0] }}<span class="romaji">{{ subromaji[forloop.index0] }}</span></span>{%- endif -%}{%- unless forloop.last -%}&emsp;{%- endunless -%}
+				{%- if subromaji[forloop.index0] == "" or subromaji[forloop.index0] == sublyric[forloop.index0] or subromaji[forloop.index0] == nil %}{{ sublyric[forloop.index0] }}{% else %}<span class="jpn">{{ sublyric[forloop.index0] }}<span class="romaji">{{ subromaji[forloop.index0] }}</span></span>{% endif %}{% unless forloop.last %}&emsp;{% endunless -%}
 			{%- endfor %}
 		{%- endif -%}
 	{%- else -%}
 		<span class="jpn">{{ include.lyric }}<span class="romaji">{{ include.rom }}</span></span>
 	{%- endif -%}
-{%- else -%}
+{% else -%}
 	{{ include.lyric }}
 {%- endif -%}

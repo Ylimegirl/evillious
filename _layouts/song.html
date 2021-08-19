@@ -1,5 +1,5 @@
 {%- assign obj = site.data.translations | find: "eng", page.english-name -%}
-{%- assign singers = page.singers | split: "|" -%}
+{% assign singers = page.singers | split: "|" -%}
 <!doctype html>
 <html>
 	<head>
@@ -15,9 +15,11 @@
 	</head>
 	<body>
 		<header id="intro" class="flex">
-			<h1><em>{% if obj.eng[0] == obj.jpn[0] and obj.furi != nil %}{%- assign incljpn = obj.jpn[0] -%}{%- assign inclfuri = obj.furi[0] -%}{%- assign inclrom = obj.rom[0] -%}{% include jpn.html jpn=incljpn furi=inclfuri rom=inclrom %}{% elsif obj.eng[0] != nil and obj.eng[0] != page.english-name %}{{ obj.eng[0] }}{% else %}{{ page.english-name }}{% endif %}</em></h1>
-			{% if obj.jpn[0] != obj.eng[0] %}<h2>{% include jpnauto.html eng=page.english-name %}</h2>{% elsif page.japanese-name %}<h2>{% include jpn.html jpn=page.japanese-name furi=page.furi-name rom=page.romaji-name %}</h2>{% endif %}
-			{% if obj.alt[0] != nil %}<h3>"{{ obj.alt[0] }}"</h3>{% elsif page.alt-name %}<h3>"{{ page.alt-name }}"</h3>{% endif %}
+			<h1><em>{% if obj.eng[0] == obj.jpn[0] and obj.furi != nil %}{% assign incljpn = obj.jpn[0] %}{% assign inclfuri = obj.furi[0] %}{% assign inclrom = obj.rom[0] %}{% include jpn.html jpn=incljpn furi=inclfuri rom=inclrom %}{% elsif obj.eng[0] != nil and obj.eng[0] != page.english-name %}{{ obj.eng[0] }}{% else %}{{ page.english-name }}{% endif %}</em></h1>{% if obj.jpn[0] != obj.eng[0] %}
+			<h2>{% include jpnauto.html eng=page.english-name %}</h2>{% elsif page.japanese-name %}
+			<h2>{% include jpn.html jpn=page.japanese-name furi=page.furi-name rom=page.romaji-name %}</h2>{% endif %}{% if obj.alt[0] != nil %}
+			<h3>"{{ obj.alt[0] }}"</h3>{% elsif page.alt-name %}
+			<h3>"{{ page.alt-name }}"</h3>{% endif %}
 			<img src="/assets/images/thumbs/{{ page.intro-image }}" class="introImage" />
 			<div class="subtitle{% if page.speaker %} {{ page.speaker | downcase }}{% endif %}">"{{ page.quote }}"</div>
 			<div class="singers">{% for vocal in singers %}{% include singer.html singer=vocal %}{% endfor %}</div>

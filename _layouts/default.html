@@ -4,10 +4,10 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>{{ page.title }}</title>
-		<link rel="stylesheet" href="/assets/css/evillious.css">
-		{% if page.css %}{% assign sheets = page.css | split: "|" %}{% for style in sheets %}<link rel="stylesheet" href="/assets/css/{{ style }}">{% endfor %}{% endif %}
+		<link rel="stylesheet" href="/assets/css/evillious.css">{% if page.css %}{% assign sheets = page.css | split: "|" %}{% for style in sheets %}
+		<link rel="stylesheet" href="/assets/css/{{ style }}">{% endfor %}{% endif %}
 		<link rel="shortcut icon" href="/assets/images/headerImage.png">
-		{% seo title=false %}
+		{% seo title=false -%}
 		<script src="/assets/js/minified.js"></script>
 		<script src="/assets/js/evillious.js"></script>{% if page.foreground or page.background or page.link-color or page.furi-color %}
 		<style>

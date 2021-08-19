@@ -1,5 +1,5 @@
 {%- assign obj = site.data.translations | find: "eng", page.english-name -%}
-{%- assign links = page.links | split: "|" -%}
+{% assign links = page.links | split: "|" -%}
 <!doctype html>
 <html>
 	<head>
@@ -15,18 +15,14 @@
 	</head>
 	<body>
 		<header class="flex" id="intro">
-			<h1><em>{%- if obj.eng[0] == obj.jpn[0] and obj.furi[0] != nil -%}
-			{% assign incljpn = obj.jpn[0] %}{% assign inclfuri = obj.furi[0] %}{% assign inclrom = obj.rom[0] %}
-			{% include jpn.html jpn=incljpn furi=inclfuri rom=inclrom %}{%- elsif obj.eng[0] != nil -%}
-			{{ obj.eng[0] }}{% else %}
-			{{ page.english-name }}{%- endif -%}</em></h1>{% if obj.jpn[0] != obj.eng[0] %}
-			<h2>{% include jpnauto.html eng=page.english-name %}</h2>{%- elsif page.japanese-name or page.furi-name or page.romaji-name -%}
-			{% include jpn.html jpn=page.japanese-name furi=page.furi-name rom=page.romaji-name %}{%- endif -%}{% if page.album-id %}
+			<h1><em>{% if obj.eng[0] == obj.jpn[0] and obj.furi[0] != nil %}{% assign incljpn = obj.jpn[0] %}{% assign inclfuri = obj.furi[0] %}{% assign inclrom = obj.rom[0] %}{% include jpn.html jpn=incljpn furi=inclfuri rom=inclrom %}{% elsif obj.eng[0] != nil %}{{ obj.eng[0] }}{% else %}{{ page.english-name }}{% endif %}</em></h1>{% if obj.jpn[0] != obj.eng[0] %}
+			<h2>{% include jpnauto.html eng=page.english-name %}</h2>{% elsif page.japanese-name or page.furi-name or page.romaji-name %}
+			<h2>{% include jpn.html jpn=page.japanese-name furi=page.furi-name rom=page.romaji-name %}</h2>{% endif %}{% if page.album-id %}
 			<h3>{{ page.album-id }}</h3>{% endif %}
-			<img src="/assets/images/thumbs/{{ page.intro-image }}" class="introImage" />
-			{% if page.quote %}<div class="subtitle">"{{ page.quote }}"</div>{% endif %}
-			<p>{{ page.summary }}</p>
-			{% if page.links %}<p class="links">{% for link in links %}{{ link }}{% unless forloop.last %} &middot; {% endunless %}{% endfor %}</p>{% endif %}
+			<img src="/assets/images/thumbs/{{ page.intro-image }}" class="introImage" />{% if page.quote %}
+			<div class="subtitle">"{{ page.quote }}"</div>{% endif %}
+			<p>{{ page.summary }}</p>{% if page.links %}
+			<p class="links">{% for link in links %}{{ link }}{% unless forloop.last %} &middot; {% endunless %}{% endfor %}</p>{% endif %}
 			{% include fuributton.html %}
 		</header>
 		{{ content }}

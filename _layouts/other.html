@@ -1,7 +1,7 @@
 {%- assign obj = site.data.translations | find: "eng", page.english-name -%}
-{%- if page.english-name-2 -%}{%- assign obj2 = site.data.translations | find: "eng", page.english-name-2 -%}{%- endif -%}
-{%- assign images = page.intro-image | split: "|" -%}
-{%- assign paragraphs = page.summary | split: "|" -%}
+{% if page.english-name-2 %}{% assign obj2 = site.data.translations | find: "eng", page.english-name-2 %}{% endif -%}
+{% assign images = page.intro-image | split: "|" -%}
+{% assign paragraphs = page.summary | split: "|" -%}
 <!doctype html>
 <html>
 	<head>
@@ -17,15 +17,15 @@
 	</head>
 	<body>
 		<header class="flex" id="intro">
-			<h1>{% if page.format == "quote" %}"{% elsif page.format !="none" %}<em>{% endif %}{% if obj.eng[0] == obj.jpn[0] and obj.furi != nil %}{%- assign incljpn = obj.jpn[0] -%}{%- assign inclfuri = obj.furi[0] -%}{%- assign inclrom = obj.rom[0] -%}{% include jpn.html jpn=incljpn furi=inclfuri rom=inclrom %}{% elsif obj.eng[0] != nil and obj.eng[0] != page.english-name %}{{ obj.eng[0] }}{% else %}{{ page.english-name }}{% endif %}{% if page.format == "quote" %}"{% elsif page.format !="none" %}</em>{% endif %}{% if page.english-name-2 %}<br />{% if page.format == "quote" %}"{% elsif page.format !="none" %}<em>{% endif %}{% if obj2.eng[0] == obj2.jpn[0] and obj2.furi != nil %}{%- assign incljpn2 = obj2.jpn[0] -%}{%- assign inclfuri2 = obj2.furi[0] -%}{%- assign inclrom2 = obj2.rom[0] -%}{% include jpn.html jpn=incljpn2 furi=inclfuri2 rom=inclrom2 %}{% elsif obj2.eng[0] != nil and obj2.eng[0] != page.english-name-2 %}{{ obj2.eng[0] }}{% else %}{{ page.english-name-2 }}{% endif %}{% if page.format == "quote" %}"{% elsif page.format !="none" %}</em>{% endif %}{% endif %}</h1>
-			
-			{% if obj.jpn[0] != obj.eng[0] %}<h2>{% include jpnauto.html eng=page.english-name %}{% if page.english-name-2 %}<br />{% if obj2.jpn[0] != obj2.eng[0] %}{% include jpnauto.html eng=page.english-name-2 %}{% elsif page.japanese-name-2 %}{% include jpn.html jpn=page.japanese-name-2 furi=page.furi-name-2 rom=page.romaji-name-2 %}{% endif %}{% endif %}</h2>{% elsif page.japanese-name %}<h2>{% include jpn.html jpn=page.japanese-name furi=page.furi-name rom=page.romaji-name %}{% if page.english-name-2 %}<br />{% if obj2.jpn[0] != obj2.eng[0] %}{% include jpnauto.html eng=page.english-name-2 %}{% elsif page.japanese-name-2 %}{% include jpn.html jpn=page.japanese-name-2 furi=page.furi-name-2 rom=page.romaji-name-2 %}{% endif %}{% endif %}</h2>{% endif %}
-			
-			{% if page.isbn %}{%- assign isbns = page.isbn | split: "|" -%}<h3>{% for id in isbns %}{{ id }}{% unless forloop.last %}<br />{% endunless %}{% endfor %}</h3>{% else %}<div class="divider"></div>{% endif %}
-			{% for img in images %}<img src="/assets/images/thumbs/{{ img }}" class="introImage" />{% endfor %}
-			{% for section in paragraphs %}<p>{{ section }}</p>{% endfor %}
-			{% if page.links %}{%- assign links = page.links | split: "|" -%}<p class="links">{% for link in links %}{{ link }}{% unless forloop.last %} &middot; {% endunless %}{% endfor %}</p>{% endif %}
-			{% if page.links2 %}{%- assign links2 = page.links2 | split: "|" -%}<p class="links">{% for link in links2 %}{{ link }}{% unless forloop.last %} &middot; {% endunless %}{% endfor %}</p>{% endif %}
+			<h1>{% if page.format == "quote" %}"{% elsif page.format !="none" %}<em>{% endif %}{% if obj.eng[0] == obj.jpn[0] and obj.furi != nil %}{% assign incljpn = obj.jpn[0] %}{% assign inclfuri = obj.furi[0] %}{% assign inclrom = obj.rom[0] %}{% include jpn.html jpn=incljpn furi=inclfuri rom=inclrom %}{% elsif obj.eng[0] != nil and obj.eng[0] != page.english-name %}{{ obj.eng[0] }}{% else %}{{ page.english-name }}{% endif %}{% if page.format == "quote" %}"{% elsif page.format !="none" %}</em>{% endif %}{% if page.english-name-2 %}<br />{% if page.format == "quote" %}"{% elsif page.format !="none" %}<em>{% endif %}{% if obj2.eng[0] == obj2.jpn[0] and obj2.furi != nil %}{% assign incljpn2 = obj2.jpn[0] %}{% assign inclfuri2 = obj2.furi[0] %}{% assign inclrom2 = obj2.rom[0] %}{% include jpn.html jpn=incljpn2 furi=inclfuri2 rom=inclrom2 %}{% elsif obj2.eng[0] != nil and obj2.eng[0] != page.english-name-2 %}{{ obj2.eng[0] }}{% else %}{{ page.english-name-2 }}{% endif %}{% if page.format == "quote" %}"{% elsif page.format !="none" %}</em>{% endif %}{% endif %}</h1>{% if obj.jpn[0] != obj.eng[0] %}
+			<h2>{% include jpnauto.html eng=page.english-name %}{% if page.english-name-2 %}<br />{% if obj2.jpn[0] != obj2.eng[0] %}{% include jpnauto.html eng=page.english-name-2 %}{% elsif page.japanese-name-2 %}{% include jpn.html jpn=page.japanese-name-2 furi=page.furi-name-2 rom=page.romaji-name-2 %}{% endif %}{% endif %}</h2>{% elsif page.japanese-name %}
+			<h2>{% include jpn.html jpn=page.japanese-name furi=page.furi-name rom=page.romaji-name %}{% if page.english-name-2 %}<br />{% if obj2.jpn[0] != obj2.eng[0] %}{% include jpnauto.html eng=page.english-name-2 %}{% elsif page.japanese-name-2 %}{% include jpn.html jpn=page.japanese-name-2 furi=page.furi-name-2 rom=page.romaji-name-2 %}{% endif %}{% endif %}</h2>{% endif %}{% if page.isbn %}{% assign isbns = page.isbn | split: "|" %}
+			<h3>{% for id in isbns %}{{ id }}{% unless forloop.last %}<br />{% endunless %}{% endfor %}</h3>{% else %}
+			<div class="divider"></div>{% endif %}
+			{% for img in images %}<img src="/assets/images/thumbs/{{ img }}" class="introImage" />{% endfor %}{% for section in paragraphs %}
+			<p>{{ section }}</p>{% endfor %}{% if page.links %}{% assign links = page.links | split: "|" %}
+			<p class="links">{% for link in links %}{{ link }}{% unless forloop.last %} &middot; {% endunless %}{% endfor %}</p>{% endif %}{% if page.links2 %}{% assign links2 = page.links2 | split: "|" %}
+			<p class="links">{% for link in links2 %}{{ link }}{% unless forloop.last %} &middot; {% endunless %}{% endfor %}</p>{% endif %}
 			{% include fuributton.html %}
 		</header>
 		{{ content }}

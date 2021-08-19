@@ -1,6 +1,6 @@
 {%- assign singer = include.singer | remove: "-secondary" -%}
-{%- capture shortname -%}
-{%- case singer -%}
+{% capture shortname -%}
+{% case singer -%}
 	{%- when "Hatsune Miku" -%}
 		miku
 	{%- when "Kagamine Rin" -%}
@@ -36,9 +36,9 @@
 	{%- else -%}
 		human
 {%- endcase -%}
-{%- endcapture -%}
-{%- capture initial -%}
-{%- case singer -%}
+{% endcapture -%}
+{% capture initial -%}
+{% case singer -%}
 	{%- when "Hatsune Miku", "MEIKO", "MAYU" -%}
 		M
 	{%- when "Kagamine Rin" -%}
@@ -59,8 +59,8 @@
 		I
 	{%- when "VY1" -%}
 		1
-	{% else %}
+	{%- else -%}
 		{{ singer | truncate: 1, "" }}
 {%- endcase -%}
-{%- endcapture -%}
+{% endcapture -%}
 <span class="{{ shortname }}{% if include.singer contains "-secondary" %} secondary{% endif %}" title="{{ singer }}">{{ initial }}</span>
