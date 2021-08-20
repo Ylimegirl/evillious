@@ -1,7 +1,7 @@
 {%- assign obj = site.data.translations | find: "eng", page.english-name -%}
-{%- assign release = page.release | split: "|" -%}
-{%- assign artists = page.info-artists | split: "|" -%}	
-{%- if page.directory %}{% assign dir = page.directory %}{% else %}{% assign dir = page.url | remove: "/novel/" %}{% endif -%}
+{% assign release = page.release | split: "|" -%}
+{% assign artists = page.info-artists | split: "|" -%}	
+{% if page.directory %}{% assign dir = page.directory %}{% else %}{% assign dir = page.url | remove: "/novel/" %}{% endif -%}
 <!doctype html>
 <html>
 	<head>

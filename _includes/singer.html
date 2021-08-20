@@ -1,7 +1,7 @@
 {%- assign singer = include.singer | remove: "-secondary" -%}
 {% capture shortname -%}
 {% case singer -%}
-	{%- when "Hatsune Miku" -%}
+	{% when "Hatsune Miku" -%}
 		miku
 	{%- when "Kagamine Rin" -%}
 		rin

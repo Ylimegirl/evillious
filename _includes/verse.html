@@ -1,18 +1,18 @@
 {%- assign lyrics = include.lyrics | split: "/" -%}
 {% assign end = lyrics.size | minus: 1 -%}
 <p{% if include.class %} class="{{ include.class }}"{% endif %}>
-{%- if include.romaji %}
-	{%- assign romaji = include.romaji | split: "/" -%}
-	{%- if lyrics.size == romaji.size -%}
-		{%- for line in lyrics %}
-			{% assign curlyr=lyrics[forloop.index0] %}{% assign currom=romaji[forloop.index0] %}{% include lyric.html lyric=curlyr rom=currom %}{% unless forloop.last %}<br />{% endunless %}
-		{%- endfor %}
+{%- if include.romaji -%}
+	{% assign romaji = include.romaji | split: "/" -%}
+	{% if lyrics.size == romaji.size -%}
+		{% for line in lyrics %}
+			{% assign curlyr=lyrics[forloop.index0] %}{% assign currom=romaji[forloop.index0] %}{% include lyric.html lyric=curlyr rom=currom %}{% unless forloop.last %}<br />{% endunless -%}
+		{% endfor -%}
 	{% else -%}
 <strong>Invalid Syntax!</strong>
 	{%- endif -%}
 {% else -%}
-	{%- for line in lyrics -%}
-		{%- assign curlyr=lyrics[forloop.index0] -%}
-			{%- include lyric.html lyric=curlyr %}{% unless forloop.last %}<br />{% endunless -%}
+	{% for line in lyrics %}
+			{% assign curlyr=lyrics[forloop.index0] %}{% include lyric.html lyric=curlyr %}{% unless forloop.last %}<br />{% endunless -%}
 	{% endfor -%}
-{%- endif %}	</p>
+{% endif %}
+		</p>
