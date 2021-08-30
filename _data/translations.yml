@@ -354,6 +354,7 @@
       - "HAATOBIITO · KUROKKUTAWAA (FOREST VERSION)"
     alt:
       - "Clockwork Lullaby 4"
+
   - eng:
       - "Welcome to the Forest"
     jpn:
@@ -605,7 +606,7 @@
       - "ま|ち|つづ|けた|て|がみ"
       - "まちつづけたてがみ"
     rom:
-      - "machi tsudzuketa tegami"
+      - "machitsudzuketa tegami"
 
   - eng:
       - "Reach For The Stars ~The Letter She Kept Waiting For~"
@@ -617,7 +618,7 @@
       - "Reach| |For| |The| |Stars|～|ま|ち|つづ|けた|て|がみ|～"
       - "Reach For The Stars～まちつづけたてがみ～"
     rom:
-      - "Reach For The Stars ~machi tsudzuketa tegami~"
+      - "Reach For The Stars ~machitsudzuketa tegami~"
     alt:
       - "Lost Last"
 
@@ -682,7 +683,7 @@
     jpn:
       - "チミドロスイッチ"
     rom:
-      - "CHIMIDORI SUICCHI"
+      - "CHIMIDORO SUICCHI"
 
   - eng:
       - "Watching Us"
@@ -1489,13 +1490,15 @@
 # Seven Crimes and Punishments already covered in the songs section
 
   - eng:
-      - "Outlaw&Lychgate"
       - "Outlaw&amp;Lychgate"
+      - "Outlaw&Lychgate"
     jpn:
+      - "Outlaw&amp;Lychgate"
       - "Outlaw&Lychgate"
     furi:
       - "アウトロー＆リッチゲート"
     rom:
+      - "AUTOROO &amp; LICCHIGEETO"
       - "AUTOROO & LICCHIGEETO"
 
 # E.A.T PROLOGUE already covered in the albums section
@@ -1673,7 +1676,7 @@
       - "あく|ノ|カルテット"
       - "あくノカルテット"
     rom:
-      - "aku no KARUTETTO"
+      - "aku NO KARUTETTO"
 
   - eng:
       - "The Daughter of Evil: Retrouver of Silver"
