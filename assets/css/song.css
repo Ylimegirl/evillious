@@ -96,7 +96,7 @@ section { margin: 10px auto; }
 
 .albums { align-content: flex-start; align-items: flex-start; justify-content: space-around; }
 
-footer { max-width: 720px; }
+footer, .navbar, .navbox { max-width: 720px; }
 
 /**Short Screen**/
 @media screen and (max-height: 500px) { #intro .introImage { width: auto; height: auto; } }

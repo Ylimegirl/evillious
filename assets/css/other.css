@@ -10,7 +10,7 @@ header p { text-align: left; padding: .25em; width: 100%; }
 
 h3 { width: 100%; }
 
-footer { max-width: 780px; }
+footer, .navbox { max-width: 780px; }
 
 /**Short Screen**/
 @media screen and (max-height: 450px) { .introImage { width: auto; min-width: unset; max-width: unset; height: auto; min-height: unset; max-height: 200px; } }
