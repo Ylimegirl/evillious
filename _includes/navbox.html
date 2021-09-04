@@ -1,0 +1,6 @@
+{%- assign group = site.data.navigation | find: "navgroup", include.group -%}
+{% assign sorted = group.list | sort: "name" -%}
+<navigation class="navbox">
+	<div class="nav-title">{% if group.slug != nil %}<a href="{% link {{ group.slug | append: ".html" }} %}"><strong>{{ group.navgroup }}</strong></a>{% else %}<strong>{{ group.navgroup }}</strong>{% endif %} <button id="{{ include.id | prepend: "collapse" }}" class="collapse">[show/hide]</button></div>
+	<div class="nav-content collapsed" id="{{ include.id | prepend: "collapsible" }}">{% for item in sorted %}{% assign curp = item.slug | append: ".html" %}{% if page.path == curp %}<strong>{{ item.displayname }}</strong>{% unless forloop.last %} &middot; {% endunless %}{% elsif item.slug != nil %}<a href="{% link {{ item.slug | append: ".html" }} %}">{{ item.displayname }}</a>{% unless forloop.last %} &middot; {% endunless %}{% else %}{{ item.displayname }}{% unless forloop.last %} &middot; {% endunless %}{% endif %}{% endfor %}</div>
+</navigation>

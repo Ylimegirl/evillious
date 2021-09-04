@@ -4,7 +4,7 @@
 
 .subtitle { /**embiggens the subtitle to be a little less sub**/ font-size: larger; margin: .5em 0; max-width: 75%; font-style: italic; }
 
-footer { max-width: 720px; }
+footer, .navbar, .navbox { max-width: 720px; }
 
 /**Skinny screen**/
 @media screen and (max-width: 667px) { .subtitle { max-width: 100%; } }

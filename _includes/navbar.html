@@ -1,0 +1,7 @@
+{%- assign group = site.data.navigation | find: "navgroup", include.group -%}
+{%- assign left = false -%}{%- assign right = false -%}
+<navigation class="navbar">
+	<div class="nav-left">{% for item in group.list %}{% unless forloop.last %}{% assign next = forloop.index0 | plus: 1 %}{% assign nextp = group.list[next].slug | append: ".html" %}{% if page.path == nextp %}{% unless left == false %}<br />{% endunless %}{% assign left = true %}&larr;&nbsp;{% if item.slug != nil %}<a href="{% link {{ item.slug | append: ".html" }} %}">{{ item.displayname }}</a>{% else %}{{ item.displayname }}{% endif %}{% endif %}{% endunless %}{% endfor %}</div>
+	<div class="nav-center">{% if group.slug != nil %}<a href="{% link {{ group.slug | append: ".html" }} %}"><strong>{% if group.displayname %}{{ group.displayname }}{% else %}{{ group.navgroup }}{% endif %}</strong></a>{% else %}<strong>{% if group.displayname %}{{ group.displayname }}{% else %}{{ group.navgroup }}{% endif %}</strong>{% endif %}</div>
+	<div class="nav-right">{% for item in group.list %}{% unless forloop.first %}{% assign prev = forloop.index0 | minus: 1 %}{% assign prevp = group.list[prev].slug | append: ".html" %}{% if page.path == prevp %}{% unless right == false %}<br />{% endunless %}{% assign right = true %}{% if item.slug != nil %}<a href="{% link {{ item.slug | append: ".html" }} %}">{{ item.displayname }}</a>{% else %}{{ item.displayname }}{% endif %}&nbsp;&rarr;{% endif %}{% endunless %}{% endfor %}</div>
+</navigation>

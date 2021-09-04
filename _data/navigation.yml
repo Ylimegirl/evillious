@@ -1,0 +1,1171 @@
+########################################### SONGS ###########################################
+  - navgroup: All Songs
+    slug: song/index
+    list:
+      - name: Ten Minute Love
+        displayname: <em>Ten Minute Love</em>
+        slug: song/ten-minute-love
+      - name: Wordplay
+        displayname: <em>Wordplay</em>
+        slug: song/wordplay
+      - name: Clockwork Lullaby
+        displayname: <em>Clockwork Lullaby</em>
+        slug: song/clockwork-lullaby
+      - name: Daughter of Evil, The
+        displayname: <em>The Daughter of Evil</em>
+        slug: song/daughter-of-evil
+      - name: Servant of Evil, The
+        displayname: <em>The Servant of Evil</em>
+        slug: song/servant-of-evil
+      - name: Regret Message
+        displayname: <em>Regret Message</em>
+        slug: song/regret-message
+      - name: Miniature Garden Girl
+        displayname: <em>Miniature Garden Girl</em>
+        slug: song/miniature-garden-girl
+      - name: Tale of Abandonment on a Moonlit Night
+        displayname: <em>Tale of Abandonment on a Moonlit Night</em>
+        slug: song/tale-of-abandonment-on-a-moonlit-night
+      - name: South North Story
+        displayname: <em>South North Story</em>
+        slug: song/south-north-story
+      - name: Re birthday
+        displayname: <em>Re_birthday</em>
+        slug: song/re-birthday
+      - name: Evil Food Eater Conchita
+        displayname: <em>Evil Food Eater Conchita</em>
+        slug: song/evil-food-eater-conchita
+      - name: Moonlit Bear
+        displayname: <em>moonlit bear</em>
+        slug: song/moonlit-bear
+      - name: Screws Gears and Pride
+        displayname: <em>Screws, Gears, and Pride</em>
+        slug: song/screws-gears-and-pride
+      - name: To You of Few Words
+        displayname: <em>To You of Few Words</em>
+        slug: song/to-you-of-few-words
+      - name: Tailor of Enbizaka, The
+        displayname: <em>The Tailor of Enbizaka</em>
+        slug: song/tailor-of-enbizaka
+      - name: Daughter of White, The
+        displayname: <em>The Daughter of White</em>
+        slug: song/daughter-of-white
+      - name: Frog's and My Love Romance, The
+        displayname: <em>The Frog's and My Love Romance</em>
+        slug: song/frogs-and-my-love-romance
+      - name: Full Moon Laboratory
+        displayname: <em>Full Moon Laboratory</em>
+        slug: song/full-moon-laboratory
+      - name: Last Revolver, The
+        displayname: <em>The Last Revolver</em>
+        slug: song/last-revolver
+      - name: Heartbeat Clocktower
+        displayname: <em>Heartbeat Clocktower</em>
+        slug: song/heartbeat-clocktower
+      - name: Welcome to the Forest
+        displayname: <em>Welcome to the Forest</em>
+      - name: Master of the Graveyard
+        displayname: <em>master of the graveyard</em>
+        slug: song/master-of-the-graveyard
+      - name: Wendy
+        displayname: <em>Wendy</em>
+        slug: song/wendy
+      - name: Desert Bluebird
+        displayname: <em>Desert BLUEBIRD</em>
+        slug: song/desert-bluebird
+      - name: Lunacy of Duke Venomania, The
+        displayname: <em>The Lunacy of Duke Venomania</em>
+        slug: song/lunacy-of-duke-venomania
+      - name: Twiright Prank
+        displayname: <em>Twiright Prank</em>
+        slug: song/twiright-prank
+      - name: Flames of Yellow Phosphorus, The
+        displayname: <em>The Flames of Yellow Phosphorus</em>
+        slug: song/flames-of-yellow-phosphorus
+      - name: Madam Merry-Go-Round
+        displayname: <em>Madam Merry-Go-Round</em>
+        slug: song/madam-merry-go-round
+      - name: Song that Resounds with Lulila, Lulila, The
+        displayname: <em>The Song that Resounds with Lulila, Lulila</em>
+        slug: song/song-that-resounds-with-lulila-lulila
+      - name: Red Shoe Parade
+        displayname: <em>Red Shoe Parade</em>
+        slug: song/red-shoe-parade
+      - name: Recollective Musicbox
+        displayname: <em>Recollective Musicbox</em>
+        slug: song/recollective-musicbox
+      - name: Chrono Story
+        displayname: <em>Chrono Story</em>
+        slug: song/chrono-story
+      - name: Gift from the Princess who Brought Sleep
+        displayname: <em>gift from the Princess who Brought Sleep</em>
+        slug: song/gift-from-the-princess-who-brought-sleep
+      - name: Fifth Pierrot
+        displayname: <em>Fifth Pierrot</em>
+        slug: song/fifth-pierrot
+      - name: Judgment of Corruption
+        displayname: <em>Judgment of Corruption</em>
+        slug: song/judgment-of-corruption
+      - name: Five Minutes Before Court
+        displayname: <em>Five Minutes Before Court</em>
+      - name: Master of the Court
+        displayname: <em>master of the court</em>
+        slug: song/master-of-the-court
+      - name: Tree Maiden Millennium Wiegenlied
+        displayname: <em>Tree Maiden ~Millennium Wiegenlied~</em>
+        slug: song/tree-maiden
+      - name: Capriccio Farce
+        displayname: <em>Capriccio Farce</em>
+        slug: song/capriccio-farce
+      - name: Letter She Kept Waiting For, The
+        displayname: <em>The Letter She Kept Waiting For</em>
+        slug: song/letter-she-kept-waiting-for
+      - name: Flower of the Plateau
+        displayname: <em>Flower of the Plateau</em>
+        slug: song/flower-of-the-plateau
+      - name: Flower of the Plateau
+        displayname: <em>Flower of the Plateau</em>
+        slug: song/flower-of-the-plateau
+      - name: Handbeat Clocktower
+        displayname: <em>Handbeat Clocktower</em>
+        slug: song/handbeat-clocktower
+      - name: White Brick and Black Mourning Dress
+        displayname: <em>White Brick and Black Mourning Dress</em>
+        slug: song/white-brick-and-black-mourning-dress
+      - name: Escape of Salmhofer the Witch
+        displayname: <em>Escape of Salmhofer the Witch</em>
+        slug: song/escape-of-salmhofer-the-witch
+      - name: Prophet Merry-Go-Round
+        displayname: <em>Prophet Merry-Go-Round</em>
+      - name: Bloodstained Switch
+        displayname: <em>Bloodstained Switch</em>
+        slug: song/bloodstained-switch
+      - name: Watching Us
+        displayname: <em>Watching Us</em>
+        slug: song/watching-us
+      - name: Torture Tower Doesn't Sleep
+        displayname: <em>Torture Tower Doesn't Sleep</em>
+        slug: song/torture-tower-doesnt-sleep
+      - name: Whereabouts of the Miracle
+        displayname: <em>Whereabouts of the Miracle</em>
+        slug: song/whereabouts-of-the-miracle
+      - name: Muzzle of Nemesis, The
+        displayname: <em>The Muzzle of Nemesis</em>
+        slug: song/whereabouts-of-the-miracle
+      - name: Master of the Hellish Yard
+        displayname: <em>master of the hellish yard</em>
+        slug: song/master-of-the-hellish-yard
+      - name: And Then the Girl Went Mad Ending Tale on a Moonlit Night
+        displayname: <em>And Then the Girl Went Mad ―Ending Tale on a Moonlit Night―</em>
+        slug: song/and-then-the-girl-went-mad
+      - name: Blink
+        displayname: <em>Blink</em>
+        slug: song/blink
+      - name: Journey of Two Mages Great Wall and Watchman, The
+        displayname: <em>The Journey of Two Mages ~Great Wall and Watchman~</em>
+        slug: song/journey-of-two-mages
+      - name: Portrait Glassred Drew, The
+        displayname: <em>The Portrait Glassred Drew</em>
+        slug: song/portrait-glassred-drew
+      - name: Seven Crimes and Punishments
+        displayname: <em>Seven Crimes and Punishments</em>
+        slug: song/seven-crimes-and-punishments
+      - name: Drug Of Gold
+        displayname: <em>Drug Of Gold</em>
+        slug: song/drug-of-gold
+      - name: Weathered Head at Onigashima, The
+        displayname: <em>The Weathered Head at Onigashima</em>
+        slug: song/weathered-head-at-onigashima
+      - name: Ending Boy Hansel
+        displayname: <em>Ending Boy Hänsel</em>
+        slug: song/ending-boy-hansel
+      - name: Unlock Blackbox
+        displayname: <em>Unlock Blackbox</em>
+      - name: Queen Of The Glass
+        displayname: <em>Queen Of The Glass</em>
+        slug: song/queen-of-the-glass
+      - name: Barisol's Child is an Only Child
+        displayname: <em>Barisol's Child is an Only Child</em>
+        slug: song/barisols-child-is-an-only-child
+      - name: Half Blood
+        displayname: <em>Half Blood</em>
+        slug: song/half-blood
+      - name: A Hero's Armor is Always Crimson
+        displayname: <em>A Hero's Armor is Always Crimson</em>
+        slug: song/a-heros-armor-is-always-crimson
+      - name: Neomaria of the Inverted Gravestone
+        displayname: <em>Neomaria of the Inverted Gravestone</em>
+        slug: song/neomaria-of-the-inverted-gravestone
+      - name: That King was Born from Mud
+        displayname: <em>That King was Born from Mud</em>
+        slug: song/that-king-was-born-from-mud
+      - name: Messengers of the Infinity Mirrors
+        displayname: <em>Messengers of the Infinity Mirrors</em>
+        slug: song/messengers-of-the-infinity-mirrors
+      - name: Master of the Heavenly Yard
+        displayname: <em>master of the heavenly yard</em>
+        slug: song/master-of-the-heavenly-yard
+      - name: You Only Have to Double Jump
+        displayname: <em>You Only Have to Double Jump</em>
+        slug: song/you-only-have-to-double-jump
+      - name: Banica Concerto
+        displayname: <em>Banica Concerto!!</em>
+        slug: song/banica-concerto
+      - name: Karma of Evil Will Not End, The
+        displayname: <em>The Karma of Evil Will Not End</em>
+        slug: song/karma-of-evil-will-not-end
+      - name: Song of the Third Period
+        displayname: <em>Song of the Third Period</em>
+        slug: song/song-of-the-third-period
+      - name: Fictional Masquerade
+        displayname: <em>Fictional Masquerade</em>
+        slug: song/fictional-masquerade
+      - name: Genesis Girl Gretel
+        displayname: <em>Genesis Girl Gretel</em>
+        slug: song/genesis-girl-gretel
+      - name: Project Ma
+        displayname: <em>Project &quot;Ma&quot;</em>
+        slug: song/project-ma
+      - name: Song I Heard Somewhere, The
+        displayname: <em>The Song I Heard Somewhere</em>
+        slug: song/song-i-heard-somewhere
+      - name: Great Journey
+        displayname: <em>grEAT journey</em>
+        slug: song/great-journey
+      - name: Swear an Oath on that Bridge
+        displayname: <em>Swear an Oath on that Bridge</em>
+        slug: song/swear-an-oath-on-that-bridge
+      - name: Blind Girl and Angel
+        displayname: <em>Blind Girl and Angel</em>
+        slug: song/blind-girl-and-angel
+      - name: Song of the Cowardly Black Bird
+        displayname: <em>Song of the Cowardly Black Bird</em>
+        slug: song/song-of-the-cowardly-black-bird
+
+  - navgroup: PVs
+    slug: song/index
+    list:
+      - name: Ten Minute Love
+        displayname: <em>Ten Minute Love</em>
+        slug: song/ten-minute-love
+      - name: Wordplay
+        displayname: <em>Wordplay</em>
+        slug: song/wordplay
+      - name: Clockwork Lullaby
+        displayname: <em>Clockwork Lullaby</em>
+        slug: song/clockwork-lullaby
+      - name: Daughter of Evil, The
+        displayname: <em>The Daughter of Evil</em>
+        slug: song/daughter-of-evil
+      - name: Servant of Evil, The
+        displayname: <em>The Servant of Evil</em>
+        slug: song/servant-of-evil
+      - name: Regret Message
+        displayname: <em>Regret Message</em>
+        slug: song/regret-message
+      - name: Miniature Garden Girl
+        displayname: <em>Miniature Garden Girl</em>
+        slug: song/miniature-garden-girl
+      - name: Tale of Abandonment on a Moonlit Night
+        displayname: <em>Tale of Abandonment on a Moonlit Night</em>
+        slug: song/tale-of-abandonment-on-a-moonlit-night
+      - name: South North Story
+        displayname: <em>South North Story</em>
+        slug: song/south-north-story
+      - name: Re birthday
+        displayname: <em>Re_birthday</em>
+        slug: song/re-birthday
+      - name: Evil Food Eater Conchita
+        displayname: <em>Evil Food Eater Conchita</em>
+        slug: song/evil-food-eater-conchita
+      - name: Moonlit Bear
+        displayname: <em>moonlit bear</em>
+        slug: song/moonlit-bear
+      - name: Screws Gears and Pride
+        displayname: <em>Screws, Gears, and Pride</em>
+        slug: song/screws-gears-and-pride
+      - name: Tailor of Enbizaka, The
+        displayname: <em>The Tailor of Enbizaka</em>
+        slug: song/tailor-of-enbizaka
+      - name: Daughter of Evil velvet mix, The
+        displayname: <em>The Daughter of Evil ~velvet mix~</em>
+        slug: song/daughter-of-evil
+      - name: Servant of Evil velvet mix, The
+        displayname: <em>The Servant of Evil ~velvet mix~</em>
+        slug: song/servant-of-evil
+      - name: Daughter of White, The
+        displayname: <em>The Daughter of White</em>
+        slug: song/daughter-of-white
+      - name: Full Moon Laboratory
+        displayname: <em>Full Moon Laboratory</em>
+        slug: song/full-moon-laboratory
+      - name: Last Revolver, The
+        displayname: <em>The Last Revolver</em>
+        slug: song/last-revolver
+      - name: Heartbeat Clocktower (F V)
+        displayname: <em>Heartbeat Clocktower (F&nbsp;·&nbsp;V)</em>
+        slug: song/heartbeat-clocktower
+      - name: Desert Bluebird
+        displayname: <em>Desert BLUEBIRD</em>
+        slug: song/desert-bluebird
+      - name: Lunacy of Duke Venomania, The
+        displayname: <em>The Lunacy of Duke Venomania</em>
+        slug: song/lunacy-of-duke-venomania
+      - name: Twiright Prank
+        displayname: <em>Twiright Prank</em>
+        slug: song/twiright-prank
+      - name: Flames of Yellow Phosphorus, The
+        displayname: <em>The Flames of Yellow Phosphorus</em>
+        slug: song/flames-of-yellow-phosphorus
+      - name: Madam Merry-Go-Round
+        displayname: <em>Madam Merry-Go-Round</em>
+        slug: song/madam-merry-go-round
+      - name: Evil Food Eater Conchita (revised)
+        displayname: <em>Evil Food Eater Conchita (revised)</em>
+        slug: song/evil-food-eater-conchita
+      - name: Red Shoe Parade
+        displayname: <em>Red Shoe Parade</em>
+        slug: song/red-shoe-parade
+      - name: Chrono Story
+        displayname: <em>Chrono Story</em>
+        slug: song/chrono-story
+      - name: Gift from the Princess who Brought Sleep
+        displayname: <em>gift from the Princess who Brought Sleep</em>
+        slug: song/gift-from-the-princess-who-brought-sleep
+      - name: Fifth Pierrot
+        displayname: <em>Fifth Pierrot</em>
+        slug: song/fifth-pierrot
+      - name: Judgment of Corruption
+        displayname: <em>Judgment of Corruption</em>
+        slug: song/judgment-of-corruption
+      - name: Capriccio Farce
+        displayname: <em>Capriccio Farce</em>
+        slug: song/capriccio-farce
+      - name: Flower of the Plateau
+        displayname: <em>Flower of the Plateau</em>
+        slug: song/flower-of-the-plateau
+      - name: Handbeat Clocktower
+        displayname: <em>Handbeat Clocktower</em>
+        slug: song/handbeat-clocktower
+      - name: Escape of Salmhofer the Witch
+        displayname: <em>Escape of Salmhofer the Witch</em>
+        slug: song/escape-of-salmhofer-the-witch
+      - name: Bloodstained Switch
+        displayname: <em>Bloodstained Switch</em>
+        slug: song/bloodstained-switch
+      - name: Watching Us
+        displayname: <em>Watching Us</em>
+        slug: song/watching-us
+      - name: Torture Tower Doesn't Sleep
+        displayname: <em>Torture Tower Doesn't Sleep</em>
+        slug: song/torture-tower-doesnt-sleep
+      - name: Muzzle of Nemesis, The
+        displayname: <em>The Muzzle of Nemesis</em>
+        slug: song/muzzle-of-nemesis
+      - name: Journey of Two Mages Great Wall and Watchman, The
+        displayname: <em>The Journey of Two Mages ~Great Wall and Watchman~</em>
+        slug: song/journey-of-two-mages
+      - name: Portrait Glassred Drew, The
+        displayname: <em>The Portrait Glassred Drew</em>
+        slug: song/portrait-glassred-drew
+      - name: Seven Crimes and Punishments
+        displayname: <em>Seven Crimes and Punishments</em>
+        slug: song/seven-crimes-and-punishments
+      - name: Ma Survival
+        displayname: <em>Ma Survival</em>
+        slug: song/ma-survival
+      - name: A Hero's Armor is Always Crimson
+        displayname: <em>A Hero's Armor is Always Crimson</em>
+        slug: song/a-heros-armor-is-always-crimson
+      - name: That King was Born from Mud
+        displayname: <em>That King was Born from Mud</em>
+        slug: song/that-king-was-born-from-mud
+      - name: Master of the Heavenly Yard
+        displayname: <em>master of the heavenly yard</em>
+        slug: song/master-of-the-heavenly-yard
+      - name: You Only Have to Double Jump
+        displayname: <em>You Only Have to Double Jump</em>
+        slug: song/you-only-have-to-double-jump
+      - name: Clockwork Lullaby Key Of Word
+        displayname: <em>Clockwork Lullaby -Key Of Word-</em>
+        slug: song/clockwork-lullaby
+      - name: Fictional Masquerade
+        displayname: <em>Fictional Masquerade</em>
+        slug: song/fictional-masquerade
+      - name: Project Ma (short ver)
+        displayname: <em>Project &quot;Ma&quot; (short ver.)</em>
+        slug: song/project-ma
+      - name: Lunacy of Duke Venomania (2020 ver), The
+        displayname: <em>The Lunacy of Duke Venomania</em> <small>(2020 ver.)</small>
+        slug: song/lunacy-of-duke-venomania
+      - name: Evil Food Eater Conchita (2020 ver)
+        displayname: <em>Evil Food Eater Conchita</em> <small>(2020 ver.)</small>
+        slug: song/evil-food-eater-conchita
+      - name: Gift from the Princess who Brought Sleep (2020 ver)
+        displayname: <em>gift from the Princess who Brought Sleep</em> <small>(2020 ver.)</small>
+        slug: song/gift-from-the-princess-who-brought-sleep
+      - name: Tailor of Enbizaka (2020 ver), The
+        displayname: <em>The Tailor of Enbizaka</em> <small>(2020 ver.)</small>
+        slug: song/tailor-of-enbizaka
+      - name: Re birthday (2020 ver)
+        displayname: <em>Re_birthday</em> <small>(2020 ver.)</small>
+        slug: song/re-birthday
+      - name: Heartbeat Clocktower (2020 ver)
+        displayname: <em>Heartbeat Clocktower</em> <small>(2020 ver.)</small>
+        slug: song/heartbeat-clocktower
+      - name: Chrono Story (2020 ver)
+        displayname: <em>Chrono Story</em> <small>(2020 ver.)</small>
+        slug: song/chrono-story
+      - name: Capriccio Farce (2020 ver)
+        displayname: <em>Capriccio Farce</em> <small>(2020 ver.)</small>
+        slug: song/capriccio-farce
+      - name: Song I Heard Somewhere, The
+        displayname: <em>The Song I Heard Somewhere</em>
+        slug: song/song-i-heard-somewhere
+      - name: Swear an Oath on that Bridge
+        displayname: <em>Swear an Oath on that Bridge</em>
+        slug: song/swear-an-oath-on-that-bridge
+      - name: Regret Message (2020 ver)
+        displayname: <em>Regret Message</em> <small>(2020 ver.)</small>
+        slug: song/regret-message
+      - name: Reach For The Stars The Letter She Kept Waiting For
+        displayname: <em>Reach For The Stars ~The Letter She Kept Waiting For~</em>
+        slug: song/letter-she-kept-waiting-for
+      - name: Blind Girl and Angel
+        displayname: <em>Blind Girl and Angel</em>
+        slug: song/blind-girl-and-angel
+      - name: Song of the Cowardly Black Bird
+        displayname: <em>Song of the Cowardly Black Bird</em>
+        slug: song/song-of-the-cowardly-black-bird
+
+########################################### ALBUMS ###########################################
+  - navgroup: AKNP Albums
+    slug: album/index
+    list:
+      - name: Evils Theater
+        displayname: <em>EVILS THEATER</em>
+        slug: album/evils-theater
+      - name: Prelude to Forest
+        displayname: <em>prelude to forest</em>
+        slug: album/prelude-to-forest
+      - name: Evils Forest
+        displayname: <em>EVILS FOREST</em>
+        slug: album/evils-forest
+      - name: Judgment of Corruption a court of greed
+        displayname: <em>Judgment of Corruption ~a court of greed~</em>
+        slug: album/a-court-of-greed
+      - name: Evils Court
+        displayname: <em>EVILS COURT</em>
+        slug: album/evils-court
+      - name: Original Sin Story Act 1
+        displayname: <em>Original Sin Story ―Act 1―</em>
+        slug: album/oss-act-1
+      - name: Original Sin Story Act 2
+        displayname: <em>Original Sin Story ―Act 2―</em>
+        slug: album/oss-act-2
+      - name: Muzzle of Nemesis, The
+        displayname: <em>The Muzzle of Nemesis</em>
+        slug: album/muzzle-of-nemesis
+      - name: Original Sin Story Complete Edition
+        displayname: <em>Original Sin Story ―Complete Edition―</em>
+        slug: album/oss-complete
+      - name: Lucifenia Trinity
+        displayname: <em>Lucifenia Trinity</em>
+        slug: album/lucifenia-trinity
+      - name: Master of the Heavenly Yard
+        displayname: <em>master of the heavenly yard</em>
+        slug: album/master-of-the-heavenly-yard
+      - name: Clockwork Lullaby
+        displayname: <em>Clockwork Lullaby</em>
+        slug: album/clockwork-lullaby
+      - name: Evils Extra
+        displayname: <em>EVILS EXTRA</em>
+        slug: album/evils-extra
+      - name: Eat Prologue
+        displayname: <em>E.A.T PROLOGUE</em>
+        slug: album/eat-prologue
+
+  - navgroup: Additional Albums
+    slug: album/index
+    list:
+      - name: Screws Gears and Pride
+        displayname: <em>Screws, Gears, and Pride</em>
+        slug: album/screws-gears-and-pride
+      - name: Daughter of Evil Gemini of Charm, The
+        displayname: <em>The Daughter of Evil ~Gemini of Charm~</em>
+        slug: album/gemini-of-charm
+      - name: Evil Food Eater Conchita (revised)
+        displayname: <em>Evil Food Eater Conchita (revised)</em>
+        slug: album/evil-food-eater-conchita-revised
+      - name: Evils Kingdom
+        displayname: <em>Evils Kingdom</em>
+        slug: album/evils-kingdom
+      - name: Four Melodies of Evil The Daughter of Evil Novel Music Collection
+        displayname: <em>Four Melodies of Evil ~The Daughter of Evil Novel Music Collection~</em>
+        slug: album/four-melodies-of-evil
+      - name: Daughter of Evil BGM Reading Collection, The
+        displayname: "<em>The Daughter of Evil: BGM Reading Collection</em>"
+        slug: album/bgm-reading-collection
+      - name: Seven Crimes and Punishments
+        displayname: <em>Seven Crimes and Punishments</em>
+        slug: album/seven-crimes-and-punishments
+
+  - navgroup: EVILS THEATER
+    displayname: <em>EVILS THEATER</em>
+    slug: album/evils-theater
+    list:
+      - name: Daughter of Evil, The
+        displayname: <em>The Daughter of Evil</em>
+        slug: song/daughter-of-evil
+      - name: Servant of Evil, The
+        displayname: <em>The Servant of Evil</em>
+        slug: song/servant-of-evil
+      - name: Wordplay
+        displayname: <em>Wordplay</em>
+        slug: song/wordplay
+      - name: Clockwork Lullaby
+        displayname: <em>Clockwork Lullaby</em>
+        slug: song/clockwork-lullaby
+      - name: Tale of Abandonment on a Moonlit Night
+        displayname: <em>Tale of Abandonment on a Moonlit Night</em>
+        slug: song/tale-of-abandonment-on-a-moonlit-night
+      - name: Miniature Garden Girl
+        displayname: <em>Miniature Garden Girl</em>
+        slug: song/miniature-garden-girl
+      - name: Evil Food Eater Conchita
+        displayname: <em>Evil Food Eater Conchita</em>
+        slug: song/evil-food-eater-conchita
+      - name: Ten Minute Love
+        displayname: <em>Ten Minute Love</em>
+        slug: song/ten-minute-love
+      - name: Regret Message
+        displayname: <em>Regret Message</em>
+        slug: song/regret-message
+      - name: Re birthday
+        displayname: <em>Re_birthday</em>
+        slug: song/re-birthday
+      - name: South North Story
+        displayname: <em>South North Story</em>
+        slug: song/south-north-story
+
+  - navgroup: Screws, Gears, and Pride
+    displayname: <em>Screws, Gears, and Pride</em>
+    slug: album/screws-gears-and-pride
+    list:
+      - name: Screws Gears and Pride
+        displayname: <em>Screws, Gears, and Pride</em>
+        slug: song/screws-gears-and-pride
+      - name: South North Story
+        displayname: <em>SOUTH NORTH STORY</em>
+        slug: song/south-north-story
+
+  - navgroup: prelude to forest
+    displayname: <em>prelude to forest</em>
+    slug: album/prelude-to-forest
+    list:
+      - name: Moonlit Bear
+        displayname: <em>moonlit bear</em>
+        slug: song/moonlit-bear
+      - name: Heartbeat Clocktower
+        displayname: <em>Heartbeat Clocktower</em>
+        slug: song/heartbeat-clocktower
+      - name: Daughter of White, The
+        displayname: <em>The Daughter of White</em>
+        slug: song/daughter-of-white
+      - name: Frog's and My Love Romance, The
+        displayname: <em>The Frog's and My Love Romance</em>
+        slug: song/frogs-and-my-love-romance
+      - name: Daughter of Evil velvet mix, The
+        displayname: <em>The Daughter of Evil ~velvet mix~</em>
+        slug: song/daughter-of-evil
+      - name: Servant of Evil velvet mix, The
+        displayname: <em>The Servant of Evil ~velvet mix~</em>
+        slug: song/servant-of-evil
+      - name: Regret Message velvet mix
+        displayname: <em>Regret Message ~velvet mix~</em>
+        slug: song/regret-message
+
+  - navgroup: EVILS FOREST
+    displayname: <em>EVILS FOREST</em>
+    slug: album/evils-forest
+    list:
+      - name: Welcome to the Forest (instrumental)
+        displayname: <em>Welcome to the Forest (instrumental)</em>
+      - name: Master of the Graveyard
+        displayname: <em>master of the graveyard</em>
+        slug: song/master-of-the-graveyard
+      - name: Moonlit Bear
+        displayname: <em>moonlit bear</em>
+        slug: song/moonlit-bear
+      - name: Last Revolver, The
+        displayname: <em>The Last Revolver</em>
+        slug: song/last-revolver
+      - name: Heartbeat Clocktower (Forest Version)
+        displayname: <em>Heartbeat Clocktower (FOREST VERSION)</em>
+        slug: song/heartbeat-clocktower
+      - name: Tailor of Enbizaka, The
+        displayname: <em>The Tailor of Enbizaka</em>
+        slug: song/tailor-of-enbizaka
+      - name: Lunacy of Duke Venomania, The
+        displayname: <em>The Lunacy of Duke Venomania</em>
+        slug: song/lunacy-of-duke-venomania
+      - name: To You of Few Words
+        displayname: <em>To You of Few Words</em>
+        slug: song/to-you-of-few-words
+      - name: Daughter of White, The
+        displayname: <em>The Daughter of White</em>
+        slug: song/daughter-of-white
+      - name: Screws Gears and Pride
+        displayname: <em>Screws, Gears, and Pride</em>
+        slug: song/screws-gears-and-pride
+      - name: Twiright Prank (feat Kagamine Rin and Len)
+        displayname: <em>Twiright Prank (feat. Kagamine Rin &amp; Len)</em>
+        slug: song/twiright-prank
+
+  - navgroup: Evil Food Eater Conchita (revised)
+    displayname: <em>Evil Food Eater Conchita (revised)</em>
+    slug: album/evil-food-eater-conchita-revised
+    list:
+      - name: Evil Food Eater Conchita (revised)
+        displayname: <em>Evil Food Eater Conchita (revised)</em>
+        slug: song/evil-food-eater-conchita
+      - name: Desert Bluebird
+        displayname: <em>Desert BLUEBIRD</em>
+        slug: song/desert-bluebird
+      - name: Full Moon Laboratory
+        displayname: <em>Full Moon Laboratory</em>
+        slug: song/full-moon-laboratory
+      - name: Frog's and My Love Romance, The
+        displayname: <em>The Frog's and My Love Romance</em>
+        slug: song/frogs-and-my-love-romance
+      - name: Clockwork Lullaby (demo version)
+        displayname: <em>Clockwork Lullaby (demo version)</em>
+        slug: song/clockwork-lullaby
+
+  - navgroup: Evils Kingdom
+    displayname: <em>Evils Kingdom</em>
+    slug: album/evils-kingdom
+    list:
+      - name: Moonlit Bear
+        displayname: <em>moonlit bear</em>
+        slug: song/moonlit-bear
+      - name: Tale of Abandonment on a Moonlit Night
+        displayname: <em>Tale of Abandonment on a Moonlit Night</em>
+        slug: song/tale-of-abandonment-on-a-moonlit-night
+      - name: Chrono Story
+        displayname: <em>Chrono Story</em>
+        slug: song/chrono-story
+      - name: Lunacy of Duke Venomania, The
+        displayname: <em>The Lunacy of Duke Venomania</em>
+        slug: song/lunacy-of-duke-venomania
+      - name: Evil Food Eater Conchita
+        displayname: <em>Evil Food Eater Conchita</em>
+        slug: song/evil-food-eater-conchita
+      - name: Twiright Prank
+        displayname: <em>Twiright Prank</em>
+        slug: song/twiright-prank
+      - name: Daughter of Evil, The
+        displayname: <em>The Daughter of Evil</em>
+        slug: song/daughter-of-evil
+      - name: Servant of Evil, The
+        displayname: <em>The Servant of Evil</em>
+        slug: song/servant-of-evil
+      - name: Regret Message
+        displayname: <em>Regret Message</em>
+        slug: song/regret-message
+      - name: Daughter of White, The
+        displayname: <em>The Daughter of White</em>
+        slug: song/daughter-of-white
+      - name: Re birthday
+        displayname: <em>Re_birthday</em>
+        slug: song/re-birthday
+      - name: Tailor of Enbizaka, The
+        displayname: <em>The Tailor of Enbizaka</em>
+        slug: song/tailor-of-enbizaka
+      - name: Judgment of Corruption
+        displayname: <em>Judgment of Corruption</em>
+        slug: song/judgment-of-corruption
+      - name: Miniature Garden Girl
+        displayname: <em>Miniature Garden Girl</em>
+        slug: song/miniature-garden-girl
+      - name: Heartbeat Clocktower
+        displayname: <em>Heartbeat Clocktower</em>
+        slug: song/heartbeat-clocktower
+
+  - navgroup: Judgment of Corruption ~a court of greed~
+    displayname: <em>Judgment of Corruption ~a court of greed~</em>
+    slug: album/a-court-of-greed
+    list:
+      - name: Judgment of Corruption
+        displayname: <em>Judgment of Corruption</em>
+        slug: song/judgment-of-corruption
+      - name: Chrono Story
+        displayname: <em>Chrono Story</em>
+        slug: song/chrono-story
+      - name: Recollective Musicbox
+        displayname: <em>Recollective Musicbox</em>
+        slug: song/recollective-musicbox
+      - name: Madam Merry-Go-Round
+        displayname: <em>Madam Merry-Go-Round</em>
+        slug: song/madam-merry-go-round
+      - name: Wendy
+        displayname: <em>Wendy</em>
+        slug: song/wendy
+      - name: Desert Bluebird
+        displayname: <em>Desert BLUEBIRD</em>
+        slug: song/desert-bluebird
+
+  - navgroup: EVILS COURT
+    displayname: <em>EVILS COURT</em>
+    slug: album/evils-court
+    list:
+      - name: Five Minutes Before Court (instrumental)
+        displayname: <em>Five Minutes Before Court (instrumental)</em>
+      - name: Master of the Court
+        displayname: <em>master of the court</em>
+        slug: song/master-of-the-court
+      - name: Chrono Story
+        displayname: <em>Chrono Story</em>
+        slug: song/chrono-story
+      - name: Recollective Musicbox
+        displayname: <em>Recollective Musicbox</em>
+        slug: song/recollective-musicbox
+      - name: Tree Maiden Millennium Wiegenlied
+        displayname: <em>Tree Maiden ~Millennium Wiegenlied~</em>
+        slug: song/tree-maiden
+      - name: Gift from the Princess who Brought Sleep
+        displayname: <em>gift from the Princess who Brought Sleep</em>
+        slug: song/gift-from-the-princess-who-brought-sleep
+      - name: Fifth Pierrot
+        displayname: <em>Fifth Pierrot</em>
+        slug: song/fifth-pierrot
+      - name: Madam Merry-Go-Round
+        displayname: <em>Madam Merry-Go-Round</em>
+        slug: song/madam-merry-go-round
+      - name: Judgment of Corruption
+        displayname: <em>Judgment of Corruption</em>
+        slug: song/judgment-of-corruption
+      - name: Capriccio Farce
+        displayname: <em>Capriccio Farce</em>
+        slug: song/capriccio-farce
+      - name: Red Shoe Parade
+        displayname: <em>Red Shoe Parade</em>
+        slug: song/red-shoe-parade
+
+  - navgroup: Original Sin Story Act 1
+    displayname: <em>Original Sin Story ―Act 1―</em>
+    slug: album/oss-act-1
+    list:
+      - name: Prophet Merry-Go-Round (instrumental)
+        displayname: <em>Prophet Merry-Go-Round (instrumental)</em>
+      - name: Project Ma
+        displayname: <em>Project &quot;Ma&quot;</em>
+        slug: song/project-ma
+      - name: Escape of Salmhofer the Witch
+        displayname: <em>Escape of Salmhofer the Witch</em>
+        slug: song/escape-of-salmhofer-the-witch
+      - name: Moonlit Bear (New Version)
+        displayname: <em>moonlit bear (New Version)</em>
+        slug: song/moonlit-bear
+
+  - navgroup: Original Sin Story Act 2
+    displayname: <em>Original Sin Story ―Act 2―</em>
+    slug: album/oss-act-2
+    list:
+      - name: Ma Survival Who Will Survive
+        displayname: <em>&quot;Ma Survival&quot; -&nbsp;Who Will Survive?&nbsp;-</em>
+        slug: song/ma-survival
+      - name: Whereabouts of the Miracle Catastrophe
+        displayname: <em>Whereabouts of the Miracle -&nbsp;CATASTROPHE&nbsp;-</em>
+        slug: song/whereabouts-of-the-miracle
+      - name: Clockworker Recollective Musicbox
+        displayname: <em>Clockworker -&nbsp;Recollective Musicbox&nbsp;-</em>
+        slug: song/recollective-musicbox
+
+  - navgroup: The Muzzle of Nemesis
+    displayname: <em>The Muzzle of Nemesis</em>
+    slug: album/muzzle-of-nemesis
+    list:
+      - name: Master of the Hellish Yard
+        displayname: <em>master of the hellish yard</em>
+        slug: song/master-of-the-hellish-yard
+      - name: Muzzle of Nemesis, The
+        displayname: <em>The Muzzle of Nemesis</em>
+        slug: song/muzzle-of-nemesis
+      - name: Last Revolver Nemesis Version, The
+        displayname: <em>The Last Revolver [Nemesis Version]</em>
+        slug: song/last-revolver
+      - name: And Then the Girl Went Mad Ending Tale on a Moonlit Night
+        displayname: <em>And Then the Girl Went Mad ―Ending Tale on a Moonlit Night―</em>
+        slug: song/and-then-the-girl-went-mad
+      - name: Journey of Two Mages Great Wall and Watchman, The
+        displayname: <em>The Journey of Two Mages ~Great Wall and Watchman~</em>
+        slug: song/journey-of-two-mages
+      - name: Blink
+        displayname: <em>Blink</em>
+        slug: song/blink
+      - name: Handbeat Clocktower
+        displayname: <em>Handbeat Clocktower</em>
+        slug: song/handbeat-clocktower
+      - name: Flower of the Plateau
+        displayname: <em>Flower of the Plateau</em>
+        slug: song/flower-of-the-plateau
+      - name: Bloodstained Switch
+        displayname: <em>Bloodstained Switch</em>
+        slug: song/bloodstained-switch
+      - name: Watching Us
+        displayname: <em>Watching Us</em>
+        slug: song/watching-us
+
+  - navgroup: Seven Crimes and Punishments
+    displayname: <em>Seven Crimes and Punishments</em>
+    slug: album/seven-crimes-and-punishments
+    list:
+      - name: Seven Crimes and Punishments
+        displayname: <em>Seven Crimes and Punishments</em>
+        slug: song/seven-crimes-and-punishments
+      - name: Lunacy of Duke Venomania, The
+        displayname: <em>The Lunacy of Duke Venomania</em>
+        slug: song/lunacy-of-duke-venomania
+      - name: Portrait Glassred Drew, The
+        displayname: <em>The Portrait Glassred Drew</em>
+        slug: song/portrait-glassred-drew
+      - name: Evil Food Eater Conchita
+        displayname: <em>Evil Food Eater Conchita</em>
+        slug: song/evil-food-eater-conchita
+      - name: Drug Of Gold
+        displayname: <em>Drug Of Gold</em>
+        slug: song/drug-of-gold
+      - name: Daughter of Evil, The
+        displayname: <em>The Daughter of Evil</em>
+        slug: song/daughter-of-evil
+      - name: Servant of Evil, The
+        displayname: <em>The Servant of Evil</em>
+        slug: song/servant-of-evil
+      - name: Gift from the Princess who Brought Sleep
+        displayname: <em>gift from the Princess who Brought Sleep</em>
+        slug: song/gift-from-the-princess-who-brought-sleep
+      - name: Fifth Pierrot
+        displayname: <em>Fifth Pierrot</em>
+        slug: song/fifth-pierrot
+      - name: Tailor of Enbizaka, The
+        displayname: <em>The Tailor of Enbizaka</em>
+        slug: song/tailor-of-enbizaka
+      - name: Weathered Head at Onigashima, The
+        displayname: <em>The Weathered Head at Onigashima</em>
+        slug: song/weathered-head-at-onigashima
+      - name: Judgment of Corruption
+        displayname: <em>Judgment of Corruption</em>
+        slug: song/judgment-of-corruption
+      - name: Miniature Garden Girl
+        displayname: <em>Miniature Garden Girl</em>
+        slug: song/miniature-garden-girl
+      - name: Muzzle of Nemesis, The
+        displayname: <em>The Muzzle of Nemesis</em>
+        slug: song/muzzle-of-nemesis
+      - name: Last Revolver, The
+        displayname: <em>The Last Revolver</em>
+        slug: song/last-revolver
+
+  - navgroup: Original Sin Story Complete Edition
+    displayname: <em>Original Sin Story ―Complete Edition―</em>
+    slug: album/oss-complete
+    list:
+      - name: Prophet Merry-Go-Round
+        displayname: <em>Prophet Merry-Go-Round</em>
+      - name: Queen Of The Glass
+        displayname: <em>Queen Of The Glass</em>
+        slug: song/queen-of-the-glass
+      - name: Project Ma
+        displayname: <em>Project &quot;Ma&quot;</em>
+        slug: song/project-ma
+      - name: Escape of Salmhofer the Witch
+        displayname: <em>Escape of Salmhofer the Witch</em>
+        slug: song/escape-of-salmhofer-the-witch
+      - name: Moonlit Bear
+        displayname: <em>moonlit bear</em>
+        slug: song/moonlit-bear
+      - name: Barisol's Child is an Only Child
+        displayname: <em>Barisol's Child is an Only Child</em>
+        slug: song/barisols-child-is-an-only-child
+      - name: Ma Survival
+        displayname: <em>&quot;Ma&quot; Survival</em>
+        slug: song/ma-survival
+      - name: Whereabouts of the Miracle
+        displayname: <em>Whereabouts of the Miracle</em>
+        slug: song/whereabouts-of-the-miracle
+      - name: Recollective Musicbox
+        displayname: <em>Recollective Musicbox</em>
+        slug: song/recollective-musicbox
+      - name: Song I Heard Somewhere, The
+        displayname: <em>The Song I Heard Somewhere</em>
+        slug: song/song-i-heard-somewhere
+      - name: Tale of Abandonment on a Moonlit Night
+        displayname: <em>Tale of Abandonment on a Moonlit Night</em>
+        slug: song/tale-of-abandonment-on-a-moonlit-night
+      - name: Chrono Story
+        displayname: <em>Chrono Story</em>
+        slug: song/chrono-story
+
+  - navgroup: Lucifenia Trinity
+    displayname: <em>Lucifenia Trinity</em>
+    slug: album/lucifenia-trinity
+    list:
+      - name: A Hero's Armor is Always Crimson
+        displayname: <em>A Hero's Armor is Always Crimson</em>
+        slug: song/a-heros-armor-is-always-crimson
+      - name: Neomaria of the Inverted Gravestone
+        displayname: <em>Neomaria of the Inverted Gravestone</em>
+        slug: song/neomaria-of-the-inverted-gravestone
+      - name: Swear an Oath on that Bridge
+        displayname: <em>Swear an Oath on that Bridge</em>
+        slug: song/swear-an-oath-on-that-bridge
+
+  - navgroup: Clockwork Lullaby
+    displayname: <em>Clockwork Lullaby</em>
+    slug: album/clockwork-lullaby
+    list:
+      - name: Clockwork Lullaby Key Of Word
+        displayname: <em>Clockwork Lullaby -Key Of Word-</em>
+        slug: song/clockwork-lullaby
+      - name: Miniature Garden Girl
+        displayname: <em>Miniature Garden Girl</em>
+        slug: song/miniature-garden-girl
+      - name: Re birthday
+        displayname: <em>Re_birthday</em>
+        slug: song/re-birthday
+      - name: Heartbeat Clocktower
+        displayname: <em>Heartbeat Clocktower</em>
+        slug: song/heartbeat-clocktower
+      - name: Chrono Story
+        displayname: <em>Chrono Story</em>
+        slug: song/chrono-story
+      - name: Capriccio Farce
+        displayname: <em>Capriccio Farce</em>
+        slug: song/capriccio-farce
+      - name: Seven Crimes and Punishments
+        displayname: <em>Seven Crimes and Punishments</em>
+        slug: song/seven-crimes-and-punishments
+      - name: Song I Heard Somewhere, The
+        displayname: <em>The Song I Heard Somewhere</em>
+        slug: song/song-i-heard-somewhere
+      - name: Swear an Oath on that Bridge
+        displayname: <em>Swear an Oath on that Bridge</em>
+        slug: song/swear-an-oath-on-that-bridge
+      - name: Banica Concerto!!
+        displayname: <em>Banica Concerto!!</em>
+        slug: song/banica-concerto
+      - name: Karma of Evil Will Not End, The
+        displayname: <em>The Karma of Evil Will Not End</em>
+        slug: song/karma-of-evil-will-not-end
+      - name: Song of the Third Period
+        displayname: <em>Song of the Third Period</em>
+        slug: song/song-of-the-third-period
+
+  - navgroup: EVILS EXTRA
+    displayname: <em>EVILS EXTRA</em>
+    slug: album/evils-extra
+    list:
+      - name: Genesis Girl Gretel
+        displayname: <em>Genesis Girl Gretel</em>
+        slug: song/genesis-girl-gretel
+      - name: Fictional Masquerade
+        displayname: <em>Fictional Masquerade</em>
+        slug: song/fictional-masquerade
+      - name: You Only Have to Double Jump
+        displayname: <em>You Only Have to Double Jump</em>
+        slug: song/you-only-have-to-double-jump
+      - name: Torture Tower Doesn't Sleep
+        displayname: <em>Torture Tower Doesn't Sleep</em>
+        slug: song/torture-tower-doesnt-sleep
+      - name: Messengers of the Infinity Mirrors
+        displayname: <em>Messengers of the Infinity Mirrors</em>
+        slug: song/messengers-of-the-infinity-mirrors
+      - name: That King was Born from Mud
+        displayname: <em>That King was Born from Mud</em>
+        slug: song/that-king-was-born-from-mud
+      - name: Full Moon Laboratory
+        displayname: <em>Full Moon Laboratory</em>
+        slug: song/full-moon-laboratory
+      - name: Frog's and My Love Romance Sped Up, The
+        displayname: <em>The Frog's and My Love Romance Sped Up</em>
+        slug: song/frogs-and-my-love-romance
+      - name: Unlock Blackbox
+        displayname: <em>Unlock Blackbox [Instrumental]</em>
+      - name: Reach For The Stars The Letter She Kept Waiting For
+        displayname: <em>Reach For The Stars ~The Letter She Kept Waiting For~</em>
+        slug: song/letter-she-kept-waiting-for
+      - name: Song that Resounds with Lulila, Lulila (Parade), The
+        displayname: <em>The Song that Resounds with Lulila, Lulila (Parade)</em>
+        slug: song/song-that-resounds-with-lulila-lulila
+      - name: Ending Boy Hansel
+        displayname: <em>Ending Boy Hänsel</em>
+        slug: song/ending-boy-hansel
+
+  - navgroup: EAT PROLOGUE
+    displayname: <em>E.A.T PROLOGUE</em>
+    slug: album/eat-prologue
+    list:
+      - name: Great Journey
+        displayname: <em>grEAT journey</em>
+        slug: song/great-journey
+      - name: Blind Girl and Angel
+        displayname: <em>Blind Girl and Angel</em>
+        slug: song/blind-girl-and-angel
+      - name: Song of the Cowardly Black Bird
+        displayname: <em>Song of the Cowardly Black Bird</em>
+        slug: song/song-of-the-cowardly-black-bird
+
+########################################### NOVELS ###########################################
+  - navgroup: The Daughter of Evil Series
+    displayname: <em>The Daughter of Evil</em> Series
+    slug: novel/index
+    list:
+      - name: Daughter of Evil Cloture of Yellow, The
+        displayname: "<em>The Daughter of Evil: Clôture of Yellow</em>"
+        slug: novel/cloture-of-yellow
+      - name: Daughter of Evil Wiegenlied of Green, The
+        displayname: "<em>The Daughter of Evil: Wiegenlied of Green</em>"
+        slug: novel/wiegenlied-of-green
+      - name: Entr'acte of Evil The Daughter of Evil Worldguide
+        displayname: "<em>Entr'acte of Evil: The Daughter of Evil Worldguide</em>"
+        slug: novel/entracte-of-evil
+      - name: Daughter of Evil Praeludium of Red, The
+        displayname: "<em>The Daughter of Evil: Praeludium of Red</em>"
+        slug: novel/praeludium-of-red
+      - name: Daughter of Evil Praefacio of Blue, The
+        displayname: "<em>The Daughter of Evil: Praefacio of Blue</em>"
+        slug: novel/praefacio-of-blue
+      - name: Epic of Evil The Daughter of Evil Fanbook
+        displayname: "<em>Epic of Evil: The Daughter of Evil Fanbook</em>"
+        slug: novel/epic-of-evil
+
+  - navgroup: Deadly Sins of Evil Series
+    displayname: <em>Deadly Sins of Evil</em> Series
+    slug: novel/index
+    list:
+      - name: Deadly Sins of Evil The Lunacy of Duke Venomania
+        displayname: "<em>Deadly Sins of Evil: The Lunacy of Duke Venomania</em>"
+        slug: novel/lunacy-of-duke-venomania
+      - name: Deadly Sins of Evil Evil Food Eater Conchita
+        displayname: "<em>Deadly Sins of Evil: Evil Food Eater Conchita</em>"
+        slug: novel/evil-food-eater-conchita
+      - name: Waltz of Evil The Deadly Sins of Evil Guidebook
+        displayname: "<em>Waltz of Evil: The Deadly Sins of Evil Guidebook</em>"
+        slug: novel/waltz-of-evil
+      - name: Deadly Sins of Evil Gift from the Princess who Brought Sleep
+        displayname: "<em>Deadly Sins of Evil: gift from the Princess who Brought Sleep</em>"
+        slug: novel/gift-from-the-princess-who-brought-sleep
+      - name: Deadly Sins of Evil Fifth Pierrot
+        displayname: "<em>Deadly Sins of Evil: Fifth Pierrot</em>"
+        slug: novel/fifth-pierrot
+      - name: Deadly Sins of Evil The Tailor of Enbizaka
+        displayname: "<em>Deadly Sins of Evil: The Tailor of Enbizaka</em>"
+        slug: novel/tailor-of-enbizaka
+      - name: Deadly Sins of Evil Judgment of Corruption
+        displayname: "<em>Deadly Sins of Evil: Judgment of Corruption</em>"
+        slug: novel/judgment-of-corruption
+      - name: Deadly Sins of Evil The Muzzle of Nemesis
+        displayname: "<em>Deadly Sins of Evil: The Muzzle of Nemesis</em>"
+        slug: novel/muzzle-of-nemesis
+      - name: Deadly Sins of Evil master of the heavenly yard
+        displayname: "<em>Deadly Sins of Evil: master of the heavenly yard</em>"
+        slug: novel/master-of-the-heavenly-yard
+
+  - navgroup: Original Sin Story Series
+    displayname: <em>Original Sin Story</em> Series
+    slug: novel/index
+    list:
+      - name: Original Sin Story Crime
+        displayname: <em>Original Sin Story ―Crime―</em>
+        slug: novel/oss-crime
+      - name: Original Sin Story Punishment
+        displayname: <em>Original Sin Story ―Punishment―</em>
+#       slug: novel/oss-punishment
+
+  - navgroup: Torture Tower Doesn't Sleep Series
+    displayname: <em>Torture Tower Doesn't Sleep</em> Series
+    slug: novel/index
+    list:
+      - name: Torture Tower Doesn't Sleep The Three Daughters of Sir Torture
+        displayname: <em>Torture Tower Doesn't Sleep ―The Three Daughters of Sir Torture―</em>
+        slug: novel/three-daughters-of-sir-torture
+      - name: Torture Tower Doesn't Sleep The Emerald Girl
+        displayname: <em>Torture Tower Doesn't Sleep ―The Emerald Girl―</em>
+        slug: novel/emerald-girl
+      - name: Torture Tower Doesn't Sleep The Ring of Evil
+        displayname: <em>Torture Tower Doesn't Sleep ―The Ring of Evil―</em>
+        slug: novel/ring-of-evil
+
+  - navgroup: Story of Evil Series
+    displayname: <em>Story of Evil</em> Series
+    slug: novel/index
+    list:
+      - name: Story of Evil The Paper Demon and the Secret Archive
+        displayname: "<em>Story of Evil: The Paper Demon and the Secret Archive</em>"
+        slug: novel/paper-demon
+      - name: Story of Evil The Twilight Demon and the False Queen
+        displayname: "<em>Story of Evil: The Twilight Demon and the False Queen</em>"
+        slug: novel/twilight-demon
+
+  - navgroup: Additional Stories
+    slug: novel/index
+    list:
+      - name: Seven Crimes and Punishments
+        displayname: <em>Seven Crimes and Punishments</em>
+        slug: novel/seven-crimes-and-punishments
+      - name: Unlock City
+        displayname: <em>Unlock City</em>
+        slug: novel/unlock-city
+      - name: Outlaw and Lychgate
+        displayname: <em>Outlaw&amp;Lychgate</em>
+        slug: novel/outlaw-and-lychgate
+      - name: Eat Prologue
+        displayname: <em>E.A.T PROLOGUE</em>
+        slug: novel/eat-prologue
+
+########################################### OTHER ###########################################
+  - navgroup: Miscellaneous Media
+    list:
+      - name: Aku Musu
+        displayname: <em>Aku Musu</em>
+        slug: other/aku-musu
+      - name: Torture Tower Doesn't Sleep Clown Chapter
+        displayname: <em>Torture Tower Doesn't Sleep ―Clown Chapter―</em>
+        slug: other/clown-chapter
+      - name: Daughter of Evil Act 1, The
+        displayname: "<em>The Daughter of Evil: Act 1</em>"
+        slug: other/doe-act-1
+      - name: Daughter of Evil Act 2, The
+        displayname: "<em>The Daughter of Evil: Act 2</em>"
+        slug: other/doe-act-2
+      - name: Daughter of Evil Act 3, The
+        displayname: "<em>The Daughter of Evil: Act 3</em>"
+        slug: other/doe-act-3
+      - name: Daughter of Evil Act 4, The
+        displayname: "<em>The Daughter of Evil: Act 4</em>"
+        slug: other/doe-act-4
+      - name: Torture Tower Doesn't Sleep Extra Chapter
+        displayname: "&quot;Torture Tower Doesn't Sleep: Extra Chapter&quot;"
+        slug: other/extra-chapter
+      - name: Lunacy of Duke Venomania, The
+        displayname: <em>The Lunacy of Duke Venomania</em>
+        slug: other/lunacy-of-duke-venomania
+      - name: Gift from the Princess who Brought Sleep
+        displayname: "&quot;gift from the Princess who Brought Sleep&quot;"
+        slug: other/manga-shorts
+      - name: Fifth Pierrot
+        displayname: "&quot;Fifth Pierrot&quot;"
+        slug: other/manga-shorts
+      - name: Torture Tower Doesn't Sleep Nightmare Dream
+        displayname: "<em>Torture Tower Doesn't Sleep: Nightmare Dream</em>"
+        slug: other/nightmare-dream
+      - name: Servant of Evil Opera Buffa!, The
+        displayname: <em>The Servant of Evil ~Opera Buffa!~</em>
+        slug: other/opera-buffa
+      - name: Quartets of Evil
+        displayname: <em>Quartets of Evil</em>
+        slug: other/quartets-of-evil
+      - name: Daughter of Evil Schedule Book 2013, The
+        displayname: <em>The Daughter of Evil Schedule Book 2013</em>
+        slug: other/schedule-book-2013

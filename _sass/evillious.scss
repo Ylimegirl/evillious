@@ -272,10 +272,55 @@ ruby .hidden {
 	border: none;
 	font-variant: small-caps;
 	font-size: inherit;
+	cursor: pointer;
 }
 
 .collapsed {
 	display: none;
+}
+
+.navbox {
+	display: grid;
+	gap: 5px;
+	max-width: 980px;
+	margin: 5px auto;
+	background: var(--foreground-color);
+	border-radius: 5px;
+	padding: 5px;
+	text-align: center;
+	.nav-title .collapse {
+		margin-left:-100%;
+	}
+	.nav-content {
+		background: var(--background-color);
+		padding: 3px;
+		border-radius: 3px;
+		line-height: 1.4em;
+		font-size: .9em;
+	}
+}
+
+.navbar {
+	display: grid;
+	grid-template-columns: 5fr 4fr 5fr;
+	max-width: 980px;
+	align-items: center;
+	margin: 5px auto;
+	background: var(--foreground-color);
+	border-radius: 5px;
+	padding: 5px;
+	.nav-left {
+		justify-self: left;
+		text-align: left;
+	}
+	.nav-center {
+		justify-self: center;
+		text-align: center;
+	}
+	.nav-right {
+		justify-self: right;
+		text-align: right;
+	}
 }
 
 footer {/**footer. nuff said**/
