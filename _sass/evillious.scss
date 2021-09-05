@@ -383,4 +383,7 @@ footer {/**footer. nuff said**/
 		width: 100%;
 		text-align: center;
 	}
+	.navbar {/**makes the navbar vertically stacked instead of horizontally laid out**/
+		grid-template-columns: 1fr;
+	}
 }
