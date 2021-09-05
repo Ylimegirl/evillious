@@ -3,18 +3,35 @@ $(document).ready(function(){
 	var spread = "01";// set the spread the booklet is initially open to
 	var finalID = document.getElementById("album").lastElementChild.id;//grab the final page number of the booklet by the ID of the last element nested under the element with the "album" ID
 	var max = leadingZero(finalID.substring(1,3)/2+1);//grabs the max spread number by taking the number portion of finalID (i.e. #p00) and then converts that into the amount of spreads the booklet has by dividing it in half and adding one (to account for the "spreads" of the front and back covers as well), and then adds a leading zero if needed
+	
+	$.getScript("/assets/js/links.js", function(){//formats external links
+		externalLinks();
+	});
+	
 	//console.log("Ready"); //for debugging
 	
-	$("a").each(function(){//Adds target="_blank" and rel="noreferrer noopener" to all external links
-		if(location.hostname !== this.hostname && this.hostname.length)
-			$(this).attr({ target: "_blank", rel: "noreferrer noopener"});
-	});
 	
 	$("figure").removeClass("current").addClass("hidden");//sets all pages to No Appear by default
 	showSpread(spread);//displays the elements in the first spread of the booklet
 	toggleJacket(spread);//and also the jacket
 	
 	$("#buttonLeft").click(function() {//if the left arrow is clicked
+		paginateLeft();//moves back a spread
+	});
+	
+	$("#buttonRight").click(function() {//if the right arrow is clicked
+		paginateRight();//moves forward a spread
+	});
+	
+	document.addEventListener('keydown', function(event) {//keyboard interactivity time
+		const key = event.key;
+		if(event.key === "ArrowLeft" || event.key === "Left")//if left arrow pressed
+			paginateLeft();//moves back a spread
+		else if(event.key === "ArrowRight" || event.key === "Right")//if right arrow pressed
+			paginateRight();//moves forward a spread
+	});
+	
+	function paginateLeft() {//function to move back a spread
 		if(spread !== "01") {//and we're not on the first spread
 			hideSpread(spread);//disappear the current spread
 			spread--;//move the spread down by one
@@ -22,9 +39,9 @@ $(document).ready(function(){
 			showSpread(spread)//and then display the corresponding spread
 			toggleJacket(spread);//toggle the visibility of the jacket
 		}
-	});
+	}
 	
-	$("#buttonRight").click(function() {//if the right arrow is clicked
+	function paginateRight() {//function to move forward a spread
 		if(spread !== max) {//and we're not on the last spread
 			hideSpread(spread);//disappear the current spread
 			spread++;//move the spread up by one
@@ -32,10 +49,10 @@ $(document).ready(function(){
 			showSpread(spread)//and then display the corresponding spread
 			toggleJacket(spread);//toggles the visibility of the jacket
 		}
-	});
+	}
 	
 	function toggleJacket(a) {//toggles the visibility of the jacket
-		if(a == "01")
+		if(a === "01")
 			$("#jacket").removeClass("hidden").addClass("current");
 		else
 			$("#jacket").removeClass("current").addClass("hidden");

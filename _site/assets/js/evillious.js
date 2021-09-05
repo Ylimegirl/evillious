@@ -2,10 +2,12 @@ $(document).ready(function(){
 	"use strict";//no clue what this means tbh but i think its important
 	//console.log("Ready"); //for debugging
 	let hover = window.matchMedia('(hover: hover)'); //grabs media query for hover
+	$.getScript("/assets/js/konami.js", function() {//konami time
+		var armak = new Konami("https://www.youtube.com/watch?v=gFXW3ttFtho");
+	});
 	
-	$("a").each(function(){//Adds target="_blank" and rel="noreferrer noopener" to all external links
-		if(location.hostname !== this.hostname && this.hostname.length)
-			$(this).attr({ target: "_blank", rel: "noreferrer noopener"});
+	$.getScript("/assets/js/links.js", function(){//formats external links
+		externalLinks();
 	});
 	
 	if (document.querySelector("ruby.jpn") === null)//if there are no ruby elements on the page of the class "jpn" (so as not to count the fuributton itself in the search)
@@ -66,57 +68,4 @@ $(document).ready(function(){
 				$(".romaji").removeClass("current");//hide all the romaji
 		});
 	}
-	/*** BEGIN KONAMI CODE ***/
-	
-	/*
-		* Konami-JS ~
-		* Code: http://konami-js.googlecode.com/
-		* Examples: http://www.snaptortoise.com/konami-js
-		* Copyright (c) 2009 George Mandis (georgemandis.com, snaptortoise.com)
-		* Version: 1.3.2 (7/02/2010) // Modified to exclude iPhone support
-		* Licensed under the GNU General Public License v3
-		* http://www.gnu.org/copyleft/gpl.html
-		* Tested in: Safari 4+, Google Chrome 4+, Firefox 3+ and IE7+
-	*/
-	
-	var Konami = function() {
-		var konami= {
-				addEvent:function ( obj, type, fn, ref_obj )
-				{
-					if (obj.addEventListener)
-						obj.addEventListener( type, fn, false );
-					else if (obj.attachEvent)
-					{
-						// IE
-						obj["e"+type+fn] = fn;
-						obj[type+fn] = function() { obj["e"+type+fn]( window.event,ref_obj ); }
-	 
-						obj.attachEvent( "on"+type, obj[type+fn] );
-					}
-				},
-				input:"",
-				pattern:"3838404037393739666513",
-			/*pattern:"38384040373937396665",*/
-				load: function(link) {	
-	 
-					this.addEvent(document,"keydown", function(e,ref_obj) {											
-						if (ref_obj) konami = ref_obj; // IE
-						konami.input+= e ? e.keyCode : event.keyCode;
-						if (konami.input.length > konami.pattern.length) konami.input = konami.input.substr((konami.input.length - konami.pattern.length));
-						if (konami.input == konami.pattern) {
-						konami.code(link);
-						konami.input="";
-						return;
-						}
-					},this); 
-					},
-				code: function(link) { window.location=link}
-		}
-		return konami;
-	}
-	
-		var konami = new Konami()
-		konami.load("https://www.youtube.com/watch?v=gFXW3ttFtho");
-	
-	/*** END KONAMI CODE ***/
 });//disclaimer im not a good javascript programmer i barely know what im doing
