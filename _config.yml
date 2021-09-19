@@ -33,10 +33,6 @@ plugins:
   - jekyll-email-protect
   - jekyll/scholar
 
-#collections:
-#  authors:
-#    output: true
-
 defaults:
   - scope:
       path: ""
