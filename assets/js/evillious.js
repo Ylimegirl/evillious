@@ -21,7 +21,7 @@ $(document).ready(function(){
 	});
 	
 	$("#fuributton").click(function() {//toggles furigana on and off when the fuributton is clicked
-		$("rt").toggleClass("hidden");//toggles the relevant CSS class
+		$("ruby.jpn rt, #fuributton rt").toggleClass("hidden");//toggles the relevant CSS class
 	});
 
 	$(".collapse").click(function() {//opens and closes collapsible sections when a collapse button is clicked
