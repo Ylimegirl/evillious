@@ -76,6 +76,7 @@ HerReason.jpg	壱加 (Ichika)
 IllustrationStory.png	吉田ドンドリアン (Yoshida Dondorian)
 Judgment.jpg	ゆーりん (you-ring)
 JudgmentManga.png	池野雅博 (Masahiro Ikeno)
+Kagamination2.jpg	青柳宇一郎 (Uichiro Aoyagi)
 Kaitonation.jpg	憂 (Yuu)
 KeyOfWord.png	unknown
 LastRevolver.png	壱加 (Ichika)
@@ -125,6 +126,7 @@ SevenBonus.png	壱加 (Ichika)
 SevenStory.png	壱加 (Ichika)
 SongIHeardSomewhere.png mothy
 SouthNorth.png	まる。 (Maru.)
+SteelLady.png	△○□× (Miwasiba)
 Supernova3.jpg	獅子猿 (Shishizaru)
 SwearAnOath.png	mothy
 TenMinuteLove.jpg	たー (Taa)

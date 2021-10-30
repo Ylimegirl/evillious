@@ -241,6 +241,9 @@
       - name: Song of the Cowardly Black Bird
         displayname: <em>Song of the Cowardly Black Bird</em>
         slug: song/song-of-the-cowardly-black-bird
+      - name: Steel Lady, Rilia-Renée, The
+        displayname: <em>The Steel Lady, Rilia-Renée</em>
+        slug: song/steel-lady-rilia-renee
 
   - navgroup: PVs
     slug: song/index
@@ -437,6 +440,9 @@
       - name: Song of the Cowardly Black Bird
         displayname: <em>Song of the Cowardly Black Bird</em>
         slug: song/song-of-the-cowardly-black-bird
+      - name: Steel Lady, Rilia-Renée, The
+        displayname: <em>The Steel Lady, Rilia-Renée</em>
+        slug: song/steel-lady-rilia-renee
 
 ########################################### ALBUMS ###########################################
   - navgroup: AKNP Albums
