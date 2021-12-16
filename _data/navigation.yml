@@ -244,6 +244,9 @@
       - name: Steel Lady, Rilia-Renée, The
         displayname: <em>The Steel Lady, Rilia-Renée</em>
         slug: song/steel-lady-rilia-renee
+      - name: Waltz of the Departed
+        displayname: <em>Waltz of the Departed</em>
+        slug: song/waltz-of-the-departed
 
   - navgroup: PVs
     slug: song/index

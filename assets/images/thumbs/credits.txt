@@ -147,6 +147,7 @@ VocaloAppend.jpg	オサム (Osamu)
 Vocaloconnection.png	左 (Hidari)
 Vocalocreation.jpg	Nidy-2D-
 Vocantabile.jpg	吉田ヨシツギ (Yoshida Yoshitsugi)
+Waltz.png	unknown
 WaltzOfEvil.png	壱加 (Ichika)
 WatchingUs.png	吉田ヨシツギ (Yoshida Yoshitsugi)
 Wiegenlied.jpg	鈴ノ助 (Suzunosuke)
