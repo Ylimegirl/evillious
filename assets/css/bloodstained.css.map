@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "bloodstained.css",
+	"sources": [
+		"bloodstained.scss",
+		"_sass/bloodstained.scss"
+	],
+	"sourcesContent": [
+		"@import \"bloodstained\";",
+		".lyricbox {\r\n\tstrong {\r\n\t\tfont-weight: normal;\r\n\t\tfont-size:1.5em;\r\n\t\tline-height:1.4em;\r\n\t}\r\n\t\r\n\t.romaji strong {\r\n\t\tfont-weight:bold;\r\n\t\tfont-size:unset;\r\n\t}\r\n\t\r\n\tem {\r\n\t\tfont-style: normal;\r\n\t\tcolor: #c00000;\r\n\t}\r\n\t\r\n\tem.blue {\r\n\t\tcolor: #1515c6;\r\n\t}\r\n}"
+	],
+	"names": [],
+	"mappings": "ACAA,AACC,SADQ,CACR,MAAM,CAAC,EACN,WAAW,EAAE,MAAM,EACnB,SAAS,EAAC,KAAK,EACf,WAAW,EAAC,KAAK,GACjB;;AALF,AAOC,SAPQ,CAOR,OAAO,CAAC,MAAM,CAAC,EACd,WAAW,EAAC,IAAI,EAChB,SAAS,EAAC,KAAK,GACf;;AAVF,AAYC,SAZQ,CAYR,EAAE,CAAC,EACF,UAAU,EAAE,MAAM,EAClB,KAAK,EAAE,OAAO,GACd;;AAfF,AAiBC,SAjBQ,CAiBR,EAAE,AAAA,KAAK,CAAC,EACP,KAAK,EAAE,OAAO,GACd"
+}

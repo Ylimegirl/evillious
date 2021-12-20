@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "rebirthday.css",
+	"sources": [
+		"rebirthday.scss",
+		"_sass/rebirthday.scss"
+	],
+	"sourcesContent": [
+		"@import \"rebirthday\";",
+		".lyricbox {\r\n\tem {\r\n\t\tfont-style:normal;\r\n\t}\r\n\t\r\n\tem.green {\r\n\t\tcolor:#00c000;\r\n\t}\r\n\t\r\n\tem.red {\r\n\t\tcolor:#c00000;\r\n\t}\r\n\t\r\n\tem.blue {\r\n\t\tcolor:#00c0c0;\r\n\t}\r\n\t\r\n\t.romaji em.green,\r\n\t.romaji em.blue {\r\n\t\tfilter: invert(100%) hue-rotate(180deg);\r\n\t}\r\n}"
+	],
+	"names": [],
+	"mappings": "ACAA,AACC,SADQ,CACR,EAAE,CAAC,EACF,UAAU,EAAC,MAAM,GACjB;;AAHF,AAKC,SALQ,CAKR,EAAE,AAAA,MAAM,CAAC,EACR,KAAK,EAAC,OAAO,GACb;;AAPF,AASC,SATQ,CASR,EAAE,AAAA,IAAI,CAAC,EACN,KAAK,EAAC,OAAO,GACb;;AAXF,AAaC,SAbQ,CAaR,EAAE,AAAA,KAAK,CAAC,EACP,KAAK,EAAC,OAAO,GACb;;AAfF,AAiBC,SAjBQ,CAiBR,OAAO,CAAC,EAAE,AAAA,MAAM,EAjBjB,SAAS,CAkBR,OAAO,CAAC,EAAE,AAAA,KAAK,CAAC,EACf,MAAM,EAAE,YAAY,CAAC,kBAAkB,GACvC"
+}
