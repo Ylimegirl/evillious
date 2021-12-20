@@ -1,0 +1,11 @@
+.lyricbox em { font-style: normal; }
+
+.lyricbox em.green { color: #00c000; }
+
+.lyricbox em.red { color: #c00000; }
+
+.lyricbox em.blue { color: #00c0c0; }
+
+.lyricbox .romaji em.green, .lyricbox .romaji em.blue { filter: invert(100%) hue-rotate(180deg); }
+
+/*# sourceMappingURL=rebirthday.css.map */

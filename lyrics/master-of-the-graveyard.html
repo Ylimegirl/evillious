@@ -4,14 +4,22 @@ image: /assets/images/thumbs/EvilsForest.png
 translation: https://pricechecktranslations.tumblr.com/post/109030193235
 trans2: <small>(<a href="https://pricechecktranslations.tumblr.com/post/134487417035">addendum</a>)</small>
 mothyrights: <em>The Evillious Chronicles</em>|<em>master of the graveyard</em>
+css: graveyard.css
 ---
 <div>
 	<h3><a href="{% link album/evils-forest.html %}"><em>EVILS FOREST</em></a></h3>
 	<div class="lyricbox">
-		{% include verse.html
-			lyrics="廃！杯！拝！這！敗！背！肺！灰！×2/（廃れた墓場に迷い込こんだならば/|杯持つ女を称えよ/|拝み、敬い、跪くがいい/|這いずり回る亡者に捕われればそこで終り/|敗北者は手足をもがれ/|背中を割かれ/|肺も腸も心臓も奪われ、やがては/|灰になるだろう）"
-			romaji="hai! hai! hai! hai! hai! hai! hai! hai!/(sutareta hakaba ni mayoi komikonda naraba/|hai motsu onna wo tatae yo/|ogami, uyamai, hizamazuku ga ii/|haizurimawaru mouja ni torawarereba soko de owari/|haibokusha wa teashi wo mogare/|senaka wo sakare/|hai mo chou mo shinzou mo ubaware, yagate wa/|hai ni naru darou)"
-		%}
+		<p>
+			{% include lyric.html lyric="廃！杯！拝！這！敗！背！肺！灰！×2" rom="hai! hai! hai! hai! hai! hai! hai! hai!" %}<br />
+			{% include lyric.html lyric="（<em>廃</em>れた墓場に迷い込こんだならば" rom="(<em>suta</em>reta hakaba ni mayoi komikonda naraba" %}<br />
+			{% include lyric.html lyric="|<em>杯</em>持つ女を称えよ" rom="|<em>hai</em> motsu onna wo tatae yo" %}<br />
+			{% include lyric.html lyric="|<em>拝</em>み、敬い、跪くがいい" rom="|<em>oga</em>mi, uyamai, hizamazuku ga ii" %}<br />
+			{% include lyric.html lyric="|<em>這</em>いずり回る亡者に捕われればそこで終り" rom="|<em>ha</em>izurimawaru mouja ni torawarereba soko de owari" %}<br />
+			{% include lyric.html lyric="|<em>敗</em>北者は手足をもがれ" rom="|<em>hai</em>bokusha wa teashi wo mogare" %}<br />
+			{% include lyric.html lyric="|<em>背</em>中を割かれ" rom="|<em>se</em>naka wo sakare" %}<br />
+			{% include lyric.html lyric="|<em>肺</em>も腸も心臓も奪われ、やがては" rom="|<em>hai</em> mo chou mo shinzou mo ubaware, yagate wa" %}<br />
+			{% include lyric.html lyric="|<em>灰</em>になるだろう）" rom="|<em>hai</em> ni naru darou)" %}
+		</p>
 		{% include verse.html
 			lyrics="敬い称えよ|我らが主/森の墓場は|彼女の餌場/腐臭漂う|背徳の墓場/主の名前は|悪食娘"
 			romaji="umayamaitate yo|warera ga aruji/mori no hakaba wa|kanojo no esaba/fushuu tadayou|haitoku no hakaba/aruji no namae wa|akujiki musume"

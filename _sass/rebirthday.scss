@@ -1,0 +1,22 @@
+.lyricbox {
+	em {
+		font-style:normal;
+	}
+	
+	em.green {
+		color:#00c000;
+	}
+	
+	em.red {
+		color:#c00000;
+	}
+	
+	em.blue {
+		color:#00c0c0;
+	}
+	
+	.romaji em.green,
+	.romaji em.blue {
+		filter: invert(100%) hue-rotate(180deg);
+	}
+}

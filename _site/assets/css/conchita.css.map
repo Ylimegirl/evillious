@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "conchita.css",
+	"sources": [
+		"conchita.scss",
+		"_sass/redemphasis.scss"
+	],
+	"sourcesContent": [
+		"@import \"redemphasis\";",
+		".lyricbox em {\r\n\tcolor: #c00000;\r\n\tfont-style: normal;\r\n}"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,SAAS,CAAC,EAAE,CAAC,EACZ,KAAK,EAAE,OAAO,EACd,UAAU,EAAE,MAAM,GAClB"
+}

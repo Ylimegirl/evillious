@@ -1,0 +1,9 @@
+.lyricbox strong { font-weight: normal; font-size: 1.5em; line-height: 1.4em; }
+
+.lyricbox .romaji strong { font-weight: bold; font-size: unset; }
+
+.lyricbox em { font-style: normal; color: #c00000; }
+
+.lyricbox em.blue { color: #1515c6; }
+
+/*# sourceMappingURL=bloodstained.css.map */
