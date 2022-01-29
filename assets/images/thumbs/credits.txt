@@ -96,6 +96,7 @@ OSS1.jpg	壱加 (Ichika)
 OSS2.jpg	壱加 (Ichika)
 OSSComplete.jpg	壱加 (Ichika)
 OSSSin.jpg	壱加 (Ichika)
+OSSTo.png	unknown
 OutlawLychgate.jpg	壱加 (Ichika)
 PaperDemon.jpg	柚希きひろ (Yuzuki Kihiro)
 Pierrot.jpg	碧茶 (Hekicha)
