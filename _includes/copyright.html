@@ -24,6 +24,6 @@
 		{%- endfor %}
 		<p>{{ hell | array_to_sentence_string }} copyright &copy; {{ entity }}{% unless last == "." %}.{% endunless %}</p>{% endfor %}{% if include.artists or include.photographer %}
 		<p>{% if include.artists %}Art by {{ include.artists | split: "|" | array_to_sentence_string }}.{% endif %}{% if include.photographer %} Photography by {{ include.photographer | split: "|" | array_to_sentence_string }}.{% endif %}</p>{% endif %}{% if include.scans %}
-		<p>Scans by {{include.scans | split: "|" array_to_sentence_string }}.</p>{% endif %}{% if include.translation %}
+		<p>Scans by {{include.scans | split: "|" | array_to_sentence_string }}.</p>{% endif %}{% if include.translation %}
 		<p>Translations by {{ include.translation | split: "|" | array_to_sentence_string }}.</p>{% endif %}
 	</footer>
