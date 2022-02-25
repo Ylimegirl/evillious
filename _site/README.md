@@ -1,7 +1,7 @@
 # Evillious Repository
 The code for my Evillious Chronicles guide website. The source branch includes everything written in Jekyll-ese while the live branch contains the live site files; this is because I build my site using a local version of Jekyll.
 
-The steps I use to deploy the live branch are:
+The steps I use to deploy the live branch from the source branch are:
 
 - Delete the existing live branch
 
@@ -15,7 +15,7 @@ The steps I use to deploy the live branch are:
 
 `git filter-repo --subdirectory-filter _site/ --refs live`
 
-- Checkout a new source branch
+- Switch back to the source branch
 
 `git checkout source`
 
