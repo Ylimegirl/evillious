@@ -2,6 +2,8 @@
 
 .timeline ul { margin: 5px 0; }
 
+.notice { /**notice: i am slow at updating things**/ font-style: italic; margin: 1em; }
+
 .citation { /**superscripts that shit, just like wikipedia**/ vertical-align: super; font-size: smaller; }
 
 #refs { /**formats up this section a bit**/ padding: 0; margin-top: 10vh; /**visual separator from the main timeline bit**/ }
