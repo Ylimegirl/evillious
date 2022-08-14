@@ -1093,7 +1093,7 @@
         slug: novel/oss-crime
       - name: Original Sin Story Punishment
         displayname: <em>Original Sin Story ―Punishment―</em>
-#       slug: novel/oss-punishment
+        slug: novel/oss-punishment
 
   - navgroup: Torture Tower Doesn't Sleep Series
     displayname: <em>Torture Tower Doesn't Sleep</em> Series
