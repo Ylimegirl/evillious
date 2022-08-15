@@ -85,7 +85,7 @@ ruby .hidden { display: none; }
 
 #fuributton.hidden { display: none; }
 
-.collapse { /**for the buttons of the collapsible sections that are few and far between on my website**/ background: transparent; float: right; border: none; font-variant: small-caps; font-size: inherit; cursor: pointer; }
+.collapse { /**for the buttons of the collapsible sections that are few and far between on my website**/ background: transparent; float: right; border: none; font-variant: small-caps; font-size: inherit; cursor: pointer; color: var(--link-color); }
 
 .collapsed { display: none; }
 
