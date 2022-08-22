@@ -27,8 +27,8 @@
 	<body>
 		<div class="flex" id="intro">
 			<h1><em>{% if obj.eng[0] == obj.jpn[0] and obj.furi != nil %}{% assign incljpn = obj.jpn[0] %}{% assign inclfuri = obj.furi[0] %}{% assign inclrom = obj.rom[0] %}{% include jpn.html jpn=incljpn furi=inclfuri rom=inclrom %}{% elsif obj.eng[0] != nil and obj.eng[0] != page.english-name %}{{ obj.eng[0] }}{% else %}{{ page.english-name }}{% endif %}</em>{% if obj.jpn[0] != obj.eng[0] %}<br />{% include jpnauto.html eng=page.english-name %}{% elsif page.japanese-name %}<br />{% include jpn.html jpn=page.japanese-name furi=page.furi-name rom=page.romaji-name %}{% endif %}</h1>{% unless page.front == "none" %}
-			<img src="/assets/images/novel/{{ dir }}/{{ page.front | default: "front.png" }}" class="front" />{% endunless %}{% unless page.back == "none" %}
-			<img src="/assets/images/novel/{{ dir }}/{{ page.back | default: "back.png" }}" class="back" />{% endunless %}
+			<img src="/assets/images/novel/{{ dir }}/{{ page.front | default: "front.jpg" }}" class="front" />{% endunless %}{% unless page.back == "none" %}
+			<img src="/assets/images/novel/{{ dir }}/{{ page.back | default: "back.jpg" }}" class="back" />{% endunless %}
 			<header>
 				<div class="infobox">
 					<p><strong>Publisher</strong>: {{ page.publisher }}</p>
