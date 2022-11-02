@@ -73,6 +73,8 @@ HeavenlyAlbum.jpg	壱加 (Ichika)
 HeavenlyStory.png	unknown
 HerosArmor.png	壱加 (Ichika)
 HerReason.jpg	壱加 (Ichika)
+HorseManga.png	unknown
+HorseStory.png	unknown
 IllustrationStory.png	吉田ヨシツギ (Yoshida Yoshitsugi)
 Judgment.jpg	ゆーりん (you-ring)
 JudgmentManga.png	池野雅博 (Masahiro Ikeno)
