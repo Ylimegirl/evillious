@@ -521,6 +521,9 @@
       - name: Seven Crimes and Punishments
         displayname: <em>Seven Crimes and Punishments</em>
         slug: album/seven-crimes-and-punishments
+      - name: HISTORY OF The Daughter of Evil
+        displayname: <em>HISTORY OF The Daughter of Evil</em>
+        slug: album/history-of-the-daughter-of-evil
 
   - navgroup: EVILS THEATER
     displayname: <em>EVILS THEATER</em>
@@ -1027,6 +1030,50 @@
       - name: Song of the Cowardly Black Bird
         displayname: <em>Song of the Cowardly Black Bird</em>
         slug: song/song-of-the-cowardly-black-bird
+
+  - navgroup: HISTORY OF The Daughter of Evil
+    displayname: <em>HISTORY OF The Daughter of Evil</em>
+    slug: album/history-of-the-daughter-of-evil
+    list:
+      - name: That King was Born from Mud
+        displayname: <em>That King was Born from Mud</em>
+        slug: song/that-king-was-born-from-mud
+      - name: Neomaria of the Inverted Gravestone
+        displayname: <em>Neomaria of the Inverted Gravestone</em>
+        slug: song/neomaria-of-the-inverted-gravestone
+      - name: A Hero's Armor is Always Crimson
+        displayname: <em>A Hero's Armor is Always Crimson</em>
+        slug: song/a-heros-armor-is-always-crimson
+      - name: Swear an Oath on that Bridge
+        displayname: <em>Swear an Oath on that Bridge</em>
+        slug: song/swear-an-oath-on-that-bridge
+      - name: Twiright Prank
+        displayname: <em>Twiright Prank</em>
+        slug: song/twiright-prank
+      - name: Daughter of Evil, The
+        displayname: <em>The Daughter of Evil</em>
+        slug: song/daughter-of-evil
+      - name: Servant of Evil, The
+        displayname: <em>The Servant of Evil</em>
+        slug: song/servant-of-evil
+      - name: Tree Maiden Millennium Wiegenlied
+        displayname: <em>Tree Maiden ~Millennium Wiegenlied~</em>
+        slug: song/tree-maiden
+      - name: Regret Message
+        displayname: <em>Regret Message</em>
+        slug: song/regret-message
+      - name: Daughter of White, The
+        displayname: <em>The Daughter of White</em>
+        slug: song/daughter-of-white
+      - name: Blink
+        displayname: <em>Blink</em>
+        slug: song/blink
+      - name: Handbeat Clocktower
+        displayname: <em>Handbeat Clocktower</em>
+        slug: song/handbeat-clocktower
+      - name: Reach For The Stars The Letter She Kept Waiting For
+        displayname: <em>Reach For The Stars ~The Letter She Kept Waiting For~</em>
+        slug: song/letter-she-kept-waiting-for
 
 ########################################### NOVELS ###########################################
   - navgroup: The Daughter of Evil Series

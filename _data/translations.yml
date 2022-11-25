@@ -1312,7 +1312,17 @@
     jpn:
       - E.A.T PROLOGUE
 
-
+  - eng:
+      - HISTORY OF The Daughter of Evil
+    jpn:
+      - HISTORY| |OF| |悪|ノ|娘
+      - HISTORY OF 悪ノ娘
+    furi:
+      - HISTORY| |OF| |あく|ノ|むすめ
+      - HISTORY OF あくノむすめ
+    rom:
+      - HISTORY OF aku NO musume
+      
 ########################################### NOVELS ###########################################
   - eng:
       - "The Daughter of Evil: Clôture of Yellow"
