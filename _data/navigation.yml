@@ -244,9 +244,9 @@
       - name: Steel Lady, Rilia-Renée, The
         displayname: <em>The Steel Lady, Rilia-Renée</em>
         slug: song/steel-lady-rilia-renee
-      - name: Waltz of the Departed
-        displayname: <em>Waltz of the Departed</em>
-        slug: song/waltz-of-the-departed
+      - name: Waltz of the Deceased
+        displayname: <em>Waltz of the Deceased</em>
+        slug: song/waltz-of-the-deceased
 
   - navgroup: PVs
     slug: song/index
@@ -446,9 +446,9 @@
       - name: Steel Lady, Rilia-Renee, The
         displayname: <em>The Steel Lady, Rilia-Renée</em>
         slug: song/steel-lady-rilia-renee
-      - name: Waltz of the Departed
-        displayname: <em>Waltz of the Departed</em>
-        slug: song/waltz-of-the-departed
+      - name: Waltz of the Deceased
+        displayname: <em>Waltz of the Deceased</em>
+        slug: song/waltz-of-the-deceased
 
 ########################################### ALBUMS ###########################################
   - navgroup: AKNP Albums
