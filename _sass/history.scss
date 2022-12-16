@@ -1,0 +1,109 @@
+:root {
+	--red-text: #d20606;
+}
+
+#album {
+	figure {
+		display:grid;
+		grid-gap:0;
+		padding:2vw;
+		font-family:serif;
+		background-color:#2d2621;
+		.red {
+			color:var(--red-text);
+		}
+		p {
+			margin-bottom:0;
+			padding:0;
+		}
+	}
+	
+	#p01 {
+		background-image:url('/assets/images/booklet/history-of-the-daughter-of-evil/01.jpg');
+		h2 {
+			position:absolute;
+			right:2vw;
+			bottom:3vw;
+			color:#cda940;
+			font-weight:bold;
+			text-align:right;
+			font-size:2.5vw;
+			text-shadow:#76531d .1vw .1vw .5vw, #76531d -.1vw .1vw .5vw,#76531d .1vw -.1vw .5vw,#76531d -.1vw -.1vw .5vw;
+		}
+		h3 {
+			display: none;
+		}
+	}
+	
+	#p02 {
+		display:flex;
+		justify-content:space-between;
+		padding:2vw;
+		p {
+			text-align:left;
+			font-size:.9vw;
+		}
+	}
+	
+	#p03 {
+		display:flex;
+		justify-content:space-between;
+		padding:2vw;
+		p {
+			text-align:left;
+			font-size:.9vw;
+		}
+		ul {
+			list-style: "◆ ";
+			text-align:left;
+			font-size:.9vw;
+			ul {
+				list-style:none;
+				margin-left:1em;
+			}
+		}
+		.versebreak {
+			margin-bottom:1em;
+		}
+		.cursive {
+			font-family:'Shadows Into Light', cursive;
+			font-style:italic;
+			font-size:1.2vw;
+		}
+		.aside {
+			text-align:right;
+			border:.2vw solid white;
+			align-self:flex-end;
+			padding:.5em;
+		}
+	}
+	
+	#p04 {
+		display: flex;
+		font-family:sans-serif;
+		padding:2vw;
+		text-align:left;
+		justify-content:flex-start;
+		gap:1.5vw;
+		font-size:1.1vw;
+		ol {
+			columns: 2;
+			margin-left:1em;
+		}
+		p {
+			margin-left:2em;
+		}
+		h3 {
+			margin-left:2em;
+			font-size:1.2vw;
+			align-self:flex-start;
+		}
+		.date {
+			border:1px solid white;
+			padding:.25em;
+			float:right;
+			font-size:1vw;
+			margin-top:.25em;
+		}
+	}
+}
