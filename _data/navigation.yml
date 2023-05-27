@@ -224,7 +224,8 @@
         displayname: <em>Genesis Girl Gretel</em>
         slug: song/genesis-girl-gretel
       - name: Project Ma
-        displayname: <em>Project &quot;Ma&quot;</em>
+        displayname: >-
+          <em>Project "Ma"</em>
         slug: song/project-ma
       - name: Song I Heard Somewhere, The
         displayname: <em>The Song I Heard Somewhere</em>
@@ -399,7 +400,8 @@
         displayname: <em>Fictional Masquerade</em>
         slug: song/fictional-masquerade
       - name: Project Ma (short ver)
-        displayname: <em>Project &quot;Ma&quot; (short ver.)</em>
+        displayname: >-
+          <em>Project "Ma" (short ver.)</em>
         slug: song/project-ma
       - name: Lunacy of Duke Venomania (2020 ver), The
         displayname: <em>The Lunacy of Duke Venomania</em> <small>(2020 ver.)</small>
@@ -516,7 +518,8 @@
         displayname: <em>Four Melodies of Evil ~The Daughter of Evil Novel Music Collection~</em>
         slug: album/four-melodies-of-evil
       - name: Daughter of Evil BGM Reading Collection, The
-        displayname: "<em>The Daughter of Evil: BGM Reading Collection</em>"
+        displayname: >-
+          <em>The Daughter of Evil: BGM Reading Collection</em>
         slug: album/bgm-reading-collection
       - name: Seven Crimes and Punishments
         displayname: <em>Seven Crimes and Punishments</em>
@@ -774,7 +777,8 @@
       - name: Prophet Merry-Go-Round (instrumental)
         displayname: <em>Prophet Merry-Go-Round (instrumental)</em>
       - name: Project Ma
-        displayname: <em>Project &quot;Ma&quot;</em>
+        displayname: >-
+          <em>Project "Ma"</em>
         slug: song/project-ma
       - name: Escape of Salmhofer the Witch
         displayname: <em>Escape of Salmhofer the Witch</em>
@@ -788,7 +792,8 @@
     slug: album/oss-act-2
     list:
       - name: Ma Survival Who Will Survive
-        displayname: <em>&quot;Ma Survival&quot; -&nbsp;Who Will Survive?&nbsp;-</em>
+        displayname: >-
+          <em>"Ma" Survival -&nbsp;Who Will Survive?&nbsp;-</em>
         slug: song/ma-survival
       - name: Whereabouts of the Miracle Catastrophe
         displayname: <em>Whereabouts of the Miracle -&nbsp;CATASTROPHE&nbsp;-</em>
@@ -892,7 +897,8 @@
         displayname: <em>Queen Of The Glass</em>
         slug: song/queen-of-the-glass
       - name: Project Ma
-        displayname: <em>Project &quot;Ma&quot;</em>
+        displayname: >-
+          <em>Project "Ma"</em>
         slug: song/project-ma
       - name: Escape of Salmhofer the Witch
         displayname: <em>Escape of Salmhofer the Witch</em>
@@ -904,7 +910,8 @@
         displayname: <em>Barisol's Child is an Only Child</em>
         slug: song/barisols-child-is-an-only-child
       - name: Ma Survival
-        displayname: <em>&quot;Ma&quot; Survival</em>
+        displayname: >-
+          <em>"Ma" Survival</em>
         slug: song/ma-survival
       - name: Whereabouts of the Miracle
         displayname: <em>Whereabouts of the Miracle</em>
@@ -1081,22 +1088,28 @@
     slug: novel/index
     list:
       - name: Daughter of Evil Cloture of Yellow, The
-        displayname: "<em>The Daughter of Evil: Clôture of Yellow</em>"
+        displayname: >-
+          <em>The Daughter of Evil: Clôture of Yellow</em>
         slug: novel/cloture-of-yellow
       - name: Daughter of Evil Wiegenlied of Green, The
-        displayname: "<em>The Daughter of Evil: Wiegenlied of Green</em>"
+        displayname: >-
+          <em>The Daughter of Evil: Wiegenlied of Green</em>
         slug: novel/wiegenlied-of-green
       - name: Entr'acte of Evil The Daughter of Evil Worldguide
-        displayname: "<em>Entr'acte of Evil: The Daughter of Evil Worldguide</em>"
+        displayname: >-
+          <em>Entr'acte of Evil: The Daughter of Evil Worldguide</em>
         slug: novel/entracte-of-evil
       - name: Daughter of Evil Praeludium of Red, The
-        displayname: "<em>The Daughter of Evil: Praeludium of Red</em>"
+        displayname: >-
+          <em>The Daughter of Evil: Praeludium of Red</em>
         slug: novel/praeludium-of-red
       - name: Daughter of Evil Praefacio of Blue, The
-        displayname: "<em>The Daughter of Evil: Praefacio of Blue</em>"
+        displayname: >-
+          <em>The Daughter of Evil: Praefacio of Blue</em>
         slug: novel/praefacio-of-blue
       - name: Epic of Evil The Daughter of Evil Fanbook
-        displayname: "<em>Epic of Evil: The Daughter of Evil Fanbook</em>"
+        displayname: >-
+          <em>Epic of Evil: The Daughter of Evil Fanbook</em>
         slug: novel/epic-of-evil
 
   - navgroup: Deadly Sins of Evil Series
@@ -1104,31 +1117,40 @@
     slug: novel/index
     list:
       - name: Deadly Sins of Evil The Lunacy of Duke Venomania
-        displayname: "<em>Deadly Sins of Evil: The Lunacy of Duke Venomania</em>"
+        displayname: >-
+          <em>Deadly Sins of Evil: The Lunacy of Duke Venomania</em>
         slug: novel/lunacy-of-duke-venomania
       - name: Deadly Sins of Evil Evil Food Eater Conchita
-        displayname: "<em>Deadly Sins of Evil: Evil Food Eater Conchita</em>"
+        displayname: >-
+          <em>Deadly Sins of Evil: Evil Food Eater Conchita</em>
         slug: novel/evil-food-eater-conchita
       - name: Waltz of Evil The Deadly Sins of Evil Guidebook
-        displayname: "<em>Waltz of Evil: The Deadly Sins of Evil Guidebook</em>"
+        displayname: >-
+          <em>Waltz of Evil: The Deadly Sins of Evil Guidebook</em>
         slug: novel/waltz-of-evil
       - name: Deadly Sins of Evil Gift from the Princess who Brought Sleep
-        displayname: "<em>Deadly Sins of Evil: gift from the Princess who Brought Sleep</em>"
+        displayname: >-
+          <em>Deadly Sins of Evil: gift from the Princess who Brought Sleep</em>
         slug: novel/gift-from-the-princess-who-brought-sleep
       - name: Deadly Sins of Evil Fifth Pierrot
-        displayname: "<em>Deadly Sins of Evil: Fifth Pierrot</em>"
+        displayname: >-
+          <em>Deadly Sins of Evil: Fifth Pierrot</em>
         slug: novel/fifth-pierrot
       - name: Deadly Sins of Evil The Tailor of Enbizaka
-        displayname: "<em>Deadly Sins of Evil: The Tailor of Enbizaka</em>"
+        displayname: >-
+          <em>Deadly Sins of Evil: The Tailor of Enbizaka</em>
         slug: novel/tailor-of-enbizaka
       - name: Deadly Sins of Evil Judgment of Corruption
-        displayname: "<em>Deadly Sins of Evil: Judgment of Corruption</em>"
+        displayname: >-
+          <em>Deadly Sins of Evil: Judgment of Corruption</em>
         slug: novel/judgment-of-corruption
       - name: Deadly Sins of Evil The Muzzle of Nemesis
-        displayname: "<em>Deadly Sins of Evil: The Muzzle of Nemesis</em>"
+        displayname: >-
+          <em>Deadly Sins of Evil: The Muzzle of Nemesis</em>
         slug: novel/muzzle-of-nemesis
       - name: Deadly Sins of Evil master of the heavenly yard
-        displayname: "<em>Deadly Sins of Evil: master of the heavenly yard</em>"
+        displayname: >-
+          <em>Deadly Sins of Evil: master of the heavenly yard</em>
         slug: novel/master-of-the-heavenly-yard
 
   - navgroup: Original Sin Story Series
@@ -1161,10 +1183,12 @@
     slug: novel/index
     list:
       - name: Story of Evil The Paper Demon and the Secret Archive
-        displayname: "<em>Story of Evil: The Paper Demon and the Secret Archive</em>"
+        displayname: >-
+          <em>Story of Evil: The Paper Demon and the Secret Archive</em>
         slug: novel/paper-demon
       - name: Story of Evil The Twilight Demon and the False Queen
-        displayname: "<em>Story of Evil: The Twilight Demon and the False Queen</em>"
+        displayname: >-
+          <em>Story of Evil: The Twilight Demon and the False Queen</em>
         slug: novel/twilight-demon
 
   - navgroup: Additional Stories
@@ -1193,31 +1217,39 @@
         displayname: <em>Torture Tower Doesn't Sleep ―Clown Chapter―</em>
         slug: other/clown-chapter
       - name: Daughter of Evil Act 1, The
-        displayname: "<em>The Daughter of Evil: Act 1</em>"
+        displayname: >-
+          <em>The Daughter of Evil: Act 1</em>
         slug: other/doe-act-1
       - name: Daughter of Evil Act 2, The
-        displayname: "<em>The Daughter of Evil: Act 2</em>"
+        displayname: >-
+          <em>The Daughter of Evil: Act 2</em>
         slug: other/doe-act-2
       - name: Daughter of Evil Act 3, The
-        displayname: "<em>The Daughter of Evil: Act 3</em>"
+        displayname: >-
+          <em>The Daughter of Evil: Act 3</em>
         slug: other/doe-act-3
       - name: Daughter of Evil Act 4, The
-        displayname: "<em>The Daughter of Evil: Act 4</em>"
+        displayname: >-
+          <em>The Daughter of Evil: Act 4</em>
         slug: other/doe-act-4
       - name: Torture Tower Doesn't Sleep Extra Chapter
-        displayname: "&quot;Torture Tower Doesn't Sleep: Extra Chapter&quot;"
+        displayname: >-
+          "Torture Tower Doesn't Sleep: Extra Chapter"
         slug: other/extra-chapter
       - name: Lunacy of Duke Venomania, The
         displayname: <em>The Lunacy of Duke Venomania</em>
         slug: other/lunacy-of-duke-venomania
       - name: Gift from the Princess who Brought Sleep
-        displayname: "&quot;gift from the Princess who Brought Sleep&quot;"
+        displayname: >-
+          "gift from the Princess who Brought Sleep"
         slug: other/manga-shorts
       - name: Fifth Pierrot
-        displayname: "&quot;Fifth Pierrot&quot;"
+        displayname: >-
+          "Fifth Pierrot"
         slug: other/manga-shorts
       - name: Torture Tower Doesn't Sleep Nightmare Dream
-        displayname: "<em>Torture Tower Doesn't Sleep: Nightmare Dream</em>"
+        displayname: >-
+          <em>Torture Tower Doesn't Sleep: Nightmare Dream</em>
         slug: other/nightmare-dream
       - name: Servant of Evil Opera Buffa!, The
         displayname: <em>The Servant of Evil ~Opera Buffa!~</em>
@@ -1232,5 +1264,6 @@
         displayname: <em>Original Sin Story ―to―</em>
         slug: other/oss-to
       - name: Horse of Evil, The
-        displayname: "&quot;The Horse of Evil&quot;"
+        displayname: >-
+          "The Horse of Evil"
         slug: other/horse-of-evil

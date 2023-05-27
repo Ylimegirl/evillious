@@ -1152,6 +1152,17 @@
     rom:
       - saribito-tachi no WARUTSU
 
+  - eng:
+      - Outlaw&amp;Marionette
+      - Outlaw&Marionette
+      - Outlow&amp;Marionette
+      - Outlow&Marionette
+    jpn:
+      - Outlaw&amp;Marionette
+      - Outlaw&Marionette
+      - Outlow&amp;Marionette
+      - Outlow&Marionette
+
 ########################################### ALBUMS ###########################################
   - eng:
       - EVILS THEATER
@@ -1175,7 +1186,7 @@
       - あく|ノ|むすめ|～|せい|えん|の|ジェミニ|〜|ボーカル|と|サウンドトラック
       - あくノむすめ～せいえんのジェミニ〜ボーカルとサウンドトラック
     rom:
-      - aku NO musume ~seien no JEMINI~ BOKARU to SAUNDOTORAKKU
+      - aku NO musume ~seien no JEMINI~ BOOKARU to SAUNDOTORAKKU
 
   - eng:
       - prelude to forest
@@ -1323,6 +1334,17 @@
       - HISTORY OF あくノむすめ
     rom:
       - HISTORY OF aku NO musume
+  
+  - eng:
+      - "Waltz of the Deceased: Deadly Sins of Evil SEKAI EDITION+"
+    jpn:
+      - 去|り|人|達|の|ワルツ|　|悪|ノ|大|罪|SEKAI| |EDITION|＋
+      - 去り人達のワルツ　悪ノ大罪SEKAI EDITION＋
+    furi:
+      - さ|り|びと|たち|の|ワルツ|　|あく|ノ|たい|ざい|SEKAI| |EDITION|＋
+      - さりびとたちのワルツ　あくノたいざいSEKAI EDITION＋
+    rom:
+      - saribito-tachi no WARUTSU aku NO taizai SEKAI EDITION+
       
 ########################################### NOVELS ###########################################
   - eng:
