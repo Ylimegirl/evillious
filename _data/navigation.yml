@@ -248,6 +248,8 @@
       - name: Waltz of the Deceased
         displayname: <em>Waltz of the Deceased</em>
         slug: song/waltz-of-the-deceased
+      - name: Outlaw and Marionette
+        displayname: <em>Outlaw&amp;Marionette</em>
 
   - navgroup: PVs
     slug: song/index
@@ -498,6 +500,10 @@
       - name: Eat Prologue
         displayname: <em>E.A.T PROLOGUE</em>
         slug: album/eat-prologue
+      - name: Waltz of the Deceased
+        displayname: >-
+          <em>Waltz of the Deceased: Deadly Sins of Evil SEKAI EDITION+</em>
+        slug: album/waltz-of-the-deceased
 
   - navgroup: Additional Albums
     slug: album/index
@@ -1081,6 +1087,38 @@
       - name: Reach For The Stars The Letter She Kept Waiting For
         displayname: <em>Reach For The Stars ~The Letter She Kept Waiting For~</em>
         slug: song/letter-she-kept-waiting-for
+
+  - navgroup: Waltz of the Deceased
+    displayname: >-
+      <em>Waltz of the Deceased: Deadly Sins of Evil SEKAI EDITION+</em>
+    slug: album/waltz-of-the-deceased
+    list:
+      - name: Waltz of the Deceased
+        displayname: <em>Waltz of the Deceased</em>
+        slug: song/waltz-of-the-deceased
+      - name: Steel Lady, Rilia-Renée, The
+        displayname: <em>The Steel Lady, Rilia-Renée</em>
+        slug: song/steel-lady-rilia-renee
+      - name: Outlaw and Marionette
+        displayname: <em>Outlaw&amp;Marionette</em>
+      - name: Daughter of Evil, The
+        displayname: <em>The Daughter of Evil</em>
+        slug: song/daughter-of-evil
+      - name: Servant of Evil, The
+        displayname: <em>The Servant of Evil</em>
+        slug: song/servant-of-evil
+      - name: Evil Food Eater Conchita
+        displayname: <em>Evil Food Eater Conchita</em>
+        slug: song/evil-food-eater-conchita
+      - name: Gift from the Princess who Brought Sleep
+        displayname: <em>gift from the Princess who Brought Sleep</em>
+        slug: song/gift-from-the-princess-who-brought-sleep
+      - name: Tailor of Enbizaka, The
+        displayname: <em>The Tailor of Enbizaka</em>
+        slug: song/tailor-of-enbizaka
+      - name: Judgment of Corruption
+        displayname: <em>Judgment of Corruption</em>
+        slug: song/judgment-of-corruption
 
 ########################################### NOVELS ###########################################
   - navgroup: The Daughter of Evil Series
