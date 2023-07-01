@@ -95,7 +95,7 @@ ruby .hidden { display: none; }
 
 .navbox .nav-content { background: var(--background-color); padding: 3px; border-radius: 3px; line-height: 1.4em; font-size: .9em; }
 
-.navbar { display: grid; grid-template-columns: 5fr 4fr 5fr; max-width: 980px; align-items: center; margin: 5px auto; background: var(--foreground-color); border-radius: 5px; padding: 5px; }
+.navbar { display: grid; grid-template-columns: 1fr 1fr 1fr; max-width: 980px; align-items: center; margin: 5px auto; background: var(--foreground-color); border-radius: 5px; padding: 5px; }
 
 .navbar .nav-left { justify-self: left; text-align: left; }
 
