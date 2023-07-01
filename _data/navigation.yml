@@ -250,6 +250,7 @@
         slug: song/waltz-of-the-deceased
       - name: Outlaw and Marionette
         displayname: <em>Outlaw&amp;Marionette</em>
+        slug: song/outlaw-and-marionette
 
   - navgroup: PVs
     slug: song/index
@@ -1101,6 +1102,7 @@
         slug: song/steel-lady-rilia-renee
       - name: Outlaw and Marionette
         displayname: <em>Outlaw&amp;Marionette</em>
+        slug: song/outlaw-and-marionette
       - name: Daughter of Evil, The
         displayname: <em>The Daughter of Evil</em>
         slug: song/daughter-of-evil
