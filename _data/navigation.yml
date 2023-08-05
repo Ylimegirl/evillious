@@ -251,6 +251,9 @@
       - name: Outlaw and Marionette
         displayname: <em>Outlaw&amp;Marionette</em>
         slug: song/outlaw-and-marionette
+      - name: Twin Rabbits Come and Play their Flute
+        displayname: <em>Twin Rabbits Come and Play their Flute</em>
+        slug: song/twin-rabbits-come-and-play-their-flute
 
   - navgroup: PVs
     slug: song/index
@@ -454,6 +457,9 @@
       - name: Waltz of the Deceased
         displayname: <em>Waltz of the Deceased</em>
         slug: song/waltz-of-the-deceased
+      - name: Twin Rabbits Come and Play their Flute
+        displayname: <em>Twin Rabbits Come and Play their Flute</em>
+        slug: song/twin-rabbits-come-and-play-their-flute
 
 ########################################### ALBUMS ###########################################
   - navgroup: AKNP Albums
