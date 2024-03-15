@@ -1182,9 +1182,11 @@
       - アトリエ　オルロージュ
     rom:
       - ATORIE ORUROOJU
+    alt:
+      - Clockwork Creator
 
   - eng:
-      - Sister Clarith's Miraculous Night
+      - Sister Clarith's Curious Night
     jpn:
       - シスター|クラリス|の|奇|妙|な|一|夜
       - シスタークラリスの奇妙な一夜
@@ -1193,6 +1195,30 @@
       - シスタークラリスのきみょうないちや
     rom:
       - SHISUTAA KURARISU no kimyouna ichiya
+    alt:
+      - Nervous Night
+
+  - eng:
+      - At the End of a Millennium Vow
+    jpn:
+      - 千|年|の|誓|い|の|果|て|に
+      - 千年の誓いの果てに
+    furi:
+      - せん|ねん|の|ちか|い|の|は|て|に
+      - せんねんのちかいのはてに
+    rom:
+      - sennen no chikai no hate ni
+
+  - eng:
+      - The Contradictory Grim the End
+    jpn:
+      - 矛|盾|の|グリムジエンド
+      - 矛盾のグリムジエンド
+    furi:
+      - む|じゅん|の|グリムジエンド
+      - むじゅんのグリムジエンド
+    rom:
+      - mujun no GURIMU JI ENDO
 
 ########################################### ALBUMS ###########################################
   - eng:
@@ -1376,6 +1402,17 @@
       - さりびとたちのワルツ　あくノたいざいSEKAI EDITION＋
     rom:
       - saribito-tachi no WARUTSU aku NO taizai SEKAI EDITION+
+  
+  - eng:
+      - Hatsune Miku Symphony 2023 Live at Suntory Hall
+    jpn:
+      - 初|音|ミク|シンフォニー|2023| |Live| |at| |Suntory| |Hall
+      - 初音ミクシンフォニー2023 Live at Suntory Hall
+    furi:
+      - はつ|ね|ミク|シンフォニー|2023| |Live| |at| |Suntory| |Hall
+      - はつねミクシンフォニー2023 Live at Suntory Hall
+    rom:
+      - hatsune MIKU SHINFONII 2023 Live at Suntory Hall
       
 ########################################### NOVELS ###########################################
   - eng:

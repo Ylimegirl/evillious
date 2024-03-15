@@ -7,12 +7,14 @@ Act4.jpg	壱加 (Ichika)
 Adventure.png	吉田ヨシツギ (Yoshida Yoshitsugi)
 AkuMusu1.png	けん (Ken)
 AkuMusu2.png	けん (Ken)
+AtelierHorloge.png	壱加 (Ichika)
 BGM.png	水溜鳥 (Mizutame Tori)
 BlackBird.jpg	unknown
 BlindGirlAndAngel.png	壱加 (Ichika); mothy
 BloodstainedSwitch.jpg	ゆーりん (you-ring)
 CapriccioFarce.jpg	青柳宇一郎 (Uichiro Aoyagi)
 CharityDays.jpg	電鬼 (Denki); unknown
+Cheerful.jpg	soriku
 ChronoStory.png	Rgveta
 ClockworkLullaby.jpg	mothy
 ClockworkLullabyAlbum.jpg	壱加 (Ichika)
@@ -86,6 +88,8 @@ LastRevolver.png	壱加 (Ichika)
 MaSurvival.png	壱加 (Ichika)
 MayuCD.jpg	左 (Hidari)
 MerryGoRound.png	電鬼 (Denki)
+MikuSymphony2023Disc2.png	Rella
+MillenniumVow.png	壱加 (Ichika)
 MiniatureGardenGirl.jpg	鈴ノ助 (Suzunosuke)
 Moonlit.jpg	鈴ノ助 (Suzunosuke)
 MoonlitStory.png	吉田ヨシツギ (Yoshida Yoshitsugi)
@@ -139,9 +143,11 @@ ThatKing.png	壱加 (Ichika)
 ThreeDaughters.jpg	マルイノ (Maruino)
 TortureTower.jpg	マルイノ (Maruino)
 Triangle1.jpg	unknown
-Triangle2.jpg	unknown
+Triangle2.jpg	みけおう (Mikeou)
 Trinity.jpg	壱加 (Ichika)
 TwilightDemon.jpg	柚希きひろ (Yuzuki Kihiro)
+TwinRabbitsAlbum.png	壱加 (Ichika)
+TwinRabbitsPV.png	壱加 (Ichika)
 TwirightPrank.png	壱加 (Ichika)
 TwirightPrankStory.png	unknown
 TwoMages.png	壱加 (Ichika)
@@ -153,6 +159,7 @@ Vocaloconnection.png	左 (Hidari)
 Vocalocreation.jpg	Nidy-2D-
 Vocantabile.jpg	吉田ヨシツギ (Yoshida Yoshitsugi)
 Waltz.png	unknown
+WaltzAlbum.png	壱加 (Ichika)
 WaltzOfEvil.png	壱加 (Ichika)
 WaltzPV.png	壱加 (Ichika)
 WatchingUs.png	吉田ヨシツギ (Yoshida Yoshitsugi)

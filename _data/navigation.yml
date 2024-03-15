@@ -254,6 +254,18 @@
       - name: Twin Rabbits Come and Play their Flute
         displayname: <em>Twin Rabbits Come and Play their Flute</em>
         slug: song/twin-rabbits-come-and-play-their-flute
+      - name: Atelier Horloge
+        displayname: <em>Atelier Horloge</em>
+        slug: song/atelier-horloge
+      - name: Sister Clarith's Curious Night
+        displayname: <em>Sister Clarith's Curious Night</em>
+        slug: song/sister-clariths-curious-night
+      - name: At the End of a Millennium Vow
+        displayname: <em>At the End of a Millennium Vow</em>
+        slug: song/at-the-end-of-a-millennium-vow
+      - name: Contradictory Grim the End, The
+        displayname: <em>The Contradictory Grim the End</em>
+        slug: song/contradictory-grim-the-end
 
   - navgroup: PVs
     slug: song/index
@@ -460,6 +472,12 @@
       - name: Twin Rabbits Come and Play their Flute
         displayname: <em>Twin Rabbits Come and Play their Flute</em>
         slug: song/twin-rabbits-come-and-play-their-flute
+      - name: Atelier Horloge
+        displayname: <em>Atelier Horloge</em>
+        slug: song/atelier-horloge
+      - name: At the End of a Millennium Vow
+        displayname: <em>At the End of a Millennium Vow</em>
+        slug: song/at-the-end-of-a-millennium-vow
 
 ########################################### ALBUMS ###########################################
   - navgroup: AKNP Albums
@@ -511,6 +529,9 @@
         displayname: >-
           <em>Waltz of the Deceased: Deadly Sins of Evil SEKAI EDITION+</em>
         slug: album/waltz-of-the-deceased
+      - name: Twin Rabbits Come and Play their Flute
+        displayname: <em>Twin Rabbits Come and Play their Flute</em>
+        slug: album/twin-rabbits-come-and-play-their-flute
 
   - navgroup: Additional Albums
     slug: album/index
@@ -537,9 +558,12 @@
       - name: Seven Crimes and Punishments
         displayname: <em>Seven Crimes and Punishments</em>
         slug: album/seven-crimes-and-punishments
-      - name: HISTORY OF The Daughter of Evil
+      - name: History of The Daughter of Evil
         displayname: <em>HISTORY OF The Daughter of Evil</em>
         slug: album/history-of-the-daughter-of-evil
+      - name: Hatsune Miku Symphony 2023 Live at Suntory Hall
+        displayname: <em>Hatsune Miku Symphony 2023 Live at Suntory Hall</em>
+        slug: album/miku-symphony-2023
 
   - navgroup: EVILS THEATER
     displayname: <em>EVILS THEATER</em>
@@ -1127,6 +1151,57 @@
       - name: Judgment of Corruption
         displayname: <em>Judgment of Corruption</em>
         slug: song/judgment-of-corruption
+
+  - navgroup: Twin Rabbits Come and Play their Flute
+    displayname: <em>Twin Rabbits Come and Play their Flute</em>
+    slug: album/twin-rabbits-come-and-play-their-flute
+    list:
+      - name: Twin Rabbits Come and Play their Flute
+        displayname: <em>Twin Rabbits Come and Play their Flute</em>
+        slug: song/twin-rabbits-come-and-play-their-flute
+      - name: Atelier Horloge
+        displayname: <em>Atelier Horloge</em>
+        slug: song/atelier-horloge
+      - name: Sister Clarith's Curious Night
+        displayname: <em>Sister Clarith's Curious Night</em>
+        slug: song/sister-clariths-curious-night
+
+  - navgroup: Miku Symphony 2023
+    displayname: <em>Hatsune Miku Symphony 2023 Live at Suntory Hall</em>
+    slug: album/twin-rabbits-come-and-play-their-flute
+    list:
+      - name: Seven Crimes and Punishments
+        displayname: <em>Seven Crimes and Punishments</em>
+        slug: song/seven-crimes-and-punishments
+      - name: Lunacy of Duke Venomania, The
+        displayname: <em>The Lunacy of Duke Venomania</em>
+        slug: song/lunacy-of-duke-venomania
+      - name: Evil Food Eater Conchita
+        displayname: <em>Evil Food Eater Conchita</em>
+        slug: song/evil-food-eater-conchita
+      - name: Daughter of Evil, The
+        displayname: <em>The Daughter of Evil</em>
+        slug: song/daughter-of-evil
+      - name: Servant of Evil, The
+        displayname: <em>The Servant of Evil</em>
+      - name: Gift from the Princess who Brought Sleep
+        displayname: <em>gift from the Princess who Brought Sleep</em>
+        slug: song/gift-from-the-princess-who-brought-sleep
+      - name: Tailor of Enbizaka, The
+        displayname: <em>The Tailor of Enbizaka</em>
+        slug: song/tailor-of-enbizaka
+      - name: Judgment of Corruption
+        displayname: <em>Judgment of Corruption</em>
+        slug: song/judgment-of-corruption
+      - name: Muzzle of Nemesis, The
+        displayname: <em>The Muzzle of Nemesis</em>
+        slug: song/muzzle-of-nemesis
+      - name: At the End of a Millennium Vow
+        displayname: <em>At the End of a Millennium Vow</em>
+        slug: song/at-the-end-of-a-millennium-vow
+      - name: Contradictory Grim the End, The
+        displayname: <em>The Contradictory Grim the End</em>
+        slug: song/contradictory-grim-the-end
 
 ########################################### NOVELS ###########################################
   - navgroup: The Daughter of Evil Series

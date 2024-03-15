@@ -2,6 +2,7 @@
 :root {/**these colors are (so far) only used on the song pages so putting them with the rest of the vocaloid colors felt like overkill**/
 	--rinlen-color: #EBCA2C;
 	--vy1-color: #97F4E6;
+	--yukari-color: #B9AADF;
 }
 
 #intro {/**man idk what to say. styles the intro.**/
@@ -105,6 +106,16 @@
 		box-shadow:0 0 0.25em 0.25em var(--vy1-color);
 		background-color: var(--vy1-color);
 	}
+	.subtitle.teto {
+		padding:.1em;
+		box-shadow:0 0 0.25em 0.25em var(--teto-color);
+		background-color: var(--teto-color);
+	}
+	.subtitle.yukari {
+		padding:.1em;
+		box-shadow:0 0 0.25em 0.25em var(--yukari-color);
+		background-color: var(--yukari-color);
+	}
 	
 	/**add some padding between the quote and the singer circles**/
 	.singers {
@@ -173,6 +184,12 @@
 	}
 	.singers span.vy1 {
 		background-color: var(--vy1-color);
+	}
+	.singers span.teto {
+		background-color: var(--teto-color);
+	}
+	.singers span.yukari {
+		background-color: var(--yukari-color);
 	}
 	.singers span.human {
 		background-color:black;
