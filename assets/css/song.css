@@ -1,6 +1,6 @@
 :root { /**sets consistent accent colors for each vocaloid**/ --miku-color: #39D9C7; --rin-color: #EBDF2C; --len-color: #EBB42C; --luka-color: #EB5CA9; --haku-color: #BFC1C2; --neru-color: #FFD700; --meiko-color: #C82318; --kaito-color: #2E52DD; --gackpo-color: #9146C7; --gumi-color: #07A607; --lily-color: #EFE81D; --miki-color: #F68968; --yuki-color: #DA5E4C; --kiyoteru-color: #A87152; --iroha-color: #D35263; --mayu-color: #E1BEf4; --leon-color: #FF4D30; --miriam-color: #CABED2; --prima-color: #9088D7; --tonio-color: #B59F58; --ann-color: #FFEA00; --teto-color: #E73C68; --yufu-color: #E6E6E6; }
 
-:root { /**these colors are (so far) only used on the song pages so putting them with the rest of the vocaloid colors felt like overkill**/ --rinlen-color: #EBCA2C; --vy1-color: #97F4E6; }
+:root { /**these colors are (so far) only used on the song pages so putting them with the rest of the vocaloid colors felt like overkill**/ --rinlen-color: #EBCA2C; --vy1-color: #97F4E6; --yukari-color: #B9AADF; }
 
 #intro { /**man idk what to say. styles the intro.**/ margin: 0 auto 10px auto; min-height: unset; padding: 10px; max-width: 720px; flex-direction: column; gap: 0; /**and then these are all just subtitle colorings**/ /**add some padding between the quote and the singer circles**/ /**styles the singer circles**/ /**add colors depending on class**/ /**hi welcome to hell this is when the singer is secondary and the border is colored instead of the whole circle**/ /**and then i got tired of adding css rules i never used the end**/ }
 
@@ -38,6 +38,10 @@
 
 #intro .subtitle.vy1 { padding: .1em; box-shadow: 0 0 0.25em 0.25em var(--vy1-color); background-color: var(--vy1-color); }
 
+#intro .subtitle.teto { padding: .1em; box-shadow: 0 0 0.25em 0.25em var(--teto-color); background-color: var(--teto-color); }
+
+#intro .subtitle.yukari { padding: .1em; box-shadow: 0 0 0.25em 0.25em var(--yukari-color); background-color: var(--yukari-color); }
+
 #intro .singers { padding-top: 5px; }
 
 #intro .singers span { width: 20px; height: 20px; display: inline-block; color: transparent; overflow: hidden; border-radius: 50%; font-size: 10px; line-height: 20px; margin: 0 2.5px; cursor: default; }
@@ -73,6 +77,10 @@
 #intro .singers span.mayu { background-color: var(--mayu-color); }
 
 #intro .singers span.vy1 { background-color: var(--vy1-color); }
+
+#intro .singers span.teto { background-color: var(--teto-color); }
+
+#intro .singers span.yukari { background-color: var(--yukari-color); }
 
 #intro .singers span.human { background-color: black; }
 
