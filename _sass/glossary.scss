@@ -1,0 +1,39 @@
+@import "arc-colors";
+
+#intro {
+	margin-bottom:0;
+}
+
+.characters {
+	align-items: stretch;/**gives all the infocards in a row the same height**/
+
+	article {
+		flex: 1 0 30%;
+		justify-content: flex-start;
+		h2 {
+			text-align: center;
+		}
+		h3 {
+			font-weight: normal;/**bold japanese text usually looks kinda bleh and i don't want it here**/
+			font-size: smaller;
+			text-align: center;
+			margin-top: .1em;/**just a bit of padding between the english and japanese names**/
+		}
+		img {/**the source images should all be 200x200px anyways but yknow**/
+			width: 200px;
+			height: 200px;
+		}
+	}
+}
+
+/**Skinny screens**/
+@media screen and (min-width:470px) and (max-width:699px){
+	.characters article {/**switches to two columns on larger screens**/
+		flex-basis: calc((100% - 10px)/2);
+	}
+}
+@media screen and (min-width:700px){
+	.characters article {/**switches to three columns on largest screens**/
+		flex-basis: calc((100% - 20px)/3);
+	}
+}

@@ -121,7 +121,7 @@ section {/**stylings for the sections of the webpage**/
 	align-items: center;
 	article {
 		height: auto;
-		flex-basis: calc(50% - 5px);/**uses calc() to account for the gap**/
+		flex: 1 0 45%;
 		background-color: var(--foreground-color);
 		max-width: 450px;
 		border-radius: 10px;
@@ -365,7 +365,7 @@ footer {/**footer. nuff said**/
 		margin-top: 45px;
 	}
 	.flex article {
-		flex-basis: 500px;
+		flex: 500px;
 		max-width: 100%;
 	}
 	.introImage {/**new intro image size it is 150px now.**/

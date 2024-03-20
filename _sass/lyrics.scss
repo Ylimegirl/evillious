@@ -8,7 +8,7 @@
 .lyrics {
 	align-items: flex-start;
 	> div {
-		flex-basis: calc((100% - 10px)/2);
+		flex: 1 0 45%;
 		h3 {
 			background-color: var(--foreground-color);
 			padding: 5px;
@@ -45,6 +45,6 @@ footer {
 /**Skinny screen**/
 @media screen and (max-width:667px){
 	.lyrics > div {
-		flex-basis: 100%;
+		flex: 100%;
 	}
 }

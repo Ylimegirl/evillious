@@ -18,7 +18,6 @@
 	}
 	img.front,/**"why are these different classes if they're styled the same" because ppbbhhtttt**/
 	img.back {
-		width: 480px;
 		max-width: calc(50% - 5px);
 		height: auto;
 		border-radius: 15px;
@@ -37,7 +36,7 @@
 		.infobox {/**styles the novel "infobox"/databox/whatever**/
 			background-color: var(--infobox-color);
 			border-radius: 10px;
-			width: 30%;
+			width: unquote("max(250px, 30%)");
 			float: right;
 			margin: .25em;
 			z-index: 1;/**this makes it so you can actually interact with the text in the infobox lol**/
@@ -82,8 +81,10 @@ figure {/**commenting css is boring as fuck. this styles the illustration galler
 			text-align: center;
 		}
 	}
-	figure img {/**unmaxes the height on skinny screens**/
-		max-height: unset;
-		width: 275px;
+	figure {/**unmaxes the height on skinny screens**/
+		width: unquote("max(285px, 50% - 10px)");
+		img {
+			max-height:unset;
+		}
 	}
 }

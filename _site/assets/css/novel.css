@@ -6,13 +6,13 @@
 
 #intro h1 .jpn { /**just a bit smaller than the english title**/ font-size: .9em; }
 
-#intro img.front, #intro img.back { width: 480px; max-width: calc(50% - 5px); height: auto; border-radius: 15px; align-self: stretch; }
+#intro img.front, #intro img.back { max-width: calc(50% - 5px); height: auto; border-radius: 15px; align-self: stretch; }
 
 #intro header { margin: unset; min-height: unset; text-align: left; }
 
 #intro header .quote { /**styles the novel quote**/ font-size: 1.25em; font-style: italic; font-weight: bold; text-align: center; }
 
-#intro header .infobox { /**styles the novel "infobox"/databox/whatever**/ background-color: var(--infobox-color); border-radius: 10px; width: 30%; float: right; margin: .25em; z-index: 1; /**this makes it so you can actually interact with the text in the infobox lol**/ padding: 0 .5em; }
+#intro header .infobox { /**styles the novel "infobox"/databox/whatever**/ background-color: var(--infobox-color); border-radius: 10px; width: max(250px, 30%); float: right; margin: .25em; z-index: 1; /**this makes it so you can actually interact with the text in the infobox lol**/ padding: 0 .5em; }
 
 #intro header .summary p { /**the summary is in its own div so that the uhh clear thingy on the links works right, i think**/ text-indent: 2em; padding: .25em .5em; }
 
@@ -27,6 +27,6 @@ figure img { max-height: 325px; }
 figure figcaption { line-height: 1em; font-style: italic; background-color: unset; }
 
 /**Skinny screen**/
-@media screen and (max-width: 667px) { #intro header .infobox { /**unfloats the infobox on skinny screens**/ float: none; width: auto; } #intro header .infobox p { text-align: center; } figure img { /**unmaxes the height on skinny screens**/ max-height: unset; width: 275px; } }
+@media screen and (max-width: 667px) { #intro header .infobox { /**unfloats the infobox on skinny screens**/ float: none; width: auto; } #intro header .infobox p { text-align: center; } figure { /**unmaxes the height on skinny screens**/ width: max(285px, 50% - 10px); } figure img { max-height: unset; } }
 
 /*# sourceMappingURL=novel.css.map */
