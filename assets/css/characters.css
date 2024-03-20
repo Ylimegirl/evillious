@@ -6,7 +6,7 @@
 
 .characters { align-items: stretch; /**gives all the infocards in a row the same height**/ /** this next bit is all just rules to color the little infocards by vocaloid**/ }
 
-.characters article { min-width: 220px; /**so the image bit doesn't end up having its margins cut off**/ flex-basis: 100%; max-width: unset; justify-content: flex-start; }
+.characters article { flex: 1 0 30%; justify-content: flex-start; }
 
 .characters article h2 { text-align: center; }
 
@@ -59,10 +59,5 @@
 .characters .teto { background-color: var(--teto-color); }
 
 .characters .yufu { background-color: var(--yufu-color); }
-
-/**Skinny screens**/
-@media screen and (min-width: 470px) and (max-width: 699px) { .characters article { /**switches to two columns on larger screens**/ flex-basis: calc((100% - 10px)/2); } }
-
-@media screen and (min-width: 700px) { .characters article { /**switches to three columns on largest screens**/ flex-basis: calc((100% - 20px)/3); } }
 
 /*# sourceMappingURL=characters.css.map */

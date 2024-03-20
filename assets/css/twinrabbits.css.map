@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "twinrabbits.css",
+	"sources": [
+		"twinrabbits.scss",
+		"_sass/twinrabbits.scss"
+	],
+	"sourcesContent": [
+		"@import \"twinrabbits\";",
+		".lyricbox {\r\n\t.versebreak5 {\r\n\t\tmargin-bottom:8em;\r\n\t}\r\n}"
+	],
+	"names": [],
+	"mappings": "ACAA,AACC,SADQ,CACR,YAAY,CAAC,EACZ,aAAa,EAAC,GAAG,GACjB"
+}
