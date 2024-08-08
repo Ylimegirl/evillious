@@ -1,0 +1,6 @@
+<article>
+	{% if include.image %}<img src="/assets/images/glossary/{{ include.image }}" class="circle" alt="{{ include.english-name }}" />{% endif %}
+	<h2>{{ include.english-name }}</h2>
+	<h3>{% include jpn.html jpn=include.japanese-name rom=include.romaji-name furi=include.furi-name %}</h3>
+	<p>{{ include.description }}</p>
+</article>

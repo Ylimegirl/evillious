@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>{{ page.arc }} Glossary — The Evillious Chronicles</title>
+		<link rel="stylesheet" href="/assets/css/evillious.css">
+		<link rel="stylesheet" href="/assets/css/glossary.css">
+		<link rel="shortcut icon" href="/assets/images/{{ page.intro-image }}">
+		{% seo title=false -%}
+		<script src="/assets/js/minified.js"></script>
+		<script src="/assets/js/evillious.js"></script>
+		<style>
+			:root {
+				--foreground-color: var(--{{ page.foreground | default: "foreground-color" }}, #F0E68C);
+				--background-color: var(--{{ page.background | default: "background-color" }}, #F5F5BF);
+				--link-color: var(--{{ page.link-color | default: "link-color" }}, #B3A41D);
+				--fuributton-color: var(--{{ page.furi-color | default: "fuributton-color" }}, #BBAF45);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="flex" id="intro">
+			<header>
+				<a href="{% link glossary/index.html %}"><img src="/assets/images/{{ page.intro-image }}" class="circle introImage" /></a>
+				<h1><em>The Evillious Chronicles</em>:<br />{{ page.arc }} Glossary</h1>
+				<p>{{ page.description }}</p>
+				{% include fuributton.html %}
+			</header>
+		</div>
+		<section class="terms flex">
+			{{ content }}
+		</section>
+		{% include copyright.html sublink="Glossary" copyrights=page.copyrights artists=page.artists %}
+	</body>
+</html>

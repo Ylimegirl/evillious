@@ -56,6 +56,10 @@ defaults:
     values:
       layout: "chronological"
   - scope:
+      path: "glossary"
+    values:
+      layout: "glossary"
+  - scope:
       path: "lyrics"
     values:
       layout: "lyrics"
