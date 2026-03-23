@@ -266,6 +266,30 @@
       - name: Contradictory Grim the End, The
         displayname: <em>The Contradictory Grim the End</em>
         slug: song/contradictory-grim-the-end
+      - name: Storyteller Y
+        displayname: <em>Storyteller Y</em>
+        slug: song/storyteller-y
+      - name: Witch and the Flower of Happiness, The
+        displayname: <em>The Witch and the Flower of Happiness</em>
+        slug: song/witch-and-the-flower-of-happiness
+      - name: Ristorante Cimitero
+        displayname: <em>Ristorante Cimitero</em>
+        slug: song/ristorante-cimitero
+      - name: Restaurant of Many Ingredients, The
+        displayname: <em>The Restaurant of Many Ingredients</em>
+        slug: song/restaurant-of-many-ingredients
+      - name: 969
+        displayname: <em>969</em>
+        slug: song/969
+      - name: Count Twilight's Invitation
+        displayname: <em>Count Twilight's Invitation</em>
+        slug: song/count-twilights-invitation
+      - name: Her and Talo's Promenade
+        displayname: <em>Her and Talo's Promenade</em>
+        slug: song/her-and-talos-promenade
+      - name: Ruminating on the Way Back From the Party
+        displayname: <em>Ruminating on the Way Back From the Party</em>
+        slug: song/ruminating-on-the-way-back-from-the-party
 
   - navgroup: PVs
     slug: song/index
@@ -478,6 +502,9 @@
       - name: At the End of a Millennium Vow
         displayname: <em>At the End of a Millennium Vow</em>
         slug: song/at-the-end-of-a-millennium-vow
+      - name: Count Twilight's Invitation
+        displayname: <em>Count Twilight's Invitation</em>
+        slug: song/count-twilights-invitation
 
 ########################################### ALBUMS ###########################################
   - navgroup: AKNP Albums
@@ -532,6 +559,12 @@
       - name: Twin Rabbits Come and Play their Flute
         displayname: <em>Twin Rabbits Come and Play their Flute</em>
         slug: album/twin-rabbits-come-and-play-their-flute
+      - name: Restaurant of Many Ingredients, The
+        displayname: <em>The Restaurant of Many Ingredients</em>
+        slug: album/restaurant-of-many-ingredients
+      - name: Count Twilight's Invitation
+        displayname: <em>Count Twilight's Invitation</em>
+        slug: album/count-twilights-invitation
 
   - navgroup: Additional Albums
     slug: album/index
@@ -1184,6 +1217,7 @@
         slug: song/daughter-of-evil
       - name: Servant of Evil, The
         displayname: <em>The Servant of Evil</em>
+        slug: song/servant-of-evil
       - name: Gift from the Princess who Brought Sleep
         displayname: <em>gift from the Princess who Brought Sleep</em>
         slug: song/gift-from-the-princess-who-brought-sleep
@@ -1202,6 +1236,61 @@
       - name: Contradictory Grim the End, The
         displayname: <em>The Contradictory Grim the End</em>
         slug: song/contradictory-grim-the-end
+
+  - navgroup: The Restaurant of Many Ingredients
+    displayname: <em>The Restaurant of Many Ingredients</em>
+    slug: album/restaurant-of-many-ingredients
+    list:
+      - name: Storyteller Y
+        displayname: <em>Storyteller Y</em>
+        slug: song/storyteller-y
+      - name: Great Journey
+        displayname: <em>grEAT journey</em>
+        slug: song/great-journey
+      - name: Blind Girl and Angel
+        displayname: <em>Blind Girl and Angel</em>
+        slug: song/blind-girl-and-angel
+      - name: Atelier Horloge
+        displayname: <em>Atelier Horloge</em>
+        slug: song/atelier-horloge
+      - name: Witch and the Flower of Happiness, The
+        displayname: <em>The Witch and the Flower of Happiness</em>
+        slug: song/witch-and-the-flower-of-happiness
+      - name: Ristorante Cimitero
+        displayname: <em>Ristorante Cimitero</em>
+        slug: song/ristorante-cimitero
+      - name: Twin Rabbits Come and Play Their Flute
+        displayname: <em>Twin Rabbits Come and Play Their Flute</em>
+        slug: song/twin-rabbits-come-and-play-their-flute
+      - name: Song of the Cowardly Black Bird
+        displayname: <em>Song of the Cowardly Black Bird</em>
+        slug: song/song-of-the-cowardly-black-bird
+      - name: Sister Clarith's Curious Night
+        displayname: <em>Sister's Clarith Curious Night</em>
+        slug: song/sister-clariths-curious-night
+      - name: Restaurant of Many Ingredients
+        displayname: <em>Restaurant of Many Ingredients</em>
+        slug: song/restaurant-of-many-ingredients
+      - name: 969
+        displayname: <em>969</em>
+        slug: song/969
+
+  - navgroup: Count Twilight's Invitation
+    displayname: <em>Count Twilight's Invitation</em>
+    slug: album/count-twilights-invitation
+    list:
+      - name: Count Twilight's Invitation
+        displayname: <em>Count Twilight's Invitation</em>
+        slug: song/count-twilights-invitation
+      - name: Contradictory Grim the End -Dark Side Ver.-, The
+        displayname: <em>The Contradictory Grim the End -Dark Side Ver.-</em>
+        slug: song/contradictory-grim-the-end
+      - name: Her and Talo's Promenade
+        displayname: <em>Her and Talo's Promenade</em>
+        slug: song/her-and-talos-promenade
+      - name: Ruminating on the Way Back from the Party
+        displayname: <em>Ruminating on the Way Back from the Party</em>
+        slug: song/ruminating-on-the-way-back-from-the-party
 
 ########################################### NOVELS ###########################################
   - navgroup: The Daughter of Evil Series

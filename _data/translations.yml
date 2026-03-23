@@ -1220,6 +1220,103 @@
     rom:
       - mujun no GURIMU JI ENDO
 
+  - eng:
+      - Storyteller Y
+    jpn:
+      - 語|り|部|Ｙ
+      - 語り部Ｙ
+    furi:
+      - かた|り|べ|Ｙ
+      - かたりべＹ
+    rom:
+      - kataribe Y
+
+  - eng:
+      - The Witch and the Flower of Happiness
+    jpn:
+      - 魔|女|と|幸|せ|の|花
+      - 魔女と幸せの花
+    furi:
+      - ま|じょ|と|しあわ|せ|の|はな
+      - まじょとしあわせのはな
+    rom:
+      - majo to shiawase no hana
+    alt:
+      - Felicity Flower
+
+  - eng:
+      - Ristorante Cimitero
+    jpn:
+      - リストランテ　シミテーロ
+    rom:
+      - RISUTORANTE SHIMITEERO
+
+  - eng:
+      - The Restaurant of Many Ingredients
+    jpn:
+      - 食|材|の|多|い|料|理|店
+      - 食材の多い料理店
+    furi:
+      - しょく|ざい|の|おお|い|りょう|り|てん
+      - しょくざいのおおいりょうりてん
+    rom:
+      - shokuzai no ooi ryouriten
+    alt:
+      - Much Meat
+
+  - eng:
+      - 969
+    jpn:
+      - 969
+    rom:
+      - 969
+
+  - eng:
+      - Count Twilight's Invitation
+    jpn:
+      - 夕|闇|伯|爵|の|招|待|状
+      - 夕闇伯爵の招待状
+    furi:
+      - ゆう|やみ|はく|しゃく|の|しょう|たい|じょう
+      - ゆうやみはくしゃくのしょうたいじょう
+    rom:
+      - yuuyami-hakushaku no shoutaijou
+
+  - eng:
+      - The Contradictory Grim the End -Dark Side Ver.-
+    jpn:
+      - 矛|盾|の|グリムジエンド| |-Dark| |Side| |Ver.-
+      - 矛盾のグリムジエンド -Dark Side Ver.-
+    furi:
+      - む|じゅん|の|グリムジエンド| |-Dark| |Side| |Ver.-
+      - むじゅんのグリムジエンド -Dark Side Ver.-
+    rom:
+      - mujun no GURIMU JI ENDO -Dark Side Ver.-
+    alt:
+      - Inhuman Invitations
+
+  - eng:
+      - Her and Talo's Promenade
+    jpn:
+      - 彼|女|と|タロ|の|散|歩|道
+      - 彼女とタロの散歩道
+    furi:
+      - かの|じょ|と|タロ|の|さん|ぽ|みち
+      - かのじょとタロのさんぽみち
+    rom:
+      - kanojo to TARO no sanpomichi
+
+  - eng:
+      - Ruminating on the Way Back From the Party
+    jpn:
+      - 宴|の|帰|り|　|思|い|を|馳|せる
+      - 宴の帰り　思いを馳せる
+    furi:
+      - うたげ|の|かえ|り|　|おも|い|を|は|せる
+      - うたげのかえり　おもいをはせる
+    rom:
+      - utage no kaeri omoi wo haseru
+
 ########################################### ALBUMS ###########################################
   - eng:
       - EVILS THEATER
@@ -1368,8 +1465,7 @@
       - Lucifenia Trinity
 
 # master of the heavenly yard already covered in the songs section
-
-# Clockwork Lullaby already covered in the songs section 
+# Clockwork Lullaby already covered in the songs section
 
   - eng:
       - EVILS EXTRA
@@ -1391,7 +1487,7 @@
       - HISTORY OF あくノむすめ
     rom:
       - HISTORY OF aku NO musume
-  
+
   - eng:
       - "Waltz of the Deceased: Deadly Sins of Evil SEKAI EDITION+"
     jpn:
@@ -1402,7 +1498,7 @@
       - さりびとたちのワルツ　あくノたいざいSEKAI EDITION＋
     rom:
       - saribito-tachi no WARUTSU aku NO taizai SEKAI EDITION+
-  
+
   - eng:
       - Hatsune Miku Symphony 2023 Live at Suntory Hall
     jpn:
@@ -1413,7 +1509,10 @@
       - はつねミクシンフォニー2023 Live at Suntory Hall
     rom:
       - hatsune MIKU SHINFONII 2023 Live at Suntory Hall
-      
+
+# The Restaurant of Many Ingredients already covered in the songs section
+# Count Twilight's Invitation already covered in the songs section
+
 ########################################### NOVELS ###########################################
   - eng:
       - "The Daughter of Evil: Clôture of Yellow"

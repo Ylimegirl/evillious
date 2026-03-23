@@ -25,6 +25,8 @@ CompassVol2.jpg	unknown
 Conchita.jpg	壱加 (Ichika)
 ConchitaRevised.jpg	壱加 (Ichika)
 ConchitaRevisedPV.png	壱加 (Ichika)
+CountTwilightAlbum.png	壱加 (Ichika)
+CountTwilightSong.png	壱加 (Ichika)
 CourtOfGreed.jpg	unknown
 CowardlyBlackBird.png	壱加 (Ichika)
 DaughterOfEvil.jpg	壱加 (Ichika)
@@ -122,6 +124,7 @@ Rebirthday2020.png	壱加 (Ichika)
 RedShoeParade.jpg	てんこ盛り (Tenkomori)
 RegretMessage.jpg	MAKOTO
 RegretMessage2020.png	壱加 (Ichika)
+RestaurantOfManyIngredients.png	壱加 (Ichika)
 Retrouver.png	カフェイン (CAFFEIN)
 RingOfEvil.jpg	マルイノ (Maruino)
 ScheduleBook.jpg	壱加 (Ichika)
