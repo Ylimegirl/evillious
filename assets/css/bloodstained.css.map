@@ -7,7 +7,7 @@
 	],
 	"sourcesContent": [
 		"@import \"bloodstained\";",
-		".lyricbox {\r\n\tstrong {\r\n\t\tfont-weight: normal;\r\n\t\tfont-size:1.5em;\r\n\t\tline-height:1.4em;\r\n\t}\r\n\t\r\n\t.romaji strong {\r\n\t\tfont-weight:bold;\r\n\t\tfont-size:unset;\r\n\t}\r\n\t\r\n\tem {\r\n\t\tfont-style: normal;\r\n\t\tcolor: #c00000;\r\n\t}\r\n\t\r\n\tem.blue {\r\n\t\tcolor: #1515c6;\r\n\t}\r\n}"
+		".lyricbox {\n\tstrong {\n\t\tfont-weight: normal;\n\t\tfont-size:1.5em;\n\t\tline-height:1.4em;\n\t}\n\t\n\t.romaji strong {\n\t\tfont-weight:bold;\n\t\tfont-size:unset;\n\t}\n\t\n\tem {\n\t\tfont-style: normal;\n\t\tcolor: #c00000;\n\t}\n\t\n\tem.blue {\n\t\tcolor: #1515c6;\n\t}\n}"
 	],
 	"names": [],
 	"mappings": "ACAA,AACC,SADQ,CACR,MAAM,CAAC,EACN,WAAW,EAAE,MAAM,EACnB,SAAS,EAAC,KAAK,EACf,WAAW,EAAC,KAAK,GACjB;;AALF,AAOC,SAPQ,CAOR,OAAO,CAAC,MAAM,CAAC,EACd,WAAW,EAAC,IAAI,EAChB,SAAS,EAAC,KAAK,GACf;;AAVF,AAYC,SAZQ,CAYR,EAAE,CAAC,EACF,UAAU,EAAE,MAAM,EAClB,KAAK,EAAE,OAAO,GACd;;AAfF,AAiBC,SAjBQ,CAiBR,EAAE,AAAA,KAAK,CAAC,EACP,KAAK,EAAE,OAAO,GACd"

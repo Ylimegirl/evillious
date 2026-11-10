@@ -7,7 +7,7 @@
 	],
 	"sourcesContent": [
 		"@import \"rebirthday\";",
-		".lyricbox {\r\n\tem {\r\n\t\tfont-style:normal;\r\n\t}\r\n\t\r\n\tem.green {\r\n\t\tcolor:#00c000;\r\n\t}\r\n\t\r\n\tem.red {\r\n\t\tcolor:#c00000;\r\n\t}\r\n\t\r\n\tem.blue {\r\n\t\tcolor:#00c0c0;\r\n\t}\r\n\t\r\n\t.romaji em.green,\r\n\t.romaji em.blue {\r\n\t\tfilter: invert(100%) hue-rotate(180deg);\r\n\t}\r\n}"
+		".lyricbox {\n\tem {\n\t\tfont-style:normal;\n\t}\n\t\n\tem.green {\n\t\tcolor:#00c000;\n\t}\n\t\n\tem.red {\n\t\tcolor:#c00000;\n\t}\n\t\n\tem.blue {\n\t\tcolor:#00c0c0;\n\t}\n\t\n\t.romaji em.green,\n\t.romaji em.blue {\n\t\tfilter: invert(100%) hue-rotate(180deg);\n\t}\n}"
 	],
 	"names": [],
 	"mappings": "ACAA,AACC,SADQ,CACR,EAAE,CAAC,EACF,UAAU,EAAC,MAAM,GACjB;;AAHF,AAKC,SALQ,CAKR,EAAE,AAAA,MAAM,CAAC,EACR,KAAK,EAAC,OAAO,GACb;;AAPF,AASC,SATQ,CASR,EAAE,AAAA,IAAI,CAAC,EACN,KAAK,EAAC,OAAO,GACb;;AAXF,AAaC,SAbQ,CAaR,EAAE,AAAA,KAAK,CAAC,EACP,KAAK,EAAC,OAAO,GACb;;AAfF,AAiBC,SAjBQ,CAiBR,OAAO,CAAC,EAAE,AAAA,MAAM,EAjBjB,SAAS,CAkBR,OAAO,CAAC,EAAE,AAAA,KAAK,CAAC,EACf,MAAM,EAAE,YAAY,CAAC,kBAAkB,GACvC"
