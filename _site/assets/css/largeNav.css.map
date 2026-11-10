@@ -7,7 +7,7 @@
 	],
 	"sourcesContent": [
 		"@import \"largeNav\";",
-		"figure {/**this just makes the images of the nav thumbnails bigger on select pages. nice and simple!**/\r\n\tmax-width: 350px;\r\n\timg {\r\n\t\tmax-height: 250px;\r\n\t}\r\n}"
+		"figure {/**this just makes the images of the nav thumbnails bigger on select pages. nice and simple!**/\n\tmax-width: 350px;\n\timg {\n\t\tmax-height: 250px;\n\t}\n}"
 	],
 	"names": [],
 	"mappings": "ACAA,AAAA,MAAM,CAAC,EAAC,+FAA+F,CACtG,SAAS,EAAE,KAAK,GAIhB;;AALD,AAEC,MAFK,CAEL,GAAG,CAAC,EACH,UAAU,EAAE,KAAK,GACjB"

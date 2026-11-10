@@ -290,6 +290,15 @@
       - name: Ruminating on the Way Back From the Party
         displayname: <em>Ruminating on the Way Back From the Party</em>
         slug: song/ruminating-on-the-way-back-from-the-party
+      - name: Revolution Red
+        displayname: <em>Revolution Red</em>
+        slug: song/revolution-red
+      - name: Imperial Princess Who Slumbers in the Grave, the Wicked Woman Who Guards It, The
+        displayname: <em>The Imperial Princess Who Slumbers in the Grave, the Wicked Woman Who Guards It</em>
+        slug: song/imperial-princess-who-slumbers-in-the-grave
+      - name: Conflict Enbizaka
+        displayname: <em>Conflict – Enbizaka</em>
+        slug: song/conflict-enbizaka
 
   - navgroup: PVs
     slug: song/index
@@ -565,6 +574,9 @@
       - name: Count Twilight's Invitation
         displayname: <em>Count Twilight's Invitation</em>
         slug: album/count-twilights-invitation
+      - name: Revolution Red
+        displayname: <em>Revolution Red</em>
+        slug: album/revolution-red
 
   - navgroup: Additional Albums
     slug: album/index
@@ -1291,6 +1303,41 @@
       - name: Ruminating on the Way Back from the Party
         displayname: <em>Ruminating on the Way Back from the Party</em>
         slug: song/ruminating-on-the-way-back-from-the-party
+
+  - navgroup: Revolution Red
+    displayname: <em>Revolution Red</em>
+    slug: album/revolution-red
+    list:
+      - name: Revolution Red
+        displayname: <em>Revolution Red</em>
+        slug: song/revolution-red
+      - name: Escape of Salmhofer the Witch
+        displayname: <em>Escape of Salmhofer the Witch</em>
+        slug: song/escape-of-salmhofer-the-witch
+      - name: Imperial Princess Who Slumbers in the Grave, the Wicked Woman Who Guards It, The
+        displayname: <em>The Imperial Princess Who Slumbers in the Grave, the Wicked Woman Who Guards It</em>
+        slug: song/imperial-princess-who-slumbers-in-the-grave
+      - name: Evil Food Eater Conchita 2026
+        displayname: <em>Evil Food Eater Conchita (2026 MEIKO Only Ver)</em>
+        slug: song/evil-food-eater-conchita
+      - name: A Hero's Armor is Always Crimson
+        displayname: <em>A Hero's Armor is Always Crimson</em>
+        slug: song/a-heros-armor-is-always-crimson
+      - name: Conflict Enbizaka
+        displayname: <em>Conflict – Enbizaka</em>
+        slug: song/conflict-enbizaka
+      - name: Banica Concerto!!
+        displayname: <em>Banica Concerto!!</em>
+        slug: song/banica-concerto
+      - name: Fictional Masquerade
+        displayname: <em>Fictional Masquerade</em>
+        slug: song/fictional-masquerade
+      - name: Great Journey
+        displayname: <em>grEAT journey</em>
+        slug: song/great-journey
+      - name: Evil Food Eater Conchita 2009
+        displayname: <em>Evil Food Eater Conchita (2009 V1 Ver)</em>
+        slug: song/evil-food-eater-conchita
 
 ########################################### NOVELS ###########################################
   - navgroup: The Daughter of Evil Series

@@ -7,8 +7,8 @@
 	],
 	"sourcesContent": [
 		"@import \"redemphasis\";",
-		".lyricbox em {\r\n\tcolor: #c00000;\r\n\tfont-style: normal;\r\n}"
+		".lyricbox em {\n\tcolor: #c00000;\n\tfont-style: normal;\n}\n\n.lyricbox strong {\n\tfont-style: normal;\n\tfont-size: larger;\n}\n"
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,SAAS,CAAC,EAAE,CAAC,EACZ,KAAK,EAAE,OAAO,EACd,UAAU,EAAE,MAAM,GAClB"
+	"mappings": "ACAA,AAAA,SAAS,CAAC,EAAE,CAAC,EACZ,KAAK,EAAE,OAAO,EACd,UAAU,EAAE,MAAM,GAClB;;AAED,AAAA,SAAS,CAAC,MAAM,CAAC,EAChB,UAAU,EAAE,MAAM,EAClB,SAAS,EAAE,MAAM,GACjB"
 }

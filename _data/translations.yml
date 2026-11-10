@@ -1268,8 +1268,6 @@
       - 969
     jpn:
       - 969
-    rom:
-      - 969
 
   - eng:
       - Count Twilight's Invitation
@@ -1316,6 +1314,39 @@
       - うたげのかえり　おもいをはせる
     rom:
       - utage no kaeri omoi wo haseru
+
+  - eng:
+      - Revolution Red
+      - Revolution Red song
+    jpn:
+      - Revolution Red
+
+  - eng:
+      - The Imperial Princess Who Slumbers in the Grave, the Wicked Woman Who Guards It
+    jpn:
+      - 墓|で|眠|る|皇|女|　|それ|を|守|る|凶|女
+      - 墓で眠る皇女　それを守る凶女
+      - 墓|で|眠|る|皇|女| |それ|を|守|る|凶|女
+      - 墓で眠る皇女 それを守る凶女
+    furi:
+      - はか|で|ねむ|る|おう|じょ|　|それ|を|まも|る|きょう|じょ
+      - はかでねむるおうじょ　それをまもるきょうじょ
+      - はか|で|ねむ|る|おう|じょ| |それ|を|まも|る|きょう|じょ
+      - はかでねむるおうじょ それをまもるきょうじょ
+    rom:
+      - haka de nemuru oujou sore wo mamoru kyoujo
+
+  - eng:
+      - Conflict – Enbizaka
+      - Conflict - Enbizaka
+    jpn:
+      - 葛藤|・|円尾坂
+      - 葛藤・円尾坂
+    furi:
+      - かっとう|・|えんびざか
+      - かっとう・えんびざか
+    rom:
+      - kattou enbizaka
 
 ########################################### ALBUMS ###########################################
   - eng:
@@ -1512,6 +1543,18 @@
 
 # The Restaurant of Many Ingredients already covered in the songs section
 # Count Twilight's Invitation already covered in the songs section
+
+  - eng:
+      - Revolution Red
+      - Revolution Red album
+    jpn:
+      - 革|命|ノ|赤
+      - 革命ノ赤
+    furi:
+      - かく|めい|ノ|あか
+      - かくめいノあか
+    rom:
+      - kakumei NO aka
 
 ########################################### NOVELS ###########################################
   - eng:

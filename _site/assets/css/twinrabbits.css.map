@@ -7,7 +7,7 @@
 	],
 	"sourcesContent": [
 		"@import \"twinrabbits\";",
-		".lyrics > div {\r\n\t.lyricbox {\r\n\t\t.versebreak5 {\r\n\t\t\tmargin-bottom:8em;\r\n\t\t}\r\n\t}\r\n}"
+		".lyrics > div {\n\t.lyricbox {\n\t\t.versebreak5 {\n\t\t\tmargin-bottom:8em;\n\t\t}\n\t}\n}"
 	],
 	"names": [],
 	"mappings": "ACAA,AAEE,OAFK,GAAG,GAAG,CACZ,SAAS,CACR,YAAY,CAAC,EACZ,aAAa,EAAC,GAAG,GACjB"

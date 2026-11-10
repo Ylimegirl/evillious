@@ -126,6 +126,7 @@ RegretMessage.jpg	MAKOTO
 RegretMessage2020.png	壱加 (Ichika)
 RestaurantOfManyIngredients.png	壱加 (Ichika)
 Retrouver.png	カフェイン (CAFFEIN)
+RevolutionRed.png	壱加 (Ichika)
 RingOfEvil.jpg	マルイノ (Maruino)
 ScheduleBook.jpg	壱加 (Ichika)
 ScrewsGearsAndPride.jpg	れんた (Renta)
