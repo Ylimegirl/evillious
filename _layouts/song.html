@@ -21,14 +21,13 @@
 			<h3>"{{ obj.alt[0] }}"</h3>{% elsif page.alt-name %}
 			<h3>"{{ page.alt-name }}"</h3>{% endif %}
 			<img src="/assets/images/thumbs/{{ page.intro-image }}" class="introImage" />
-			<div class="subtitle{% if page.speaker %} {{ page.speaker | downcase }}{% endif %}">"{{ page.quote }}"</div>
-			<div class="singers">{% for vocal in singers %}{% include singer.html singer=vocal %}{% endfor %}</div>
+			{% if page.instrumental != "" %}<div class="subtitle{% if page.speaker %} {{ page.speaker | downcase }}{% endif %}">"{{ page.quote }}"</div>
+			<div class="singers">{% for vocal in singers %}{% include singer.html singer=vocal %}{% endfor %}</div>{% endif %}
 			<p>{{ page.summary }}</p>
-			<p class="links"><a href="{% link {{ page.path | remove: "song/" | prepend: "lyrics/" }} %}">Lyrics</a></p><!--i need to come up with a more elegant location for this link...-->
+			{% if page.instrumental != "" %}<p class="links"><a href="{% link {{ page.path | remove: "song/" | prepend: "lyrics/" }} %}">Lyrics</a></p>{% endif %}<!--i need to come up with a more elegant location for this link...-->
 			{% include fuributton.html %}
 		</header>
 		{{ content }}
 		{% include navbox.html group="All Songs" id="AS" %}
-		{% include copyright.html sublink="Songs" mothyrights=page.mothyrights altrights=page.altrights altowners=page.altowners copyrights=page.copyrights artists=page.artists photographer=page.photographer %}
-	</body>
+		{%- include copyright.html sublink="Songs" mothyrights=page.mothyrights altrights=page.altrights altowners=page.altowners copyrights=page.copyrights artists=page.artists photographer=page.photographer -%}	</body>
 </html>
