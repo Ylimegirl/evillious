@@ -64,6 +64,7 @@
         slug: song/heartbeat-clocktower
       - name: Welcome to the Forest
         displayname: <em>Welcome to the Forest</em>
+        slug: song/welcome-to-the-forest
       - name: Master of the Graveyard
         displayname: <em>master of the graveyard</em>
         slug: song/master-of-the-graveyard
@@ -108,6 +109,7 @@
         slug: song/judgment-of-corruption
       - name: Five Minutes Before Court
         displayname: <em>Five Minutes Before Court</em>
+        slug: song/five-minutes-before-court
       - name: Master of the Court
         displayname: <em>master of the court</em>
         slug: song/master-of-the-court
@@ -137,6 +139,7 @@
         slug: song/escape-of-salmhofer-the-witch
       - name: Prophet Merry-Go-Round
         displayname: <em>Prophet Merry-Go-Round</em>
+        slug: song/prophet-merry-go-round
       - name: Bloodstained Switch
         displayname: <em>Bloodstained Switch</em>
         slug: song/bloodstained-switch
@@ -181,6 +184,7 @@
         slug: song/ending-boy-hansel
       - name: Unlock Blackbox
         displayname: <em>Unlock Blackbox</em>
+        slug: song/unlock-blackbox
       - name: Queen Of The Glass
         displayname: <em>Queen Of The Glass</em>
         slug: song/queen-of-the-glass
@@ -691,6 +695,7 @@
     list:
       - name: Welcome to the Forest (instrumental)
         displayname: <em>Welcome to the Forest (instrumental)</em>
+        slug: song/welcome-to-the-forest
       - name: Master of the Graveyard
         displayname: <em>master of the graveyard</em>
         slug: song/master-of-the-graveyard
@@ -821,6 +826,7 @@
     list:
       - name: Five Minutes Before Court (instrumental)
         displayname: <em>Five Minutes Before Court (instrumental)</em>
+        slug: song/five-minutes-before-court
       - name: Master of the Court
         displayname: <em>master of the court</em>
         slug: song/master-of-the-court
@@ -858,6 +864,7 @@
     list:
       - name: Prophet Merry-Go-Round (instrumental)
         displayname: <em>Prophet Merry-Go-Round (instrumental)</em>
+        slug: song/prophet-merry-go-round
       - name: Project Ma
         displayname: >-
           <em>Project "Ma"</em>
@@ -975,6 +982,7 @@
     list:
       - name: Prophet Merry-Go-Round
         displayname: <em>Prophet Merry-Go-Round</em>
+        slug: song/prophet-merry-go-round
       - name: Queen Of The Glass
         displayname: <em>Queen Of The Glass</em>
         slug: song/queen-of-the-glass
@@ -1096,6 +1104,7 @@
         slug: song/frogs-and-my-love-romance
       - name: Unlock Blackbox
         displayname: <em>Unlock Blackbox [Instrumental]</em>
+        slug: song/unlock-blackbox
       - name: Reach For The Stars The Letter She Kept Waiting For
         displayname: <em>Reach For The Stars ~The Letter She Kept Waiting For~</em>
         slug: song/letter-she-kept-waiting-for
